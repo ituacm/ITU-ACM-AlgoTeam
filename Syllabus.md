@@ -1,4 +1,5 @@
-ITU ACM Algoritma Syllabus
+**ITU ACM Algoritma Syllabus**
+
 1. Hafta
     1. Ders (Introduction)
         - Introduction to CPP (Class, I/O operations, Vectors, Strings)
@@ -14,7 +15,7 @@ ITU ACM Algoritma Syllabus
         - Linked List
         - Stack & Queue & Priority Queue
         - HashSet and HashMap
-        iv. TreeSet and TreeMap
+        - TreeSet and TreeMap
     2. Ders (Divide and Conquer II)
         - Counting Inversions
         - Quick Select
@@ -24,20 +25,20 @@ ITU ACM Algoritma Syllabus
         - Factorization & Prime numbers & Sieve
         - GCD & LCM
         - Modular Arithmetic
-        iv. Fast Exponentiation
-        v. Fibonacci Numbers
+        - Fast Exponentiation
+        - Fibonacci Numbers
     2. Ders (Array problems)
         - Prefix Sum
         - Two Pointers
         - Permutation Problems
-        iv. Subset Problems
+        - Subset Problems
 4. Hafta
     1. Ders (Graphs & Trees)
         - Terms of Graphs & Trees
         - Representation of Graphs & Trees
         - DFS & BFS
-        iv. Topological Sort
-        v. Tree Traversals
+        - Topological Sort
+        - Tree Traversals
     2. Ders (Data Structure II)
         - Binary Search Tree
         - Union Find
