@@ -15,3 +15,10 @@ Successfull participants will be qualified for the ITU ACM Algorithm Team at the
 ## Syllabus
 
 You can see the syllabus in [here](https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Syllabus.md)
+
+
+<p align="center">
+  <a href="//ituacm.com" target="_blank">
+    <img src="https://ituacm.com/wp-content/uploads/2017/08/itu-logo.png">
+  </a>
+</p>
