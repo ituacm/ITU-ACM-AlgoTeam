@@ -1,78 +1,184 @@
 **ITU ACM Algoritma Syllabus**
 
-1. Hafta
-    1. Ders (Introduction)
-        - Introduction to CPP (Class, I/O operations, Vectors, Strings)
-        - Big-O Notation
-        - Recursion
-        - Brute-Force
-        - Search Algorithms (Linear & Binary)
-    2. Ders (Divide and Conquer I)
-        - Sorting Algorithms (Bubble, Insertion, Merge, Quick, Counting, Radix)
-        - Randomization
-2. Hafta
-    1. Ders (Data Structures I)
-        - Linked List
-        - Stack & Queue & Priority Queue
-        - HashSet and HashMap
-        - TreeSet and TreeMap
-    2. Ders (Divide and Conquer II)
-        - Counting Inversions
-        - Quick Select
-        - Karatsuba Multiplication
-3. Hafta
-    1. Ders (Number Theory & Array Problems)
-        - Factorization & Prime numbers & Sieve
-        - GCD & LCM
-        - Modular Arithmetic
-        - Fast Exponentiation
-        - Fibonacci Numbers
-    2. Ders (Array problems)
-        - Prefix Sum
-        - Two Pointers
-        - Permutation Problems
-        - Subset Problems
-4. Hafta
-    1. Ders (Graphs & Trees)
-        - Terms of Graphs & Trees
-        - Representation of Graphs & Trees
-        - DFS & BFS
-        - Topological Sort
-        - Tree Traversals
-    2. Ders (Data Structure II)
-        - Binary Search Tree
-        - Union Find
-        - Heaps (Min - Max)
-5. Hafta
-    1. Ders (Greedy Algorithms)
-        - Coin Problem
-        - Interval Scheduling & Interval Partitioning & Minimizing Lateness
-    2. Ders (Shortest Path & Minimum Spanning Tree)
-        - Dijkstra
-        - Prim
-        - Kruskal
-6. Hafta
-    1. Ders (Dynamic Programming Approach)
-        - Greedy
-        - Fibonacci
-        - Coin Problem
-    2. Ders (Common DP Problems)
-        - Knapsack Problem (0-1 / Unbounded)
-        - Longest Increasing Subsequence & Longest Common Subsequence
-        - Subset Sum Problem
-7. Hafta
-    1. Ders (Data Structures III)
-        - Sparse Table
-        - Segment Tree
-        - Lazy Propagation
-    2. Ders (Data Structures IV)
-        - Trie & String Problems
-8. Hafta
-    1. Ders (Graph problems)
-        - Bridges and Articulation Points
-        - Strong Connectivity & Biconnectivity
-        - Strongly Connected Components
-        iv. Cycle Finding
-    2. Ders (Max Flow)
-        - Ford Fulkerson
-        - Edmonds-Karp
+<ol type="1">
+  <li>
+    Week
+    <ol type="1">
+      <li>
+        Ders (Introduction)
+        <ul>
+          <li>Introduction to CPP (Class, I/O operations, Vectors, Strings)</li>
+          <li>Big-O Notation</li>
+          <li>Recursion</li>
+          <li>Brute-Force</li>
+          <li>Search Algorithms (Linear &amp; Binary)</li>
+        </ul>
+      </li>
+      <li>
+        Ders (Divide and Conquer I)
+        <ul>
+          <li>
+            Sorting Algorithms (Bubble, Insertion, Merge, Quick, Counting,
+            Radix)
+          </li>
+          <li>Randomization</li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+  <li>
+    Week
+    <ol type="1">
+      <li>
+        Ders (Data Structures I)
+        <ul>
+          <li>Linked List</li>
+          <li>Stack &amp; Queue &amp; Priority Queue</li>
+          <li>HashSet and HashMap</li>
+          <li>TreeSet and TreeMap</li>
+        </ul>
+      </li>
+      <li>
+        Ders (Divide and Conquer II)
+        <ul>
+          <li>Counting Inversions</li>
+          <li>Quick Select</li>
+          <li>Karatsuba Multiplication</li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+  <li>
+    Week
+    <ol type="1">
+      <li>
+        Ders (Number Theory &amp; Array Problems)
+        <ul>
+          <li>Factorization &amp; Prime numbers &amp; Sieve</li>
+          <li>GCD &amp; LCM</li>
+          <li>Modular Arithmetic</li>
+          <li>Fast Exponentiation</li>
+          <li>Fibonacci Numbers</li>
+        </ul>
+      </li>
+      <li>
+        Ders (Array problems)
+        <ul>
+          <li>Prefix Sum</li>
+          <li>Two Pointers</li>
+          <li>Permutation Problems</li>
+          <li>Subset Problems</li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+  <li>
+    Week
+    <ol type="1">
+      <li>
+        Ders (Graphs &amp; Trees)
+        <ul>
+          <li>Terms of Graphs &amp; Trees</li>
+          <li>Representation of Graphs &amp; Trees</li>
+          <li>DFS &amp; BFS</li>
+          <li>Topological Sort</li>
+          <li>Tree Traversals</li>
+        </ul>
+      </li>
+      <li>
+        Ders (Data Structure II)
+        <ul>
+          <li>Binary Search Tree</li>
+          <li>Union Find</li>
+          <li>Heaps (Min - Max)</li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+  <li>
+    Week
+    <ol type="1">
+      <li>
+        Ders (Greedy Algorithms)
+        <ul>
+          <li>Coin Problem</li>
+          <li>
+            Interval Scheduling &amp; Interval Partitioning &amp; Minimizing
+            Lateness
+          </li>
+        </ul>
+      </li>
+      <li>
+        Ders (Shortest Path &amp; Minimum Spanning Tree)
+        <ul>
+          <li>Dijkstra</li>
+          <li>Prim</li>
+          <li>Kruskal</li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+  <li>
+    Week
+    <ol type="1">
+      <li>
+        Ders (Dynamic Programming Approach)
+        <ul>
+          <li>Greedy</li>
+          <li>Fibonacci</li>
+          <li>Coin Problem</li>
+        </ul>
+      </li>
+      <li>
+        Ders (Common DP Problems)
+        <ul>
+          <li>Knapsack Problem (0-1 / Unbounded)</li>
+          <li>
+            Longest Increasing Subsequence &amp; Longest Common Subsequence
+          </li>
+          <li>Subset Sum Problem</li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+  <li>
+    Week
+    <ol type="1">
+      <li>
+        Ders (Data Structures III)
+        <ul>
+          <li>Sparse Table</li>
+          <li>Segment Tree</li>
+          <li>Lazy Propagation</li>
+        </ul>
+      </li>
+      <li>
+        Ders (Data Structures IV)
+        <ul>
+          <li>Trie &amp; String Problems</li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+  <li>
+    Week
+    <ol type="1">
+      <li>
+        Ders (Graph problems)
+        <ul>
+          <li>Bridges and Articulation Points</li>
+          <li>Strong Connectivity &amp; Biconnectivity</li>
+          <li>Strongly Connected Components iv. Cycle Finding</li>
+        </ul>
+      </li>
+      <li>
+        Ders (Max Flow)
+        <ul>
+          <li>Ford Fulkerson</li>
+          <li>Edmonds-Karp</li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+</ol>
+
