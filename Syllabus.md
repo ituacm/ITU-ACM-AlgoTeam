@@ -168,7 +168,8 @@
         <ul>
           <li>Bridges and Articulation Points</li>
           <li>Strong Connectivity &amp; Biconnectivity</li>
-          <li>Strongly Connected Components iv. Cycle Finding</li>
+          <li>Strongly Connected Components</li>
+          <li>Cycle Finding</li>
         </ul>
       </li>
       <li>
