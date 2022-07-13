@@ -16,6 +16,15 @@ Successfull participants will be qualified for the ITU ACM Algorithm Team at the
 
 You can see the syllabus in [here](https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Syllabus.md)
 
+## Mentors
+
+| Name and Surname | Social  |
+|--|--|
+| Ahmet Furkan Kavraz #4 |[*LinkedIn*](https://www.linkedin.com/in/ahmetfurkankavraz/)  |
+| Mehmet Yiğit Balık #4 | [*LinkedIn*](https://www.linkedin.com/in/yigitbalik/) |
+| Mustafa Çağatay Kızıltan #MS | [*LinkedIn*](https://www.linkedin.com/in/mustafacagataykiziltan/) |
+| Fatih Mehmet Köş #4 | [*LinkedIn*](https://www.linkedin.com/in/fatihmehmetkos/) |
+| Selim Yürekli #4 | [*LinkedIn*](https://www.linkedin.com/in/selim-y%C3%BCrekli-6b5286175/) |
 
 <p align="center">
   <a href="//ituacm.com" target="_blank">
