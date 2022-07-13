@@ -35,4 +35,4 @@ public:
     bool search(vector<int>& arr, int target) {
         return searchArr(arr, 0 , arr.size() - 1, target);
     }
-};
+}; 
