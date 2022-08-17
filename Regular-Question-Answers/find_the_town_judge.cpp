@@ -16,7 +16,7 @@
         node 3 has not an edge with any other node.
         Additionally, every other node in the graph has relation with node 3.
         
-        Moreover, if there is not any node satisfying the condtions
+        Moreover, if there is not any node satisfying the conditions
         above, we will return -1.
         
         Code Explanation:
@@ -37,7 +37,6 @@
             the node 2, then we will increment the number of nodes that trusts
             node 2 by 1.
     
-    
             Finally after we will add all edges, we check these 2
             vectors, and if the trust number of node is 0 and if 
             the numbers of nodes that trusts this node is n - 1,
@@ -49,10 +48,10 @@ class Solution {
 public:
     int findJudge(int n, vector<vector<int>>& trust) {
         
-        //initializing the first vector to hold number of nodes the node trusts.
+        // initializing the first vector to hold number of nodes the node trusts.
         vector<int> whoTrusts(n + 1, 0); // n + 1 is for 1-index array.
         
-        //initializing the second vector to hold number of nodes the node is trusted.
+        // initializing the second vector to hold number of nodes the node is trusted.
         vector<int> whoIsTrusted(n + 1, 0); // n + 1 is for 1-index array.
         
         /* 
@@ -62,7 +61,6 @@ public:
             0-index can also be used, but do not forget to return 
             i+1 when judge is founded.
         */
-        
         
         // because the first is the one who trusts the second node
         // the 0 th node will be used for whoTrusts vector
@@ -74,13 +72,13 @@ public:
         // starting from node 1, check for if the node is judge or not.
         for(int node = 1; node < n+1; node++){
             
-            //checking first and second conditions.
+            // checking first and second conditions.
             if(!whoTrusts[node] && whoIsTrusted[node] == n-1){ 
-                return node; //if judge found, do not look at other nodes.
+                return node; // if judge found, do not look at other nodes.
             }
         }
         
-        return -1; //the program comes here only if there is no judge.
+        return -1; // the program comes here only if there is no judge.
         
         /* The time complexity of this program is O(n + m).
            n -> number of nodes, m -> number of edges
