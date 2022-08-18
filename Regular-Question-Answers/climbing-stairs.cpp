@@ -17,9 +17,9 @@ class Solution {
         
         // if we ever reach 0 or 1 with n, we have successfully calculated one valid way of
         // climbing to the top
-        if (n == 0 || n == 1) {
+        if (n == 0 || n == 1)
             return 1;
-        } 
+        
         // if n is below 0, it means the previous step size was too big therefore does not count
         else if (n < 0)
             return 0;
