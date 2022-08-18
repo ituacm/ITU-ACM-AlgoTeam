@@ -62,8 +62,6 @@ public:
         // initializing 0-index adjacency list to use the Graph.
         vector<vector<pair<int, double>>>adjacencyList(n, vector<pair<int, double>>(0)); 
         
-        double maxProbability = 0; //initializing maxProbability.
-        
         for (int edge = 0; edge < edges.size(); edge++){ 
             // because it is undirected graph we need to add 
             // the nodes and probabilities to both row(node) in adjacency matrix.
@@ -119,13 +117,12 @@ public:
         
         // if the end node in visited array returns false,
         //it means there is no way of coming end node. Thus probability for that node is 0. 
-        if(!visited[end])
+        if (!visited[end])
             probabilities[end] = 0;
 
         // whether visited[end] is false or true
         // we will return the max probability of end node.
-        maxProbability = probabilities[end]; 
         
-        return maxProbability;
+        return probabilities[end];
     }
 };
