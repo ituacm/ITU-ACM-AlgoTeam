@@ -64,13 +64,13 @@ public:
         
         // because the first is the one who trusts the second node
         // the 0 th node will be used for whoTrusts vector
-        for(int edge = 0; edge < trust.size(); edge++){
+        for (int edge = 0; edge < trust.size(); edge++){
             whoTrusts[trust[edge][0]]++;
             whoIsTrusted[trust[edge][1]]++;
         }
         
         // starting from node 1, check for if the node is judge or not.
-        for(int node = 1; node < n+1; node++){
+        for (int node = 1; node < n+1; node++){
             
             // checking first and second conditions.
             if(!whoTrusts[node] && whoIsTrusted[node] == n-1){ 
@@ -85,7 +85,6 @@ public:
            
            the space complexity of this program is O(n)
            n -> number of nodes
-        */
-        
+        */ 
     }
 };

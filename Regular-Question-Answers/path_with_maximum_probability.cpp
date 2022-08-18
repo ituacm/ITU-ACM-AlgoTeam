@@ -52,13 +52,11 @@
         As an Algorithm:
             As I mention above, we will use Dijkstra algorithm, 
             normally Dijsktra is used for finding the minimum distance
-            or probability, but we will use it reversely for maximum.
-        
+            or probability, but we will use it reversely for maximum. 
 */
 
 class Solution {
-public:
-    
+public:  
     double maxProbability(int n, vector<vector<int>>& edges, vector<double>& succProb, int start, int end) {
         
         // initializing 0-index adjacency list to use the Graph.
@@ -66,8 +64,7 @@ public:
         
         double maxProbability = 0; //initializing maxProbability.
         
-        for(int edge = 0; i < edges.size(); edge++){ 
-
+        for (int edge = 0; edge < edges.size(); edge++){ 
             // because it is undirected graph we need to add 
             // the nodes and probabilities to both row(node) in adjacency matrix.
             adjacencyList[edges[edge][0]].push_back(make_pair(edges[edge][1], succProb[edge]));
@@ -85,14 +82,14 @@ public:
         
         vector<bool> visited(n, false); //initializing visited vector not to visit one node more than once.
         
-        priority_queue< pair<double, int> > priorityQueue; // pair of probabily and node number for priority queue
+        priority_queue<pair<double, int>> priorityQueue; // pair of probabily and node number for priority queue
         
         // in order to start from starting point, 
         // starting point is pushed to priority queue
         // with the probability of 0.
         priorityQueue.push({0, start});
         
-        while(!priorityQueue.empty()){
+        while (!priorityQueue.empty()){
             int startingNode = priorityQueue.top().second; // starting node of the any 2 connected nodes.
             priorityQueue.pop();
             
@@ -102,7 +99,7 @@ public:
             
             visited[startingNode] = true; // make startingNode true in visited array, not to loop through the node a again.
             
-            for(auto u : adjacencyList[startingNode]){
+            for (auto u : adjacencyList[startingNode]){
                 int endingNode = u.first; // the ending node of the relation between any 2 connected nodes
                 double w = u.second; // to store the probability between starting and ending node.
                 
