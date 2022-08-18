@@ -8,7 +8,6 @@
  * like fibonacci series. 
  * 
  * Time complexity: O(n)
- *
  * Memory complexity: O(n) 
  */
 
@@ -18,11 +17,11 @@ class Solution {
         
         // if we ever reach 0 or 1 with n, we have successfully calculated one valid way of
         // climbing to the top
-        if (n==0 || n==1) {
+        if (n == 0 || n == 1) {
             return 1;
         } 
         // if n is below 0, it means the previous step size was too big therefore does not count
-        else if (n<0)
+        else if (n < 0)
             return 0;
         
         /* this line helps us skip extra work. think of a binary tree representing the values to
@@ -31,7 +30,8 @@ class Solution {
          * climb function twice for the value (n-2). this happens more as the values get lower.
          * keeping our calculations stored saves a lot of time.
          */
-        if (computed[n]) return computed[n];
+        if (computed[n])
+            return computed[n];
         
         computed[n-1] = climb(n-1,computed);
         computed[n-2] = climb(n-2,computed);
@@ -42,10 +42,8 @@ class Solution {
     
 public:
     int climbStairs(int n) {
-
         //1-based indexing
-        vector<int> computed(n+1); 
-        
+        vector<int> computed(n+1);
         return climb(n,computed);
     }
 };
