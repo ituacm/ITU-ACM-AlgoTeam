@@ -18,7 +18,7 @@ public:
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
         
         // adjList[n] gives a vector of courses which course n is a prerequisite for
-        vector<vector<int>> adjList(numCourses,vector<int>());
+        vector<vector<int>> adjList(numCourses, vector<int>());
         
         // in-degrees represent the number of prerequisites per course
         // initialize all in-degrees with 0
@@ -36,7 +36,7 @@ public:
         // of, which means that the required course is to be taken and added to the result
         // array.
         queue<int> order;
-        for (int i=0; i<numCourses; i++) {
+        for (int i = 0; i < numCourses; i++) {
 
             // if a course has an in-degree 0, it has no prerequisites, therefore can be taken
             if (inDegrees[i] == 0) {
@@ -58,17 +58,17 @@ public:
             order.pop();
             result.push_back(current);
 
-            for (auto i : adjList[current]) { 
+            for (auto nextCourse : adjList[current]) { 
 
                 // since the current course is already taken, one prerequisite of every course in
                 // adjList[current] is satisfied, which means there is one less in-degree for each
                 // to take into account
-                inDegrees[i]--;
+                inDegrees[nextCourse]--;
 
                 // if any of the courses we iterate over satisfy all prerequisites, we are ready
                 // to take that course
-                if (inDegrees[i] == 0)
-                    order.push(i);
+                if (inDegrees[nextCourse] == 0)
+                    order.push(nextCourse);
             }
         }
         
