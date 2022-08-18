@@ -66,16 +66,16 @@ public:
         
         double maxProbability = 0; //initializing maxProbability.
         
-        for(int i = 0; i < edges.size(); i++){ 
+        for(int edge = 0; i < edges.size(); edge++){ 
+
             // because it is undirected graph we need to add 
             // the nodes and probabilities to both row(node) in adjacency matrix.
-            adjacencyList[edges[i][0]].push_back(make_pair(edges[i][1], succProb[i]));
+            adjacencyList[edges[edge][0]].push_back(make_pair(edges[edge][1], succProb[edge]));
 
             // example: if there is edge from 1 to 2 with the
             // probability of 0.5, then there is also an edge from 2 to 1 with the same probability (0.5).
-            adjacencyList[edges[i][1]].push_back(make_pair(edges[i][0], succProb[i]));
+            adjacencyList[edges[edge][1]].push_back(make_pair(edges[edge][0], succProb[edge]));
         }
-        
         
         // From here Dijkstra Algorithm starts.
         
