@@ -47,7 +47,6 @@ public:
             }
         }
         
-        
         int current;
         vector<int> result;
         
