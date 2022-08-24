@@ -15,7 +15,7 @@
     seconds   0   1   2   2   3   3   3   3   3   6
                                                   ^
                                                   |
-    For i == 9  we need 6 seconds, even though we need 4 seconds for i==8.   
+    For i == 9  we need 6 seconds, even though we need 3 seconds for i==8.   
     
     
 */
