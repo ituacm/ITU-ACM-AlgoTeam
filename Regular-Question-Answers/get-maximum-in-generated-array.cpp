@@ -1,5 +1,5 @@
-#include <bits/stdc++.h>
-using namespace std;
+// Author: Ömer Faruk ERDEM
+// Question Link: https://leetcode.com/problems/get-maximum-in-generated-array/
 
 class Solution {
 public:
