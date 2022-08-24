@@ -1,0 +1,32 @@
+// Author: Emre Çelik
+// Question Link: https://leetcode.com/problems/unique-paths/
+
+
+/*
+      3*7
+ _ _ _ _ _ _ _
+|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|    These matrixes will be filled with number of unique paths.
+|_|_|_|_|_|_|_|
+
+*/
+
+class Solution {
+public:
+    int uniquePaths(int m, int n) {
+        
+        //Initialize ans matrix as a answer matrix.
+        vector<vector<int>> ans(m, vector<int>(n, 1));
+        
+        //We are starting with i = 1 and j = 1 because there are only 1 way to reach borders of the way.
+        for (int i = 1; i < m; i++) {
+            for (int j = 1; j < n; j++) {
+                // Adding element top of and left of ans[i][j] to fing number of ways to reach that point.
+                ans[i][j] = ans[i - 1][j] + ans[i][j - 1];
+            }
+        }
+        
+        //Return number of way to reach finish.
+        return ans[m - 1][n - 1];
+    }
+};
