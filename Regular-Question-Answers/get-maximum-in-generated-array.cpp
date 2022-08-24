@@ -42,6 +42,6 @@ public:
                 maximumElement=max(nums[2*i+1],maximumElement);
             }
         }
-        return maximumElement;
+        return maximumElement; 
     }
 };
