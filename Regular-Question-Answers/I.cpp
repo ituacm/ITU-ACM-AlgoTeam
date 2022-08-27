@@ -17,7 +17,7 @@ public:
 
         // this for loop will update the above integers.
         // from day 0 to last day:
-        for(int i=0; i<prices.size(); i++){
+        for (int i=0; i<prices.size(); i++){
             // update the min value if there is a smaller price
             min_until_today = min(minUntilToday, prices[i]);
 
