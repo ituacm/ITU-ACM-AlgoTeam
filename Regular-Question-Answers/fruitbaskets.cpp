@@ -23,16 +23,16 @@ public:
         int current_pick = 0;
 
 
-        for(int fruit : fruitTrees){
+        for (int fruit : fruitTrees){
             // if the fruit is one of the wanted two fruits then increase current_pick
-            if(fruit == firstFruit || fruit == secondFruit)
+            if (fruit == firstFruit || fruit == secondFruit)
                 current_pick++;
             // if not, current_pick is secFruitCount and the newest fruit
             else
                 current_pick = secFruitCount + 1;
 
             // if this fruit was also equal to second one increase secFruitCount
-            if(fruit == secondFruit)
+            if (fruit == secondFruit)
                 secFruitCount++;
 
             // if not
