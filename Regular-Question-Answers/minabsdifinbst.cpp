@@ -14,14 +14,14 @@ public:
     // value at that position and the previous value
     void inorder(TreeNode* node) {
         // if we are below leaf nodes return
-        if(node == NULL)
+        if (node == NULL)
             return;
 
         // recurse through left
         inorder(node->left);
 
         // min_dif will be updated only if prev_val is already set
-        if(prev_val > -1)
+        if (prev_val > -1)
             min_diff = min(min_diff, node->val - prev_val);
 
         // prev_val will be updated each step
