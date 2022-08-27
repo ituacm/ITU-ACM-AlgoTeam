@@ -50,13 +50,13 @@ public:
         s1[0] = -prices[0] - fee;
 
         // use the found definitions:
-        for(int i=1; i<size; i++){
+        for (int i=1; i<size; i++){
             s0[i] = max(s0[i-1], s1[i-1] + prices[i]);
             s1[i] = max(s1[i-1], s0[i-1] - prices[i] - fee);
         }
 
         // s0 is the final state
-        //return the last element of s0
+        // return the last element of s0
         return s0[size-1];
     }
 };
@@ -79,7 +79,7 @@ public:
         int return_state = 0;
         int hold_state = - prices[0] - fee;
 
-        for(int i=1; i<size; i++){
+        for (int i=1; i<size; i++){
             return_state = max(return_state, hold_state + prices[i]);
             hold_state = max(hold_state, return_state - prices[i] - fee);
         }
