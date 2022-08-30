@@ -1,6 +1,19 @@
 // Author: Bilgenur Çelik
 // Question Link: https://leetcode.com/problems/minimum-absolute-difference-in-bst/
 
+/*
+* example binary search tree: [23, 10, 70, null, 22, 25, 91]
+* tree form:
+*               23
+*       10              70
+*          22        25    91
+*
+* It is asked to find the minimum difference between any two nodes.
+* Because of bst properties, its inorder traversal tree is sorted.
+* inorder form: 10 22 23 25 70 91
+* Thus, we can keep the previous value and find the difference between it and the current value.
+*/
+
 class Solution {
 public:
     // as provided by constraints a value can't be negative, thus initialize the previous value with -1
