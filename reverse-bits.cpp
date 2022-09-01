@@ -3,11 +3,11 @@
 // Question Link: https://leetcode.com/problems/reverse-bits/
 
 /**
- * In this question, we have been asked to revert bits of a given number.
+ * In this question, we have been asked to reverse bits of a given number.
  * Ex: 01010000 --> 00001010
  *
  * For these operations, we will use unsigned 32 bit numbers (uint32_t)
- * We will use bit manimulations extensively.
+ * We will use bit manipulations extensively.
  * & : logical and
  * | : logical or
  * << : left shift (multiplying by two)
@@ -31,15 +31,15 @@ public:
          *         maskR : 00000100
          * result of AND : 00000100
          * Result is not 0, our right mask was at 3rd bit from right (shifted two times to left)
-         * So we will shift MaskL 2 rimes to right, and OR result (uint32_t) with mask
+         * So we will shift MaskL 2 times to right, and OR result (uint32_t) with mask
          *        result : 00000000
          *         maskL : 00100000
          *  result of OR : 00100000
          */
-        for(int i = 0; i < 32; i++)
+        for (int i = 0; i < 32; i++)
         {
             // If ANDing number and maskR shifted left by i times is not 0
-            if(n & (maskR << i))
+            if (n & (maskR << i))
             {
                 // OR result with maskL shifted right i times
                 result |= (maskL >> i);
