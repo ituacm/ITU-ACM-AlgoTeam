@@ -20,8 +20,8 @@
  * With this logic, first traverse the tree using recursive function then check list whether is it sorted.
  * If it is sorted, then we can claim that tree is a valid binary search tree.
  *
- * Time Complexity: O(n), n rerfers to number of nodes
- * Space Complexity: O(n), n rerfers to number of nodes
+ * Time Complexity: O(n), n refers to number of nodes
+ * Space Complexity: O(n), n refers to number of nodes
  */
 
 class Solution 
@@ -37,10 +37,10 @@ public:
         // Then checking whether sorted
         // Since left node is smaller than the right node, by doing inorder traversal
         // we can expect this vector to be strictly increasing.
-        for(int i = 1; i < traversal.size(); i++)
+        for (int i = 1; i < traversal.size(); i++)
         {
             // If current value is smaller than the previous value, return false
-            if(traversal[i] <= traversal[i - 1])
+            if (traversal[i] <= traversal[i - 1])
             {
                 return false;
             }
@@ -52,10 +52,7 @@ public:
     void inorder(TreeNode* root)
     {
         // If current node is NULL, return current function (break recursion from here)
-        if(root == NULL)
-        {
-            return;
-        }
+        if(root == NULL) return;
         // First check left node
         inorder(root->left);
         // Store current value
