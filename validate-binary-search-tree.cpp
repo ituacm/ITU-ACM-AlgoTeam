@@ -17,7 +17,7 @@
 /**
  * Solution by using inorder traversal.
  * If you traverse a binary search tree using inorder traversal, you would get a sorted list.
- * With this logic, first traverse the tree using recursive function then check list whether is it sorted.
+ * With this logic, first traverse the tree using recursive function then check whether the list is it sorted.
  * If it is sorted, then we can claim that tree is a valid binary search tree.
  *
  * Time Complexity: O(n), n refers to number of nodes
