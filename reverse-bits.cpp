@@ -12,6 +12,9 @@
  * | : logical or
  * << : left shift (multiplying by two)
  * >> : right shift (dividing by two)
+ *
+ * Time complexity: O(n) (n is number of bits, in this case n = 32)
+ * Space complexity: O(1)
  */
 
 class Solution 
