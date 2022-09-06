@@ -2,6 +2,7 @@
 // Question Link: https://leetcode.com/problems/power-of-three/
 
 // n is a power of k if log(n) base k  is an integer.
+// log k (n) = x --> k^(x) = n --> if x is an integer, n is a power of k.
 // We will be using double precision floating point numbers to calculate logarithms.
 // There may be errors in floating point representation, therefore we will check
 // equality based on a treshold.
