@@ -28,7 +28,7 @@ public:
         // If the root node stands alone, it is symmetric
         if (!root->left && !root->right)
             return true;
-        // If the root node has only one child, it is antisymmetric
+        // If the root node has only one child, it is asymmetric
         else if (!root->left || !root->right)
             return false;
         
@@ -47,7 +47,7 @@ public:
             // direct children of a's and b's.
             if (a->val == b->val) {
                 // Symmetry axis is placed at the center, so one nodes left child should mirror other's right, vice versa.
-                // If one of the children mentioned above do not exist, the tree is antisymmetric.
+                // If one of the children mentioned above do not exist, the tree is asymmetric.
                 if (a->left && b->right)
                     nextToCheck.push({a->left,b->right});
 
