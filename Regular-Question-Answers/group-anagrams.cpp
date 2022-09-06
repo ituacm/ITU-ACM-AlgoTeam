@@ -21,7 +21,7 @@ public:
 
         //Traversing the strs array to group the strings 
         for(int i=0;i<strs.size();i++){
-            // Storing s[i] string into a temporary string 
+            // Storing strs[i] string into a temporary string 
             // This is for sorting the string because when a group of anagrams sorted they become same string 
             // And thats how we identify which anagram group do a string belong 
             
