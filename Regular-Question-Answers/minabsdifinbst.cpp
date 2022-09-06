@@ -2,6 +2,11 @@
 // Question Link: https://leetcode.com/problems/minimum-absolute-difference-in-bst/
 
 /*
+* The question premise is the input will be a valid binary search tree.
+* Recall that it is a binary tree with these properties:
+* - The value in each node must be greater than (or equal to) any values stored in its left subtree.
+* - The value in each node must be less than (or equal to) any values stored in its right subtree.
+*
 * example binary search tree: [23, 10, 70, null, 22, 25, 91]
 * tree form:
 *               23
@@ -40,7 +45,7 @@ public:
         // prev_val will be updated each step
         prev_val = node->val;
 
-        // recurse through left
+        // recurse through right
         inorder(node->right);
     }
 
