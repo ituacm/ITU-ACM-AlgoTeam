@@ -34,12 +34,12 @@ public:
         // Define our answer list
         ListNode* ans;
         
-        // If first list has bigger value than second list call ans->next recursively with list1->next.
+        // If first list has bigger value than second list call the function "mergeTwoLists" recursively with list1->next and then assigning the output to ans->next.
         if (list1 -> val <= list2 -> val){
             ans = list1;
             ans -> next = mergeTwoLists(list1->next,list2);
         }
-        // Else call ans->next recursively with list2->next.
+        // Else call the function "mergeTwoLists" recursively with list2->next and then assigning the output to ans->next.
         else {
             ans = list2;
             ans -> next = mergeTwoLists(list1,list2->next);
