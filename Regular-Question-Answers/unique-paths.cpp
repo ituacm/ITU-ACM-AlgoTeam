@@ -6,14 +6,14 @@
 
 class Solution {
     
-    int uniquePaths(int m, int n, int x, int y, vector<vector<int>>& mem) {
+    int calculatePaths(int x, int y, vector<vector<int>>& mem) {
 
         /* 
          * Base Case:
          * Think of an m*n grid:
          * There is only one way to reach position (1, 1).
          * To reach (1, 2), you should take one step down.
-         * To reach (1, m), you should take m steps down.
+         * To reach (1, m), you should take m-1 steps down.
          * Hence, there is only one way to reach to the positions with
          * m value 1. The same goes for n values as well.
          */
@@ -30,9 +30,9 @@ class Solution {
          * remembering what we have computed so far is called memoization.
          */
         if (!mem[x-1][y])
-            mem[x-1][y] = uniquePaths(m, n, x-1, y, mem);
+            mem[x-1][y] = calculatePaths(x-1, y, mem);
         if (!mem[x][y-1])
-            mem[x][y-1] = uniquePaths(m, n, x, y-1, mem);
+            mem[x][y-1] = calculatePaths(x, y-1, mem);
         
         mem[x][y] = mem[x-1][y] + mem[x][y-1];
         
@@ -45,6 +45,6 @@ public:
         // 1-based indexing to avoid confusion
         vector<vector<int>> mem(m+1, vector<int>(n+1));
         
-        return uniquePaths(m, n, m, n, mem);
+        return calculatePaths(m, n, mem);
     }
 };
