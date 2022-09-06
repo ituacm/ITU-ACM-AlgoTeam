@@ -37,10 +37,9 @@ public:
 
         // Now ı am traversing over the map and pushing that vector of strings to the two dimensional vector that ı have created before
         for(auto it: mp){
-            result.push_back(it.second); //pushing vector of string into vector of vectors
+            result.push_back(it.second); 
         }
         
-        // And returning that two dimensional vector 
         return result;
 
     }
