@@ -1,5 +1,8 @@
 //Author:Ömer Faruk ERDEM
 //Question Link = https://leetcode.com/problems/group-anagrams/
+
+// Time Complexity : O(n)
+// Space Complexity : O(n)
 class Solution {
 public:
 
