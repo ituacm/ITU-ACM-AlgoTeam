@@ -8,7 +8,7 @@ public:
 void nextPermutation (vector<int>& nums) {
 
     // If the array has only one elements, the next permutation is itself. 
-    if(nums.size()==1) return;
+    if (nums.size() == 1) return;
     
     // We use l pointer to detect first not sorted element.
     int l = nums.size()-2;
