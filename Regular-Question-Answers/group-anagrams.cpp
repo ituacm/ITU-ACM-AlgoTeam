@@ -19,7 +19,7 @@ public:
          */
         unordered_map< string , vector<string> >  mp;
 
-        //Traversing the strs array to group the strings 
+        // Traversing the strs array to group the strings 
         for(int i=0;i<strs.size();i++){
             // Storing strs[i] string into a temporary string 
             // This is for sorting the string because when a group of anagrams sorted they become same string 
@@ -29,8 +29,8 @@ public:
             
             sort(temp.begin(),temp.end());
             
-            //pushing the string into vector according to sorted temp variable 
-            //As ı mentioned in this step every string  will be pushed its group vector
+            // Pushing the string into vector according to sorted temp variable 
+            // As ı mentioned in this step every string  will be pushed its group vector
             mp[temp].push_back(strs[i]);
         }
 
