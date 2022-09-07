@@ -38,25 +38,25 @@ public:
     // Depth-First Search function, to chech if the Graph 
     // is connected by changing visited array of bools.
     void DFS(int x, vector<bool>& visited, vector<vector<int>>& adjacencyList){
-        if (visited[x]) // if the node is visited skip it.
+        if (visited[x]) // If the node is visited skip it.
             return;
         
-        visited[x] = true; // make this node's visited true.
+        visited[x] = true; // Make this node's visited true.
         
-        // check all nodes that this node has an edge, 
+        // Check all nodes that this node has an edge, 
         // and do DFS to all of them.
         for (int node = 0; node < adjacencyList[x].size(); node++){
             DFS(adjacencyList[x][node], visited, adjacencyList);
         }
     }
     bool canVisitAllRooms(vector<vector<int>>& rooms) {
-        // intializing Adjacency List to represent Graph.
+        // Initializing Adjacency List to represent Graph.
         vector<vector<int>> adjacencyList(rooms.size(), vector<int>(0));
         
-        // bool vector to represent the node is visited or not.
+        // Bool vector to represent the node is visited or not.
         vector<bool> visited(rooms.size(), false);
         
-        // because it is DIRECTED Graph, we will add ending nodes to starting node.
+        // Because it is DIRECTED Graph, we will add ending nodes to starting node.
         for (int startingRoom = 0; startingRoom < rooms.size(); startingRoom++){
             for (int endingRoom = 0; endingRoom < rooms[startingRoom].size(); endingRoom++){
                 adjacencyList[startingRoom].push_back(rooms[startingRoom][endingRoom]);
@@ -67,14 +67,14 @@ public:
         
         for (int node = 0; node < visited.size(); node++){
     
-            // if node in visited arrat is false, it means
+            // If node in visited arrat is false, it means
             // that node can not reached from node 0. Then
             // this is not connected Graph.
             if (visited[node] == false)
                 return false;
         }
         
-        // if program comes here, it means all
+        // If program comes here, it means all
         // nodes are reachable, then answer is true.
         return true;
         

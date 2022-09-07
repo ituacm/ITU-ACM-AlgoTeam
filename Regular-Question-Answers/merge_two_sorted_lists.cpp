@@ -16,7 +16,7 @@
     Problem Description:
         We have 2 linked lists. Both of
         them are sorted. We need to merge 
-        these 2 sorted linked list in a 1
+        these 2 sorted linked list in 1
         sorted linked list.
         
     Solution method:
@@ -34,19 +34,19 @@
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-        ListNode* counterFirst = list1; // to store pointer to list1
-        ListNode* counterSecond = list2; // to store pointer to list2
-        ListNode* head = NULL; // the head of the result list
-        ListNode* last = NULL; // the last element of result list
+        ListNode* counterFirst = list1; // To store pointer to list1
+        ListNode* counterSecond = list2; // To store pointer to list2
+        ListNode* head = NULL; // The head of the result list
+        ListNode* last = NULL; // The last element of result list
         
-        // the values of each list will be compared
+        // The values of each list will be compared
         // if there are elements on both lists.
         while (counterFirst && counterSecond){
             
-            // to find which value is smaller, so we will use that list.
+            // To find which value is smaller, so we will use that list.
             if (counterFirst->val < counterSecond->val){
                 
-                // if it is the first element, it will be head.
+                // If it is the first element, it will be head.
                 if (head == NULL){
                     head = counterFirst;
                     last = head;
@@ -56,14 +56,14 @@ public:
                     last = last->next;
                 }
                 
-                counterFirst = counterFirst->next; // to increment pointer.
+                counterFirst = counterFirst->next; // To increment pointer.
             }
             
-            // if value of counterFirst is not smaller, then take another one.
+            // If value of counterFirst is not smaller, then take another one.
             else{
                 
-                // again check if it is the first element or not.
-                if(head == NULL){
+                // Again check if it is the first element or not.
+                if (head == NULL){
                     head = counterSecond;
                     last = head;
                 }
@@ -72,13 +72,13 @@ public:
                     last = last->next;
                 }
                 
-                counterSecond = counterSecond->next; // to increment pointer.
+                counterSecond = counterSecond->next; // To increment pointer.
             }
         }
         
-        // when program comes here, it means we have 
+        // When program comes here, it means we have 
         // checked all elements of list1 or lis2.
-        while (counterFirst){ // to check if list1 has elements.
+        while (counterFirst){ // To check if list1 has elements.
             if (head == NULL){
                 head = counterFirst;
                 last = head;
@@ -88,10 +88,10 @@ public:
                 last = last->next;
             }
 
-            counterFirst = counterFirst->next; // to increment pointer.
+            counterFirst = counterFirst->next; // To increment pointer.
         }
         
-        while (counterSecond){ // to check if list2 has elements.
+        while (counterSecond){ // To check if list2 has elements.
             if (head == NULL){
                 head = counterSecond;
                 last = head;
@@ -101,7 +101,7 @@ public:
                 last = last->next;
             }
             
-            counterSecond = counterSecond->next; // to increment pointer.
+            counterSecond = counterSecond->next; // To increment pointer.
         }
         
         return head; 
