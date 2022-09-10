@@ -45,8 +45,8 @@ public:
         // finding each subsets from 0 to 2^n - 1. 
         for (int subsetNumber = 0; subsetNumber < total; subsetNumber++){
             vector<int> subset; // initializing subset vector for each subsetNumber
-            for(int i = 0; i < nums.size(); i++){
-                if(subsetNumber & (1 << i)){ // Bit Manipulation
+            for (int i = 0; i < nums.size(); i++){
+                if (subsetNumber & (1 << i)){ // Bit Manipulation
                     subset.push_back(nums[i]);
                 }
             }
@@ -56,8 +56,8 @@ public:
         return result;
         
         /*
-            The time complexity of the program is O(2^n).
-            The space complexity of the program is O(2^n).
+            The time complexity of the program is O(2^N*N).
+            The space complexity of the program is O(N^2).
             n -> size of nums array.
         */
     }

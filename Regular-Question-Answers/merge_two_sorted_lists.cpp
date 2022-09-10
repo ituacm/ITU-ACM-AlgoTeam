@@ -51,7 +51,7 @@ public:
                     head = counterFirst;
                     last = head;
                 }
-                else{
+                else {
                     last->next = counterFirst;
                     last = last->next;
                 }
@@ -60,14 +60,14 @@ public:
             }
             
             // If value of counterFirst is not smaller, then take another one.
-            else{
+            else {
                 
                 // Again check if it is the first element or not.
                 if (head == NULL){
                     head = counterSecond;
                     last = head;
                 }
-                else{
+                else {
                     last->next = counterSecond;
                     last = last->next;
                 }
@@ -83,7 +83,7 @@ public:
                 head = counterFirst;
                 last = head;
             }
-            else{
+            else {
                 last->next = counterFirst;
                 last = last->next;
             }
@@ -96,7 +96,7 @@ public:
                 head = counterSecond;
                 last = head;
             }
-            else{
+            else {
                 last->next = counterSecond;
                 last = last->next;
             }

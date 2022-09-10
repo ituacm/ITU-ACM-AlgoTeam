@@ -24,48 +24,37 @@
             node is the node 2. So, return 2.
             
         Code Explanation:
-            To represent the graph, we will use adjacency
-            list due to less complexity of adding node
-            in comparison to adjacency matrix.
-            The, we will check the number of edges
-            for each node. If the node has number of
-            edges of the size of edges array (because the number
-            of edges in edges array is already equal to the number of
-            nodes - 1), then this is the centere node, and we return it.
+            Because we know that we are given an arrat of edges
+            with the size of exactly n-1. This means, to find
+            the center of graph, which will have connection
+            with all other nodes, the centered node must be in
+            every edges. For this it is enough to check first 
+            2 connection. The node which is in both 1st connection
+            and 2nd connection is the centered node so return it.
 */
 
 class Solution {
 public:
     int findCenter(vector<vector<int>>& edges) {
         
-        // initializing adjacency list with the size of edges plus
-        // 2, because of 1 for 1-index representation and 1 for
-        // the number of nodes is 1 more than the number of edges.
-        vector<vector<int>>adjacencyList(edges.size() + 2, vector<int>(0));    
-        
-        for (int edge = 0; edge < edges.size(); edge++){
-            // because it is undirected graph, we need to add 
-            // the edge of nodes to both node in adjacency list.
-            adjacencyList[edges[edge][0]].push_back(edges[edge][1]);
+        // Either first node or second node of the first
+        // connection will be the centered node of the graph.
+        if (edges[0][0] == edges[1][0] || edges[0][0] == edges[1][1]){
             
-            // Example: if there is an edge between 1 and 2, the edge
-            // must be added to both node in adjacency list.
-            adjacencyList[edges[edge][1]].push_back(edges[edge][0]);
+            // If the node in both connection is the first node return it.
+            return edges[0][0];
+        }
+        else if (edges[0][1] == edges[1][0] || edges[0][1] == edges[1][1]){
+            
+             // If the node in both connection is the second node return it.
+            return edges[0][1];
         }
         
-        // finding the star node.
-        for (int node = 1; node < adjacencyList.size(); node++){
-            // because the size of edges is already 1 less than
-            // the number of nodes, if the number of edges of the 
-            // node is equal to the size of edges, return the node.
-            if (adjacencyList[node].size() == edges.size())
-                return node;
-        }
+        return 0; // The program will not come here.
         
-        return 0;
         /*
-            The complexity of the code is O(n).
-            n is the number of nodes.
+            The time complexity of the program is O(1).
+            The space complexity of the program is O(1).
         */
     }
 };
