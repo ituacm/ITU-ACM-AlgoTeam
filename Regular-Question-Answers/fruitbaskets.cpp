@@ -1,5 +1,6 @@
 // Author: Bilgenur Çelik
 // Question Link: https://leetcode.com/problems/fruit-into-baskets/
+// Reviewer: Hacer Akıncı
 
 /*
 * We'll collect at most two different types of fruits continuously in an array, starting with any desired index.
