@@ -1,4 +1,6 @@
 // Author: Hacer Akıncı
+// Reviewer: Ömer Faruk Erdem
+// Reviewer: Fatih Baskın
 // Question Link: https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/
 
 /*
