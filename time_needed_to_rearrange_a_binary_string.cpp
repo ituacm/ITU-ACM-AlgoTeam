@@ -1,7 +1,7 @@
 // Author: Hacer Akıncı
+// Reviewer: Ömer Faruk Erdem
+// Reviewer: Fatih Baskın
 // Question Link: https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/
-// Time compexity: O(n) 
-// Space compexity: O(1) 
 
 /*
     We count "zeros" to '1'. If we have a 0001 string. 3 zeros means 3 seconds needed to make it 1000.
@@ -52,3 +52,6 @@ public:
         return seconds;
     }
 };
+
+// Time compexity: O(n) 
+// Space compexity: O(1) 
