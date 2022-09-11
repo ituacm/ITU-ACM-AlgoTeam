@@ -1,5 +1,6 @@
 // Author: Fatih Baskın
-// Reviewer:
+// Reviewer: Denis Davidoglu
+// Reviewer: Ceren Yaşar
 // Question Link: https://leetcode.com/problems/validate-binary-search-tree/
 
 /**
