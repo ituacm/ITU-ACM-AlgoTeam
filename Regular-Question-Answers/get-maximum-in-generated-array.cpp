@@ -1,5 +1,6 @@
 // Author: Ömer Faruk ERDEM
 // Question Link: https://leetcode.com/problems/get-maximum-in-generated-array/
+// Reviewers: Hacer Akıncı, Novruz Amirov
 
 // Time Complexity : O(n)
 // Space Complexity : O(n)
