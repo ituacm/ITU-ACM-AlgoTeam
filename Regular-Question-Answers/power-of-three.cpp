@@ -13,12 +13,12 @@
 class Solution {
 public:
     bool isPowerOfThree(int n) {
-		double result;
-		result = log(n) / log(3);
+        double result;
+        result = log(n) / log(3);
 
-		if (abs(result - round(result)) < 0.0000000001)
-			return true;
-		else
-			return false;
-	}
+        if (abs(result - round(result)) < 0.0000000001)
+            return true;
+        else
+	    return false;
+    }
 };
