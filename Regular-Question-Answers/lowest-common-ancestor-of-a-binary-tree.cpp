@@ -13,50 +13,48 @@
 
 class Solution {
 public:
-
-	vector<TreeNode*> pathToP, pathToQ;
-	bool foundP = false, foundQ = false;
+    vector<TreeNode*> pathToP, pathToQ;
+    bool foundP = false, foundQ = false;
 
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-		vector<TreeNode*> path;
-		TreeNode* LCA = root;	// Lowest Common Ancestor
+        vector<TreeNode*> path;
+        TreeNode* LCA = root;	// Lowest Common Ancestor
         traverse(root, path, p, q);
 
-		for (int i = 0; i < min(pathToP.size(), pathToQ.size()); i++) {
-			// We loop while the paths are identical and break when we find a disjunction.
-			if (pathToP[i] != pathToQ[i])
-				break;
-			LCA = pathToP[i];
-		}
+        for (int i = 0; i < min(pathToP.size(), pathToQ.size()); i++) {
+            // We loop while the paths are identical and break when we find a disjunction.
+            if (pathToP[i] != pathToQ[i])
+                break;
+            LCA = pathToP[i];
+        }
 
-		return LCA;
+        return LCA;
     }
 
-	void traverse(TreeNode* root, vector<TreeNode*>& path, TreeNode* p, TreeNode* q) {
-		if (root == NULL)
-			return;
+    void traverse(TreeNode* root, vector<TreeNode*>& path, TreeNode* p, TreeNode* q) {
+        if (root == NULL)
+            return;
+        // If both the nodes are found, we don't need to traverse further.
+        if (foundP && foundQ)	
+            return;
 
-		// If both the nodes are found, we don't need to traverse further.
-		if (foundP && foundQ)	
-			return;
+        // Adding the current node to the path.
+        path.push_back(root);
 
-		// Adding the current node to the path.
-		path.push_back(root);
+        // Copying path if we found one of the nodes.
+        if (foundP == false && root == p) {
+            pathToP = path;	
+            foundP = true;
+        }
+        if (foundQ == false && root == q) {
+            pathToQ = path;
+            foundQ = true;
+        }
 
-		// Copying path if we found one of the nodes.
-		if (foundP == false && root == p) {
-			pathToP = path;	
-			foundP = true;
-		}
-		if (foundQ == false && root == q) {
-			pathToQ = path;
-			foundQ = true;
-		}
+        traverse(root->left, path, p, q);
+        traverse(root->right, path, p, q);
 
-		traverse(root->left, path, p, q);
-		traverse(root->right, path, p, q);
-
-		// Removing the current node from the node.
-		path.pop_back();
-	}
+        // Removing the current node from the node.
+        path.pop_back();
+    }
 };
