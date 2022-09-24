@@ -1,6 +1,6 @@
 // Author: Emre Çelik
 // Question Link: https://leetcode.com/problems/unique-paths/
-
+// Reviewers: Ahmet Furkan Kavraz, Toygun Görmüş, Yaşar Ceren, Denis Davidoglu
 
 /*
       3*7
@@ -14,7 +14,6 @@
 class Solution {
 public:
     int uniquePaths(int m, int n) {
-        
         // Initialize ans matrix as an answer matrix.
         vector<vector<int>> ans(m, vector<int>(n, 1));
         
@@ -22,6 +21,7 @@ public:
         for (int i = 1; i < m; i++) {
             for (int j = 1; j < n; j++) {
                 // Adding top and left neighbors of current position to find number of ways to reach where we are.
+                ans[i][j] = ans[i - 1][j] + ans[i][j - 1];
             }
         }
         
@@ -29,7 +29,3 @@ public:
         return ans[m - 1][n - 1];
     }
 };
-
-
-
-
