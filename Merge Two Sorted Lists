@@ -1,5 +1,6 @@
 // Author: Emre Çelik
 // Question Link: https://leetcode.com/problems/merge-two-sorted-lists/
+// Reviewers: Ahmet Furkan Kavraz, Toygun Görmüş, Yaşar Ceren, Denis Davidoglu
 
 /**
  * Definition for singly-linked list.
@@ -22,24 +23,25 @@
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-        
         // Return list that is not empty when one of our list is empty.
-        if (list1 == NULL){
+        if (list1 == NULL) {
             return list2;
         }
-        if (list2 == NULL){
+        if (list2 == NULL) {
             return list1;
         }
             
         // Define our answer list
         ListNode* ans;
         
-        // If first list has bigger value than second list call the function "mergeTwoLists" recursively with list1->next and then assigning the output to ans->next.
-        if (list1 -> val <= list2 -> val){
+        /* If first list has bigger value than second list call the function 
+        "mergeTwoLists" recursively with list1->next and then assigning 
+        the output to ans->next. */
+        if (list1 -> val <= list2 -> val) {
             ans = list1;
             ans -> next = mergeTwoLists(list1->next,list2);
         }
-        // Else call the function "mergeTwoLists" recursively with list2->next and then assigning the output to ans->next.
+        
         else {
             ans = list2;
             ans -> next = mergeTwoLists(list1,list2->next);
@@ -48,6 +50,3 @@ public:
         return ans;
     }
 };
-
-
-
