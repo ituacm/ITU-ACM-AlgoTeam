@@ -1,4 +1,5 @@
 // Author: Ceren Yaşar
+// Reviewers: Fatih Baskın, Ömer Faruk Erdem, Denis Davidoglu
 // Question Link: https://leetcode.com/problems/unique-paths/
 
 // Time Complexity: O(m*n)
@@ -14,7 +15,7 @@ class Solution {
          * There is only one way to reach position (1, 1).
          * To reach (1, 2), you should take one step down.
          * To reach (1, m), you should take m-1 steps down.
-         * Hence, there is only one way to reach to the positions with
+         * Hence, there is only one way to reach the positions with
          * m value 1. The same goes for n values as well.
          */
         if (x == 1 || y == 1)
