@@ -1,6 +1,6 @@
 // Author: Fatih Baskın
-// Reviewers: Denis Davidoglu & Ceren Yaşar
 // Question Link: https://leetcode.com/problems/reverse-bits/
+// Reviewers: Denis Davidoglu & Ceren Yaşar
 
 /**
  * In this question, we have been asked to reverse bits of a given number.
