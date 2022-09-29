@@ -1,6 +1,6 @@
 // Author: Fatih Baskın
-// Reviewer: Denis Davidoglu & Ceren Yaşar
 // Question Link: https://leetcode.com/problems/validate-binary-search-tree/
+// Reviewer: Denis Davidoglu & Ceren Yaşar
 
 /**
  * Definition for a binary tree node.
