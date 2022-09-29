@@ -1,6 +1,5 @@
 // Author: Fatih Baskın
-// Reviewer: Denis Davidoglu
-// Reviewer: Ceren Yaşar
+// Reviewers: Denis Davidoglu & Ceren Yaşar
 // Question Link: https://leetcode.com/problems/reverse-bits/
 
 /**
