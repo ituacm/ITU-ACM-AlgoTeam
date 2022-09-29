@@ -1,5 +1,9 @@
 // Author: Murat Biberoğlu
+// Reviewers: Bilgenur Çelik, Denis Davidoglu
 // Question Link: https://leetcode.com/problems/most-visited-sector-in-a-circular-track/
+
+// Time Complexity O(n*r), r is the number of rounds
+// Space Complexity O(n)
 
 class Solution {
    public:
@@ -9,7 +13,7 @@ class Solution {
         // number of rounds
         int round = rounds.size() - 1;
 
-        // for each round increment one the range [start, finish)
+        // for each round increment one range [start, finish)
         // finish is not in the range beacuse we want to prevent counting twice
         // a sector. but we need to increment specially finish of the last
         // round.
@@ -23,7 +27,7 @@ class Solution {
 
             // if start < end we won't go over starting sector
             // so increment range [start, end)
-            // in else case, we will go over starting sector
+            // in the else block, we will go over starting sector
             // so we need to increment range [start, n-1] U [0, end)
             if (start < end) {
                 // increment [start, end)

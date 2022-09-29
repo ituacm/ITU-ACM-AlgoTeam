@@ -1,5 +1,10 @@
 // Author: Murat Biberoğlu
+// Reviewers: Bilgenur Çelik, Denis Davidoglu
 // Question Link: https://leetcode.com/problems/n-ary-tree-level-order-traversal/
+
+// Run Time Complexity O(V + E)
+// V: number of vertices
+// E: number of edges
 
 class Solution {
    public:
@@ -19,14 +24,14 @@ class Solution {
             // get the size of the queue before adding new childs.
             // in that state queue has nodes that have same level.
             int levelSize = q.size();
-            // create a vector with size as current level's node count
+            // create a vector with size the same as current level's node count
             vector<int> levelValues(levelSize);
             for (int i = 0; i < levelSize; i++) {
                 Node* node = q.front();
                 q.pop();
                 levelValues[i] = node->val;
 
-                // traverse the children and add to queue
+                // traverse the children and add to the queue
                 for (Node* child : node->children) {
                     q.push(child);
                 }
