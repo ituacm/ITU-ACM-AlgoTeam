@@ -1,5 +1,5 @@
 <h1>Sprint Archive</h1>
-<p>Welcome to the Sprint Archive, where you can access all the previously assigned questions and solutions to them. Solutions become available three days after the Sprint questions are shared.</p>
+<p>Welcome to the Sprint Archive, where you can access all the previously assigned questions and solutions to them. Solutions become available three days after the Sprint Questions are shared.</p>
 
 <table>
 <tr>
