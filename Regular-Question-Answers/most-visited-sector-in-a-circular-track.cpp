@@ -1,6 +1,6 @@
 // Author: Murat Biberoğlu
-// Reviewers: Bilgenur Çelik, Denis Davidoglu
 // Question Link: https://leetcode.com/problems/most-visited-sector-in-a-circular-track/
+// Reviewers: Bilgenur Çelik, Denis Davidoglu
 
 // Time Complexity O(n*r), r is the number of rounds
 // Space Complexity O(n)
