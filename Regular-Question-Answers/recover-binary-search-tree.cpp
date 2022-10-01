@@ -21,8 +21,8 @@ class Solution
 private:
     // If you traverse a binary search tree inorder, you would get a sorted array.
     vector<int> numbers;
-    // Pointer for inorderPlacer vector
-    int vectorPointer = 0;
+    // Index for inorderPlacer vector
+    int vectorIndex = 0;
     // That is why we will use a inorder traversal function
     void inorderTraversal(TreeNode *root)
     {
@@ -46,7 +46,7 @@ private:
         inorderCorrecter(root->left);
         // Then place the current pointed value to node and increment pointer
         root->val = numbers[vectorPointer];
-        vectorPointer += 1;
+        vectorIndex += 1;
         // Finally go right
         inorderCorrecter(root->right);
     }
