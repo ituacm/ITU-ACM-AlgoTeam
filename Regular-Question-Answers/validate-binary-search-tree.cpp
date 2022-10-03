@@ -1,42 +1,63 @@
-// Author: Rojen Arda Şeşen
-// Reviewer: Ahmet Furkan Kavraz
+// Author: Fatih Baskın
 // Question Link: https://leetcode.com/problems/validate-binary-search-tree/
+// Reviewer: Denis Davidoglu & Ceren Yaşar
 
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
 
-// Inorder traversal of a binary search tree is a sorted sequence. 
-// We will travese the tree in-order, and check if the result is sorted.
-// Time Complexity -> O(n) where n is the number of nodes in the tree.
-// Space Complexity -> O(1)
+/**
+ * Solution by using inorder traversal.
+ * If you traverse a binary search tree using inorder traversal, you would get a sorted list.
+ * With this logic, first traverse the tree using recursive function then check whether the list is it sorted.
+ * If it is sorted, then we can claim that tree is a valid binary search tree.
+ *
+ * Time Complexity: O(n), n refers to number of nodes
+ * Space Complexity: O(n), n refers to number of nodes
+ */
 
-class Solution {
+class Solution 
+{
 public:
-    
-    bool BSTFlag = true;   // A flag which turns to false when the tree loses BST property.
-    long previousNode = LONG_MIN;  // An integer to hold the value in the previous node when traversing the tree.
-    
-    bool isValidBST(TreeNode* root) {
-        
-        // At each step we compare the node's value with the previous node.
-        // If the value is not bigger than the previous one, the tree is not a bst.
-        if (root == NULL) // Return if we reached a NULL node.
-            return true;
-        
-        // Traverse the left child of the tree.
-        if (root->left != NULL)
-            BSTFlag = isValidBST(root->left);
-        else
-            true;
-        
-        // Returns false if we encounter a value that breaks the sorted sequence or a duplicate value.
-        if (previousNode >= root->val) 
-            return false; 
-        else 
-            previousNode = root->val; // Update previousNode
-
-        // Traverse the right child of the tree 
-        if (root->right != NULL)
-            return BSTFlag && isValidBST(root->right); 
-        else
-            return BSTFlag;
+    // Storing the result of the traversal in this vector
+    vector<int> traversal;
+    // Solution fuction
+    bool isValidBST(TreeNode* root) 
+    {
+        // Calling the recursive traversal function
+        inorder(root);
+        // Then checking whether sorted
+        // Since left node is smaller than the right node, by doing inorder traversal
+        // we can expect this vector to be strictly increasing.
+        for (int i = 1; i < traversal.size(); i++)
+        {
+            // If current value is smaller than the previous value, return false
+            if (traversal[i] <= traversal[i - 1])
+            {
+                return false;
+            }
+        }
+        // If the traversal generated is sorted, then return true
+        return true;
+    }
+    // Traversal Function
+    void inorder(TreeNode* root)
+    {
+        // If current node is NULL, return current function (break recursion from here)
+        if(root == NULL) return;
+        // First check left node
+        inorder(root->left);
+        // Store current value
+        traversal.push_back(root->val);
+        // Then check right node
+        inorder(root->right);
     }
 };
