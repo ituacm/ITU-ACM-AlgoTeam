@@ -36,5 +36,5 @@ public:
     }
 };
 
-// Time comp. -> O(n) Space comp. -> O(1)
-
+// Time comp. -> O(n) (n = length of the string t)
+// Space comp. -> O(1)
