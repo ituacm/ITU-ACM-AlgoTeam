@@ -29,4 +29,5 @@ public:
     }
 };
 
-// Time comp. -> O(n) Space comp. -> O(1)
+// Time comp. -> O(n) (n = plank's length)
+// Space comp. -> O(1)
