@@ -1,4 +1,5 @@
 // Author: Bilgenur Çelik
+// Reviewer: Novruz Amirov
 // Question Link: https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/
 
 class Solution {
@@ -12,17 +13,20 @@ public:
         * Thus, let's assume they don't change direction.
 
         * Calculate the maximum time needed that an ant can achieve to an edge.
+        * (n = plank's length)
         */
         int time = 0;
 
         // if they're going left they have i units
-        for(int i : left)
-            time = max(time, i);
+        for (int unit : left)
+            time = max(time, unit);
 
-        // if they're going left they have n-i units
-        for(int i : right)
-            time = max(time, n - i);
+        // if they're going right they have n-i units
+        for (int unit : right)
+            time = max(time, n - unit);
 
         return time;
     }
 };
+
+// Time comp. -> O(n) Space comp. -> O(1)
