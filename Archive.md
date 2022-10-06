@@ -325,4 +325,26 @@
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/validate-binary-search-tree.cpp">Editorial</a></td>
 	<td></td>
 </tr>
+<tr>
+	<td align=center>29</td>
+	<td>Convert Integer to the Sum of Two No-Zero Integers</td>
+	<td><a href="https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/convert-integer-to-the-sum-of-two-no-zero-integers.cpp">Editorial</a></td>
+	<td></td>
+	<td>Number of Operations to Make Network Connected</td>
+	<td><a href="https://leetcode.com/problems/number-of-operations-to-make-network-connected/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/number-of-operations-to-make-network-connected.cpp">Editorial</a></td>
+	<td></td>
+</tr>
+<tr>
+	<td align=center>30</td>
+	<td>Remove Element</td>
+	<td><a href="https://leetcode.com/problems/remove-element/ ">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/remove-element/ .cpp">Editorial</a></td>
+	<td></td>
+	<td>Longest Substring Without Repeating Characters</td>
+	<td><a href="longest-substring-without-repeating-characters ">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/ating-characters .cpp">Editorial</a></td>
+	<td></td>
+</tr>
 </table>
