@@ -1,5 +1,5 @@
 // Author: Feyza Sarı
-// Reviewers: Bilgenur Çelik, Denis Davidoğlu
+// Reviewers: Bilgenur Çelik, Denis Davidoglu
 // Question Link: https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 // Sliding Window Algorithm:
