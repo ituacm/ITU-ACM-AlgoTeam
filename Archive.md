@@ -339,12 +339,12 @@
 <tr>
 	<td align=center>30</td>
 	<td>Remove Element</td>
-	<td><a href="https://leetcode.com/problems/remove-element/ ">Link</a></td>
-	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/remove-element/ .cpp">Editorial</a></td>
+	<td><a href="https://leetcode.com/problems/remove-element/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/remove-element.cpp">Editorial</a></td>
 	<td></td>
 	<td>Longest Substring Without Repeating Characters</td>
-	<td><a href="longest-substring-without-repeating-characters ">Link</a></td>
-	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/ating-characters .cpp">Editorial</a></td>
+	<td><a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/longest-substring-without-repeating-characters.cpp">Editorial</a></td>
 	<td></td>
 </tr>
 </table>
