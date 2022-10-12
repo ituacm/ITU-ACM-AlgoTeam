@@ -34,19 +34,15 @@ public:
         
         int zeros = 0, seconds = 0;
         
-        for(int i = 0; i < s.size(); i++)
-        {
-            if(s[i] == '0')
-                zeros++;
+        for (int i = 0; i < s.size(); i++) {
+            if (s[i] == '0') zeros++;
             
             //If there is no zero before '1', we don't need to rearrange numbers
-            else if(s[i] == '1' && zeros != 0)
-            {                 
+            else if (s[i] == '1' && zeros != 0) {                 
                 // If ith value equals 1 and there are zeros before 1, 
                 // assign seconds to maximum of seconds + 1 and zeros
                 seconds = max(seconds+1, zeros);
             }
-            
         }
         
         return seconds;
