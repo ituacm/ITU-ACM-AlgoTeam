@@ -43,33 +43,27 @@ public:
         int whiteBlocks = 0, i;
         
         // We calculate white blocks number of the first substring of length k.
-        for(i = 0; i < k; i++)
-        {
-            if(blocks[i] == 'W')
-                whiteBlocks++;
+        for (i = 0; i < k; i++) {
+            if (blocks[i] == 'W') whiteBlocks++;
         }
         
         // We initalize minOperation with first value of whiteBlocks,
         int minOperation = whiteBlocks;
         
         // Check rest of the string for minimum value. 
-        for(i = k; i < blocks.size(); i++)
-        {
+        for (i = k; i < blocks.size(); i++) {
             // If ith block (last eleman of new substring) is white, increase by one
-            if(blocks[i] == 'W')
-                whiteBlocks++;
+            if (blocks[i] == 'W') whiteBlocks++;
             
             // We should check (i-k)th block because it is no more in the new substring,
             // if it is white we should decrease by one
-            if(blocks[i-k] == 'W')
-                whiteBlocks--;
+            if (blocks[i-k] == 'W') whiteBlocks--;
             
             // If the white block number of new substring is smaller, assign it to minOperation   
             minOperation = min(whiteBlocks, minOperation);
             
             // Since it cannot be less than zero, return 0
-            if(minOperation == 0)
-                return 0;
+            if (minOperation == 0) return 0;
 
         }
         
