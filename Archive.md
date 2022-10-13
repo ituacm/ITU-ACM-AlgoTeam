@@ -328,23 +328,34 @@
 <tr>
 	<td align=center>29</td>
 	<td>Convert Integer to the Sum of Two No-Zero Integers</td>
-	<td><a href="https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/">Link</a></td>
+	<td><a href="https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/convert-integer-to-the-sum-of-two-no-zero-integers.cpp">Editorial</a></td>
 	<td></td>
 	<td>Number of Operations to Make Network Connected</td>
-	<td><a href="https://leetcode.com/problems/number-of-operations-to-make-network-connected/">Link</a></td>
+	<td><a href="https://leetcode.com/problems/number-of-operations-to-make-network-connected">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/number-of-operations-to-make-network-connected.cpp">Editorial</a></td>
 	<td></td>
 </tr>
 <tr>
 	<td align=center>30</td>
 	<td>Remove Element</td>
-	<td><a href="https://leetcode.com/problems/remove-element/">Link</a></td>
+	<td><a href="https://leetcode.com/problems/remove-element">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/remove-element.cpp">Editorial</a></td>
 	<td></td>
 	<td>Longest Substring Without Repeating Characters</td>
-	<td><a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">Link</a></td>
+	<td><a href="https://leetcode.com/problems/longest-substring-without-repeating-characters">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/longest-substring-without-repeating-characters.cpp">Editorial</a></td>
+	<td></td>
+</tr>
+<tr>
+	<td align=center>31</td>
+	<td>Minimum Recolors to Get K Consecutive Black Blocks</td>
+	<td><a href="https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/minimum-recolors-to-get-k-consecutive-black-blocks.cpp">Editorial</a></td>
+	<td></td>
+	<td>Time Needed to Rearrange a Binary String</td>
+	<td><a href="https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/time-needed-to-rearrange-a-binary-string.cpp">Editorial</a></td>
 	<td></td>
 </tr>
 </table>
