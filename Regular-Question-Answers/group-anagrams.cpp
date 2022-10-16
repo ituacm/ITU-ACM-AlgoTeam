@@ -1,6 +1,6 @@
 // Author: Ömer Faruk ERDEM
 // Question Link: https://leetcode.com/problems/group-anagrams/
-// Reviewers : Hacer Akıncı, Novruz Amirov, Denis Davidoglu
+// Reviewers: Hacer Akıncı, Novruz Amirov, Denis Davidoglu
 
 // Time Complexity : O(n)
 // Space Complexity : O(n)
@@ -10,16 +10,16 @@ public:
     /* Function to return anagram groups 
      * Given string vector as an input and function will return the anagrams according their group
      * So, what do we mean by anagram group:
-     * For example if there are words contains same letters but different order then they are anagram.
+     * For example if there are words contains same letters but different order then they are anagram
      * And today we will group them according to their characters
      */
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
         // First create a two dimensional result vector to store anagram groups
         vector<vector<string>> result; 
 
-        /* Now the thing ı am doing here is very important because here ı create a map with pair.
-         * First element of the pair contains string and second element of the pair contains vector of strings.
-         * That allows us to store the strings that has same characters but different order.
+        /* Now the thing I am doing here is very important because here I create a map with pair
+         * First element of the pair contains string and second element of the pair contains vector of strings
+         * That allows us to store the strings that has same characters but different order
          */
         unordered_map<string, vector<string>>  mp;
 
