@@ -4,7 +4,7 @@
 // We will first use preorder traversal to locate the given nodes.
 // While traversing, we will store the path to nodes using a vector.
 // Each time we visit a node, we will push it to the vector.
-// We will pop the vector from the vector when returning from it.
+// We will pop the node from the vector when returning from it.
 // We will save the vector when we encounter one of the nodes we are searching for.
 // Then we will compare the 2 vectors containing paths to locate the LCA.
 
