@@ -60,4 +60,5 @@ https://leetcode.com/problems/validate-binary-search-tree/
 https://leetcode.com/problems/number-of-operations-to-make-network-connected/
 https://leetcode.com/problems/longest-substring-without-repeating-characters/
 https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/
-
+https://leetcode.com/problems/get-maximum-in-generated-array/
+https://leetcode.com/problems/group-anagrams/
