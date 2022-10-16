@@ -1,5 +1,5 @@
 // Author       : Fatih Baskın
-// Reviewer     :
+// Reviewer     : Denis Davidoglu & Rojen Arda Şeşen
 // Question Link: https://leetcode.com/problems/hamming-distance/
 
 /* Hamming distance is the number of different bits between two numbers
