@@ -16,3 +16,7 @@ https://leetcode.com/problems/perfect-number/
 https://leetcode.com/problems/prime-palindrome/
 https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 https://leetcode.com/problems/power-of-three/
+https://leetcode.com/problems/number-of-zero-filled-subarrays/
+https://leetcode.com/problems/slowest-key/
+https://leetcode.com/problems/balance-a-binary-search-tree/
+https://leetcode.com/problems/binary-search/
