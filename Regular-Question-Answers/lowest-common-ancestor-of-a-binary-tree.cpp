@@ -1,4 +1,5 @@
 // Author: Rojen Arda Şeşen
+// Reviewers: Bilge Çelik, Ahmet Furkan Kavraz, Murat Biberoğlu
 // Question Link: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 
 // We will first use preorder traversal to locate the given nodes.
@@ -6,6 +7,8 @@
 // Each time we visit a node, we will push it to the vector.
 // We will pop the node from the vector when returning from it.
 // We will save the vector when we encounter one of the nodes we are searching for.
+// At the end of this process, we will have 2 seperate vectors containing paths to 
+// both of the nodes.
 // Then we will compare the 2 vectors containing paths to locate the LCA.
 
 // Time Complexity -> O(n) where n is the number of nodes in the tree.
