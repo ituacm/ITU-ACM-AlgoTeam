@@ -54,7 +54,7 @@ public:
         traverse(root->left, path, p, q);
         traverse(root->right, path, p, q);
 
-        // Removing the current node from the node.
+        // Removing the current node from the path.
         path.pop_back();
     }
 };
