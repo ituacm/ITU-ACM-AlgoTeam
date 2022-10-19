@@ -358,4 +358,26 @@
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/time-needed-to-rearrange-a-binary-string.cpp">Editorial</a></td>
 	<td></td>
 </tr>
+<tr>
+	<td align=center>32</td>
+	<td>Get Maximum in Generated Array</td>
+	<td><a href="https://leetcode.com/problems/get-maximum-in-generated-array/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/get-maximum-in-generated-array.cpp">Editorial</a></td>
+	<td></td>
+	<td>Group Anagrams</td>
+	<td><a href="https://leetcode.com/problems/group-anagrams/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/group-anagrams.cpp">Editorial</a></td>
+	<td></td>
+</tr>
+<tr>
+	<td align=center>33</td>
+	<td>Lowest Common Ancestor of a Binary Tree</td>
+	<td><a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/lowest-common-ancestor-of-a-binary-tree.cpp">Editorial</a></td>
+	<td></td>
+	<td>Power of Three</td>
+	<td><a href="https://leetcode.com/problems/power-of-three/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/power-of-three.cpp">Editorial</a></td>
+	<td></td>
+</tr>
 </table>
