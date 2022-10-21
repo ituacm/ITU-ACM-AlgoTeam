@@ -1,5 +1,6 @@
 // Author: Novruz Amirov
 // Question Link: https://leetcode.com/problems/find-center-of-star-graph/
+// Reviewers: Ahmet Furkan Kavraz, Emre Çelik, Denis Davidoglu
 
 /*
     Problem Description:
