@@ -1,5 +1,6 @@
-// Novruz Amirov
+// Author: Novruz Amirov
 // Question Link: https://leetcode.com/problems/keys-and-rooms/
+// Reviewers: Ahmet Furkan Kavraz, Emre Çelik, Denis Davidoglu
 
 /*
     Problem Description:
