@@ -1,7 +1,16 @@
+// Author: Emre Çelik
+// Question Link: https://leetcode.com/problems/base-7/
+// Reviewer: Ceren Yaşar
+
+// Time Complexity: O(logn)
+// Memory Complexity: O(1)
+ 
 class Solution {
 public:
     string convertToBase7(int num) {
-        // Returning number to positive if number is negative. 
+        // Taking the absolute value of num because we will operate on its
+        // distance to 0 and then convert it to its actual value, 
+        // which can be positive or negative.
         int n = abs(num);
         // Declaring ans string for our answer.
         string ans = "";
