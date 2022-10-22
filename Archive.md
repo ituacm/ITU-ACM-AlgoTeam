@@ -380,4 +380,15 @@
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/power-of-three.cpp">Editorial</a></td>
 	<td></td>
 </tr>
+<tr>
+	<td align=center>34</td>
+	<td>Base 7</td>
+	<td><a href="https://leetcode.com/problems/base-7/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/base-7.cpp">Editorial</a></td>
+	<td></td>
+	<td>Count Servers that Communicate</td>
+	<td><a href="https://leetcode.com/problems/count-servers-that-communicate/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/count-servers-that-communicate.cpp">Editorial</a></td>
+	<td></td>
+</tr>
 </table>
