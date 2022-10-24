@@ -4,8 +4,8 @@
 <table>
 <tr>
 	<th rowspan=2><b>Sprint</b></td>
-	<th colspan=4><b>Easy Question</b></td>
-	<th colspan=4><b>Medium Question</b></td>
+	<th colspan=3><b>Easy Question</b></td>
+	<th colspan=3><b>Medium Question</b></td>
 	</tr>
 <tr>
 	<th><b>Name</b></td>
