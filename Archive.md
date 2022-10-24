@@ -391,4 +391,15 @@
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/count-servers-that-communicate.cpp">Editorial</a></td>
 	<td></td>
 </tr>
+<tr>
+	<td align=center>35</td>
+	<td>Find Center of Star Graph</td>
+	<td><a href="https://leetcode.com/problems/find-center-of-star-graph/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/find-center-of-star-graph.cpp">Editorial</a></td>
+	<td></td>
+	<td>Keys and Rooms</td>
+	<td><a href="https://leetcode.com/problems/keys-and-rooms/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/keys-and-rooms.cpp">Editorial</a></td>
+	<td></td>
+</tr>
 </table>
