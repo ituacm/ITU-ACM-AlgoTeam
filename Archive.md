@@ -11,8 +11,7 @@
 	<th><b>Name</b></td>
 	<th><b>Link</b></td>
 	<th><b>Editorial</b></td>
-	<th><b>Video</b></td>
-	<th><b>Name</b></td>
+<th><b>Name</b></td>
 	<th><b>Link</b></td>
 	<th><b>Editorial</b></td>
 </tr>
