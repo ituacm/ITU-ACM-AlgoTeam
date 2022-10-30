@@ -339,4 +339,13 @@
 	<td><a href="https://leetcode.com/problems/next-permutation/">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/next-permutation.cpp">Editorial</a></td>
 </tr>
+<tr>
+	<td align=center>37</td>
+	<td>Is Subsequence</td>
+	<td><a href="https://leetcode.com/problems/is-subsequence/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/is-subsequence.cpp">Editorial</a></td>
+	<td>Last Moment Before All Ants Fall Out of a Plank</td>
+	<td><a href="https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/last-moment-before-all-ants-fall-out-of-a-plank.cpp">Editorial</a></td>
+</tr>
 </table>
