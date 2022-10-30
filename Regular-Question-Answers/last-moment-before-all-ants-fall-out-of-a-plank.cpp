@@ -1,6 +1,7 @@
 // Author: Bilgenur Çelik
-// Reviewer: Novruz Amirov, Ömer Faruk Erdem
 // Question Link: https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/
+// Reviewers: Novruz Amirov, Ömer Faruk Erdem, Denis Davidoglu
+
 // Time comp. -> O(n) (n = plank's length)
 // Space comp. -> O(1)
 
@@ -20,12 +21,10 @@ public:
         int time = 0;
 
         // if they're going left they have i units
-        for (int i : left)
-            time = max(time, i);
+        for (int i : left) time = max(time, i);
 
         // if they're going right they have n-i units
-        for (int i : right)
-            time = max(time, n - i);
+        for (int i : right) time = max(time, n - i);
 
         return time;
     }
