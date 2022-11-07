@@ -351,7 +351,7 @@
 <tr>
 	<td align=center>38</td>
 	<td>Hamming Distance</td>
-	<td><a href=" https://leetcode.com/problems/hamming-distance/">Link</a></td>
+	<td><a href="https://leetcode.com/problems/hamming-distance/">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers//hamming-distance.cpp">Editorial</a></td>
 	<td>Recover Binary Search Tree</td>
 	<td><a href="https://leetcode.com/problems/recover-binary-search-tree/">Link</a></td>
