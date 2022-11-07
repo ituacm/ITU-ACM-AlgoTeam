@@ -2,7 +2,7 @@
 // Question Link: https://leetcode.com/problems/merge-intervals/
 // Reviewer: Bilgenur Çelik
 
-// O(n)-time and O(1)-space solution
+// O(nlogn)-time and O(1)-space solution
 
 // We can define a null interval as [-1, -1] because we encounter 
 // only positive values. It will be used to mark deleted intervals.
