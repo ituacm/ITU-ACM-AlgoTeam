@@ -348,4 +348,22 @@
 	<td><a href="https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/last-moment-before-all-ants-fall-out-of-a-plank.cpp">Editorial</a></td>
 </tr>
+<tr>
+	<td align=center>38</td>
+	<td>Hamming Distance</td>
+	<td><a href=" https://leetcode.com/problems/hamming-distance/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers//hamming-distance.cpp">Editorial</a></td>
+	<td>Recover Binary Search Tree</td>
+	<td><a href="https://leetcode.com/problems/recover-binary-search-tree/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/recover-binary-search-tree.cpp">Editorial</a></td>
+</tr>
+<tr>
+	<td align=center>39</td>
+	<td>A Number After a Double Reversal</td>
+	<td><a href="https://leetcode.com/problems/a-number-after-a-double-reversal/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/a-number-after-a-double-reversal.cpp">Editorial</a></td>
+	<td>Merge Intervals</td>
+	<td><a href="https://leetcode.com/problems/merge-intervals/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/merge-intervals.cpp">Editorial</a></td>
+</tr>
 </table>
