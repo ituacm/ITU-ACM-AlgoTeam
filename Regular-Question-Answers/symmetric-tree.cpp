@@ -60,8 +60,7 @@ public:
                     return false;
             }
             // If a and b have different values
-            else
-                return false;
+            else return false;
         }
         // If there occurs no exceptions, the tree is symmetric.
         return true;
