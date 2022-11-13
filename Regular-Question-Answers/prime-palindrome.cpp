@@ -1,10 +1,10 @@
 // Author: Murat Biberoğlu
 // Question Link: https://leetcode.com/problems/prime-palindrome/
+// Reviewers: Fatih Baskın, Feyza Sarı, Denis Davidoglu
 
 class Solution {
    public:
     /**
-     *
      * Theorem: All palindrome numbers that have even number of digits divisible by 11.
      * https://en.wikipedia.org/wiki/Divisibility_rule#11
      *
@@ -13,8 +13,7 @@ class Solution {
      * otherwise we will start n + 1 because primes are odd except 2.
      */
     int primePalindrome(int n) {
-        if (n <= 2)
-            return 2;
+        if (n <= 2) return 2;
         int p = n % 2 ? n : n + 1;
         while (true) {
             // if p is prime and palindrome return true
@@ -39,8 +38,7 @@ class Solution {
     bool isPrime(int num) {
         if (num <= 1 || num % 2 == 0) return false;
         for (int i = 2; i * i <= num; i++)
-            if (num % i == 0)
-                return false;
+            if (num % i == 0) return false;
         return true;
     }
 
@@ -50,8 +48,7 @@ class Solution {
         string s = to_string(num);
         int n = s.length();
         for (int i = 0; i < n / 2; i++)
-            if (s[i] != s[n - 1 - i])
-                return false;
+            if (s[i] != s[n - 1 - i]) return false;
         return true;
     }
 };
