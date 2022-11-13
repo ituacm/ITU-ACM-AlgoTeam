@@ -19,11 +19,11 @@
 </tr>
 <tr>
 	<td align=center>1</td>
-	<td>Maximum Units on a Truck</td>
+	<td>Maximum Units On A Truck</td>
 	<td><a href="https://leetcode.com/problems/maximum-units-on-a-truck/">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/maximum-units-on-a-truck.cpp">Editorial</a></td>
 	<td></td>
-	<td>Search in Rotated Sorted Array Ii</td>
+	<td>Search In Rotated Sorted Array II</td>
 	<td><a href="https://leetcode.com/problems/search-in-rotated-sorted-array-ii">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/search-in-rotated-sorted-array-ii.cpp">Editorial</a></td>
 	<td></td>
@@ -34,7 +34,7 @@
 	<td><a href="https://leetcode.com/problems/palindrome-number">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/palindrome-number.cpp">Editorial</a></td>
 	<td></td>
-	<td>Kth Largest Element in an Array</td>
+	<td>Kth Largest Element In An Array</td>
 	<td><a href="https://leetcode.com/problems/kth-largest-element-in-an-array">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/kth-largest-element-in-an-array.cpp">Editorial</a></td>
 	<td></td>
@@ -45,14 +45,14 @@
 	<td><a href="https://leetcode.com/problems/n-th-tribonacci-number">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/n-th-tribonacci-number.cpp">Editorial</a></td>
 	<td></td>
-	<td>Maximum Xor for Each Query</td>
+	<td>Maximum Xor For Each Query</td>
 	<td><a href="https://leetcode.com/problems/maximum-xor-for-each-query">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/maximum-xor-for-each-query.cpp">Editorial</a></td>
 	<td></td>
 </tr>
 <tr>
 	<td align=center>4</td>
-	<td>Reverse Vowels of a String</td>
+	<td>Reverse Vowels Of A String</td>
 	<td><a href="https://leetcode.com/problems/reverse-vowels-of-a-string">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/reverse-vowels-of-a-string.cpp">Editorial</a></td>
 	<td></td>
@@ -67,7 +67,7 @@
 	<td><a href="https://leetcode.com/problems/add-binary">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/add-binary.cpp">Editorial</a></td>
 	<td></td>
-	<td>Reverse Linked List Ii</td>
+	<td>Reverse Linked List II</td>
 	<td><a href="https://leetcode.com/problems/reverse-linked-list-ii">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/reverse-linked-list-ii.cpp">Editorial</a></td>
 	<td></td>
@@ -107,11 +107,11 @@
 </tr>
 <tr>
 	<td align=center>9</td>
-	<td>Minimum Sum of Four Digit Number After Splitting Digits</td>
+	<td>Minimum Sum Of Four Digit Number After Splitting Digits</td>
 	<td><a href="https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/minimum-sum-of-four-digit-number-after-splitting-digits.cpp">Editorial</a></td>
 	<td></td>
-	<td>Number of Laser Beams in a Bank</td>
+	<td>Number Of Laser Beams In A Bank</td>
 	<td><a href="https://leetcode.com/problems/number-of-laser-beams-in-a-bank">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/number-of-laser-beams-in-a-bank.cpp">Editorial</a></td>
 	<td></td>
@@ -122,25 +122,25 @@
 	<td><a href="https://leetcode.com/problems/valid-parentheses">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/valid-parentheses.cpp">Editorial</a></td>
 	<td></td>
-	<td>Combination Sum Ii</td>
+	<td>Combination Sum II</td>
 	<td><a href="https://leetcode.com/problems/combination-sum-ii">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/combination-sum-ii.cpp">Editorial</a></td>
 	<td></td>
 </tr>
 <tr>
 	<td align=center>11</td>
-	<td>Find All Numbers Disappeared in an Array</td>
+	<td>Find All Numbers Disappeared In An Array</td>
 	<td><a href="https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/find-all-numbers-disappeared-in-an-array.cpp">Editorial</a></td>
 	<td></td>
-	<td>Count Nodes Equal to Average of Subtree</td>
+	<td>Count Nodes Equal To Average Of Subtree</td>
 	<td><a href="https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/count-nodes-equal-to-average-of-subtree.cpp">Editorial</a></td>
 	<td></td>
 </tr>
 <tr>
 	<td align=center>12</td>
-	<td>Convert Sorted Array to Binary Search Tree</td>
+	<td>Convert Sorted Array To Binary Search Tree</td>
 	<td><a href="https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/convert-sorted-array-to-binary-search-tree.cpp">Editorial</a></td>
 	<td></td>
@@ -166,14 +166,14 @@
 	<td><a href="https://leetcode.com/problems/climbing-stairs">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/climbing-stairs.cpp">Editorial</a></td>
 	<td></td>
-	<td>Course Schedule Ii</td>
+	<td>Course Schedule II</td>
 	<td><a href="https://leetcode.com/problems/course-schedule-ii">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/course-schedule-ii.cpp">Editorial</a></td>
 	<td></td>
 </tr>
 <tr>
 	<td align=center>15</td>
-	<td>Find if Path Exists in Graph</td>
+	<td>Find If Path Exists In Graph</td>
 	<td><a href="https://leetcode.com/problems/find-if-path-exists-in-graph">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/find-if-path-exists-in-graph.cpp">Editorial</a></td>
 	<td></td>
@@ -184,22 +184,22 @@
 </tr>
 <tr>
 	<td align=center>16</td>
-	<td>Find the Town Judge</td>
+	<td>Find The Town Judge</td>
 	<td><a href="https://leetcode.com/problems/find-the-town-judge">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/find-the-town-judge.cpp">Editorial</a></td>
 	<td></td>
-	<td>Path with Maximum Probability</td>
+	<td>Path With Maximum Probability</td>
 	<td><a href="https://leetcode.com/problems/path-with-maximum-probability">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/path-with-maximum-probability.cpp">Editorial</a></td>
 	<td></td>
 </tr>
 <tr>
 	<td align=center>17</td>
-	<td>Best Time to Buy and Sell Stock</td>
+	<td>Best Time To Buy And Sell Stock</td>
 	<td><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/best-time-to-buy-and-sell-stock.cpp">Editorial</a></td>
 	<td></td>
-	<td>Best Time to Buy and Sell Stock with Transaction Fee</td>
+	<td>Best Time To Buy And Sell Stock With Transaction Fee</td>
 	<td><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/best-time-to-buy-and-sell-stock-with-transaction-fee.cpp">Editorial</a></td>
 	<td></td>
@@ -217,22 +217,22 @@
 </tr>
 <tr>
 	<td align=center>19</td>
-	<td>Minimum Depth of Binary Tree</td>
+	<td>Minimum Depth Of Binary Tree</td>
 	<td><a href="https://leetcode.com/problems/minimum-depth-of-binary-tree">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/minimum-depth-of-binary-tree.cpp">Editorial</a></td>
 	<td></td>
-	<td>Count Number of Teams</td>
+	<td>Count Number Of Teams</td>
 	<td><a href="https://leetcode.com/problems/count-number-of-teams">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/count-number-of-teams.cpp">Editorial</a></td>
 	<td></td>
 </tr>
 <tr>
 	<td align=center>20</td>
-	<td>Detect Pattern of Length M Repeated K or More Times</td>
+	<td>Detect Pattern Of Length M Repeated K Or More Times</td>
 	<td><a href="https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/detect-pattern-of-length-m-repeated-k-or-more-times.cpp">Editorial</a></td>
 	<td></td>
-	<td>Integer to Roman</td>
+	<td>Integer To Roman</td>
 	<td><a href="https://leetcode.com/problems/integer-to-roman">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/integer-to-roman.cpp">Editorial</a></td>
 	<td></td>
@@ -243,14 +243,14 @@
 	<td><a href="https://leetcode.com/problems/happy-number">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/happy-number.cpp">Editorial</a></td>
 	<td></td>
-	<td>Pairs of Songs with Total Durations Divisible by 60</td>
+	<td>Pairs Of Songs With Total Durations Divisible By 60</td>
 	<td><a href="https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/pairs-of-songs-with-total-durations-divisible-by-60.cpp">Editorial</a></td>
 	<td></td>
 </tr>
 <tr>
 	<td align=center>22</td>
-	<td>Lowest Common Ancestor of a Binary Search Tree</td>
+	<td>Lowest Common Ancestor Of A Binary Search Tree</td>
 	<td><a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/lowest-common-ancestor-of-a-binary-search-tree.cpp">Editorial</a></td>
 	<td></td>
@@ -261,7 +261,7 @@
 </tr>
 <tr>
 	<td align=center>23</td>
-	<td>Roman to Integer</td>
+	<td>Roman To Integer</td>
 	<td><a href="https://leetcode.com/problems/roman-to-integer">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/roman-to-integer.cpp">Editorial</a></td>
 	<td></td>
@@ -272,7 +272,7 @@
 </tr>
 <tr>
 	<td align=center>24</td>
-	<td>Minimum Absolute Difference in Bst</td>
+	<td>Minimum Absolute Difference In Bst</td>
 	<td><a href="https://leetcode.com/problems/minimum-absolute-difference-in-bst">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/minimum-absolute-difference-in-bst.cpp">Editorial</a></td>
 	<td></td>
@@ -294,7 +294,7 @@
 </tr>
 <tr>
 	<td align=center>26</td>
-	<td>Maximum Product of Three Numbers</td>
+	<td>Maximum Product Of Three Numbers</td>
 	<td><a href="https://leetcode.com/problems/maximum-product-of-three-numbers">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/maximum-product-of-three-numbers.cpp">Editorial</a></td>
 	<td></td>
@@ -305,7 +305,7 @@
 </tr>
 <tr>
 	<td align=center>27</td>
-	<td>Most Visited Sector in a Circular Track</td>
+	<td>Most Visited Sector In A Circular Track</td>
 	<td><a href="https://leetcode.com/problems/most-visited-sector-in-a-circular-track">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/most-visited-sector-in-a-circular-track.cpp">Editorial</a></td>
 	<td></td>
@@ -327,11 +327,11 @@
 </tr>
 <tr>
 	<td align=center>29</td>
-	<td>Convert Integer to the Sum of Two No Zero Integers</td>
+	<td>Convert Integer To The Sum Of Two No Zero Integers</td>
 	<td><a href="https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/convert-integer-to-the-sum-of-two-no-zero-integers.cpp">Editorial</a></td>
 	<td></td>
-	<td>Number of Operations to Make Network Connected</td>
+	<td>Number Of Operations To Make Network Connected</td>
 	<td><a href="https://leetcode.com/problems/number-of-operations-to-make-network-connected">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/number-of-operations-to-make-network-connected.cpp">Editorial</a></td>
 	<td></td>
@@ -342,25 +342,25 @@
 	<td><a href="https://leetcode.com/problems/remove-element">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/remove-element.cpp">Editorial</a></td>
 	<td></td>
-	<td>Longest Substring without Repeating Characters</td>
+	<td>Longest Substring Without Repeating Characters</td>
 	<td><a href="https://leetcode.com/problems/longest-substring-without-repeating-characters">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/longest-substring-without-repeating-characters.cpp">Editorial</a></td>
 	<td></td>
 </tr>
 <tr>
 	<td align=center>31</td>
-	<td>Minimum Recolors to Get K Consecutive Black Blocks</td>
+	<td>Minimum Recolors To Get K Consecutive Black Blocks</td>
 	<td><a href="https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/minimum-recolors-to-get-k-consecutive-black-blocks.cpp">Editorial</a></td>
 	<td></td>
-	<td>Time Needed to Rearrange a Binary String</td>
+	<td>Time Needed To Rearrange A Binary String</td>
 	<td><a href="https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/time-needed-to-rearrange-a-binary-string.cpp">Editorial</a></td>
 	<td></td>
 </tr>
 <tr>
 	<td align=center>32</td>
-	<td>Get Maximum in Generated Array</td>
+	<td>Get Maximum In Generated Array</td>
 	<td><a href="https://leetcode.com/problems/get-maximum-in-generated-array/">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/get-maximum-in-generated-array.cpp">Editorial</a></td>
 	<td></td>
@@ -371,11 +371,11 @@
 </tr>
 <tr>
 	<td align=center>33</td>
-	<td>Lowest Common Ancestor of a Binary Tree</td>
+	<td>Lowest Common Ancestor Of A Binary Tree</td>
 	<td><a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/lowest-common-ancestor-of-a-binary-tree.cpp">Editorial</a></td>
 	<td></td>
-	<td>Power of Three</td>
+	<td>Power Of Three</td>
 	<td><a href="https://leetcode.com/problems/power-of-three/">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/power-of-three.cpp">Editorial</a></td>
 	<td></td>
@@ -386,18 +386,18 @@
 	<td><a href="https://leetcode.com/problems/base-7/">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/base-7.cpp">Editorial</a></td>
 	<td></td>
-	<td>Count Servers that Communicate</td>
+	<td>Count Servers That Communicate</td>
 	<td><a href="https://leetcode.com/problems/count-servers-that-communicate/">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/count-servers-that-communicate.cpp">Editorial</a></td>
 	<td></td>
 </tr>
 <tr>
 	<td align=center>35</td>
-	<td>Find Center of Star Graph</td>
+	<td>Find Center Of Star Graph</td>
 	<td><a href="https://leetcode.com/problems/find-center-of-star-graph/">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/find-center-of-star-graph.cpp">Editorial</a></td>
 	<td></td>
-	<td>Keys and Rooms</td>
+	<td>Keys And Rooms</td>
 	<td><a href="https://leetcode.com/problems/keys-and-rooms/">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/keys-and-rooms.cpp">Editorial</a></td>
 	<td></td>
@@ -408,7 +408,7 @@
 	<td><a href="https://leetcode.com/problems/slowest-key/">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/slowest-key.cpp">Editorial</a></td>
 	<td></td>
-	<td>Number of Zero Filled Subarrays</td>
+	<td>Number Of Zero Filled Subarrays</td>
 	<td><a href="https://leetcode.com/problems/number-of-zero-filled-subarrays/">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/number-of-zero-filled-subarrays.cpp">Editorial</a></td>
 	<td></td>
@@ -419,7 +419,7 @@
 	<td><a href="https://leetcode.com/problems/is-subsequence/">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/is-subsequence.cpp">Editorial</a></td>
 	<td></td>
-	<td>Last Moment Before All Ants Fall Out of a Plank</td>
+	<td>Last Moment Before All Ants Fall Out Of A Plank</td>
 	<td><a href="https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/last-moment-before-all-ants-fall-out-of-a-plank.cpp">Editorial</a></td>
 	<td></td>
@@ -437,7 +437,7 @@
 </tr>
 <tr>
 	<td align=center>39</td>
-	<td>a Number After a Double Reversal</td>
+	<td>A Number After A Double Reversal</td>
 	<td><a href="https://leetcode.com/problems/a-number-after-a-double-reversal/">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/a-number-after-a-double-reversal.cpp">Editorial</a></td>
 	<td></td>
@@ -448,7 +448,7 @@
 </tr>
 <tr>
 	<td align=center>40</td>
-	<td>Positions of Large Groups</td>
+	<td>Positions Of Large Groups</td>
 	<td><a href="https://leetcode.com/problems/positions-of-large-groups/">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/positions-of-large-groups.cpp">Editorial</a></td>
 	<td></td>
