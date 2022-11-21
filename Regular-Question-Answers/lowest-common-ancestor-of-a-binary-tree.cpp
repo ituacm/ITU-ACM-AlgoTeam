@@ -1,63 +1,77 @@
-// Author: Rojen Arda Şeşen
-// Reviewers: Bilge Çelik, Ahmet Furkan Kavraz, Murat Biberoğlu
-// Question Link: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
+// Author: Ömer Faruk Erdem
+// Reviewer: 
 
-// We will first use preorder traversal to locate the given nodes.
-// While traversing, we will store the path to nodes using a vector.
-// Each time we visit a node, we will push it to the vector.
-// We will pop the node from the vector when returning from it.
-// We will save the vector when we encounter one of the nodes we are searching for.
-// At the end of this process, we will have 2 seperate vectors containing paths to 
-// both of the nodes.
-// Then we will compare the 2 vectors containing paths to locate the LCA.
+// Time Complexity O(n)
+// Space Complexity O(n)
 
-// Time Complexity -> O(n) where n is the number of nodes in the tree.
-// Space Complexity -> O(k) where k is the depth of the tree, k <= n.
-
+/*
+    * The algorithm here is:
+    * Find parent node of the every node.
+    * Then traverse from node p to root. (Here we can traverse from q to root, it doesn't matter as you will see).
+    * Create a unordered map and assign true to every node's value while traversing from p to root 
+    * Then traverse from q to root.
+    * While traversing if the current nodes unordered map value is 1 return it
+    * The main idea here is we have assigned every node's value to 1 
+    * from q to root at unordered map .That will help us to identify them.
+    * While traversing from p to root first we encounter one of them we will return that node 
+    * Since it is the lowest common ancestor of these two (p and q) nodes.
+*/
 class Solution {
 public:
-    vector<TreeNode*> pathToP, pathToQ;
-    bool foundP = false, foundQ = false;
 
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        vector<TreeNode*> path;
-        TreeNode* LCA = root;	// Lowest Common Ancestor
-        traverse(root, path, p, q);
+        // map for storing the parent nodes of the nodes
+        unordered_map<TreeNode*,TreeNode*> parent; 
+        // Assigning null to parent of root since it has no parent
+        parent[root]=NULL;
 
-        for (int i = 0; i < min(pathToP.size(), pathToQ.size()); i++) {
-            // We loop while the paths are identical and break when we find a disjunction.
-            if (pathToP[i] != pathToQ[i])
-                break;
-            LCA = pathToP[i];
+        // Traverse the tree with depth first manner
+        stack<TreeNode*> dfs;
+        map<TreeNode*,bool> visited;
+        dfs.push(root);
+        visited[root]=true;
+        while(!dfs.empty()){
+            TreeNode* currentNode=dfs.top();
+            dfs.pop();
+                if(currentNode!=NULL){
+                    // If the current node's left or right is not null
+                    // then store that left and right nodes parent as current node
+
+                    // Checking if the node has left or right since we dont want to assign a null pointer's parent as our current node.
+                    if(currentNode->left!=NULL){
+                        dfs.push(currentNode->left);
+                        visited[currentNode->left]=true;
+                        // Assign currentNode's left's parent as currentNode
+                        parent[currentNode->left]=currentNode;
+                    } 
+                    if(currentNode->right!=NULL){
+                        dfs.push(currentNode->right);
+                        visited[currentNode->right]=true;
+                        // Assign currentNode's right's parent as currentNode
+                        parent[currentNode->right]=currentNode;
+                    } 
+                }
+        }
+        
+        
+        // We have completed the DFS and got the parents of every node
+        // Create a map and assign true to every node that is traversed from q to root.
+        unordered_map<TreeNode*,bool> mp;
+        TreeNode* traverse=p;
+        while(traverse){
+            mp[traverse]=true;
+            // Assign node to its parent node for traversing from node to root
+            traverse=parent[traverse];
         }
 
-        return LCA;
-    }
-
-    void traverse(TreeNode* root, vector<TreeNode*>& path, TreeNode* p, TreeNode* q) {
-        if (root == NULL)
-            return;
-        // If both the nodes are found, we don't need to traverse further.
-        if (foundP && foundQ)	
-            return;
-
-        // Adding the current node to the path.
-        path.push_back(root);
-
-        // Copying path if we found one of the nodes.
-        if (foundP == false && root == p) {
-            pathToP = path;	
-            foundP = true;
-        }
-        if (foundQ == false && root == q) {
-            pathToQ = path;
-            foundQ = true;
+        // Traverse from q to root
+        traverse=q;
+        while(traverse){
+            // If the current node is traversed before while traversing from p to root return that node
+            if(mp[traverse]) return traverse;
+            traverse=parent[traverse];
         }
 
-        traverse(root->left, path, p, q);
-        traverse(root->right, path, p, q);
-
-        // Removing the current node from the path.
-        path.pop_back();
+        return root;
     }
 };
