@@ -1,5 +1,6 @@
 // Author: Rojen Arda Şeşen
 // Question Link: https://leetcode.com/problems/network-delay-time/
+// Reviewer: Denis Davidoglu
 
 // This problem is basically a shortest path problem.
 // We will use Dijkstra's Shortest Path algorithm to find the shortest
@@ -44,14 +45,12 @@ public:
             currentNode = closestNode.top().first;
             closestNode.pop();
 
-            if (visited[currentNode])
-                continue;
+            if (visited[currentNode]) continue;
 
             visited[currentNode] = true;
 
             for (auto& v: aList[currentNode]) {
-                if (v.first == currentNode)
-                    continue;
+                if (v.first == currentNode) continue;
 
                 if (dist[v.first] > dist[currentNode] + v.second) {
                     dist[v.first] = dist[currentNode] + v.second;
@@ -62,10 +61,8 @@ public:
 
         long maxDist = 0;
         for (int i = 1; i < n + 1; i++) {
-            if (dist[i] == LONG_MAX)
-                return -1;
-            if (dist[i] > maxDist)
-                maxDist = dist[i];
+            if (dist[i] == LONG_MAX) return -1;
+            if (dist[i] > maxDist) maxDist = dist[i];
         }
 
         return maxDist;
