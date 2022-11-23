@@ -468,4 +468,37 @@
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/prime-palindrome.cpp">Editorial</a></td>
 	<td></td>
 </tr>
+<tr>
+	<td align=center>42</td>
+	<td>Merge Two Sorted Lists</td>
+	<td><a href="https://leetcode.com/problems/merge-two-sorted-lists/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/merge-two-sorted-lists.cpp">Editorial</a></td>
+	<td></td>
+	<td>Subsets</td>
+	<td><a href="https://leetcode.com/problems/subsets/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/subsets.cpp">Editorial</a></td>
+	<td></td>
+</tr>
+<tr>
+	<td align=center>43</td>
+	<td>Minimum Absolute Difference</td>
+	<td><a href="https://leetcode.com/problems/minimum-absolute-difference/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/minimum-absolute-difference.cpp">Editorial</a></td>
+	<td></td>
+	<td>Network Delay Time</td>
+	<td><a href="https://leetcode.com/problems/network-delay-time/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/network-delay-time.cpp">Editorial</a></td>
+	<td></td>
+</tr>
+<tr>
+	<td align=center>44</td>
+	<td>Length Of Last Word</td>
+	<td><a href="https://leetcode.com/problems/length-of-last-word/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/length-of-last-word.cpp">Editorial</a></td>
+	<td></td>
+	<td>Reverse Words In A String</td>
+	<td><a href="https://leetcode.com/problems/reverse-words-in-a-string/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/reverse-words-in-a-string.cpp">Editorial</a></td>
+	<td></td>
+</tr>
 </table>
