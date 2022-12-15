@@ -1,5 +1,6 @@
 // Author: Ceren Yaşar
 // Question Link: https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/
+// Reviewer: Denis Davidoglu
 
 // Time Complexity: O(m * n * log(k))
 // m = nums1.size(), n = nums2.size()
@@ -11,7 +12,7 @@ public:
         priority_queue<pair<int, pair<int, int>>> pq;
         // our max heap will hold {sum, {number1, number2}}, sum denoting number1 + number2.
         // using a max heap, we will compare the top sum value with existing sum value and consequently will find
-        // the k smallest sums at the end of the iterations
+        // the k smallest sums at the end of all iterations
 
         for (int i = 0; i < nums1.size(); i++) {
             for (int j = 0; j < nums2.size(); j++) {
