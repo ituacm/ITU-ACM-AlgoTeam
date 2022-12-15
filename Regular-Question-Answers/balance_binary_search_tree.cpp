@@ -1,5 +1,6 @@
 // Author: Novruz Amirov
 // Question Link: https://leetcode.com/problems/balance-a-binary-search-tree/
+// Reviewers: Emre Çelik, Denis Davidoglu
 
 /**
  * Definition for a binary tree node.
@@ -40,18 +41,14 @@ public:
     // Inorder traverse for adding the elements
     // to the vector in sorted way, so we will
     // not spend additional time for sorting.
-    void inorder(TreeNode* root){ 
-        if(!root) // if root is NULL then stop.
-            return;
+    void inorder(TreeNode* root) { 
+        // if root is NULL then stop.
+        if (!root) return;
         
         // Inorder Traverse: Left, Root, Right.
-        if(root->left) // Left
-            inorder(root->left);
-        
-        sorted_numbers.push_back(root); // Root 
-        
-        if(root->right) // Right
-            inorder(root->right);
+        if(root->left) inorder(root->left);
+        sorted_numbers.push_back(root);
+        if(root->right) inorder(root->right);
         
         // The Time Complexity of Inorder Traverse: O(N).
     }
@@ -59,8 +56,7 @@ public:
     // to create the Balanced Tree from sorted vector.
     TreeNode* balancedRoot(int left, int right){
         // stop condition for binary search:
-        if(left > right) 
-            return NULL;
+        if(left > right) return NULL;
         
         /*
             Example:
@@ -76,7 +72,6 @@ public:
                 time we take the mid, which is half of addition of
                 left and right, for creating the tree.
         */
-        
         
         int mid = (left + right) / 2; 
         TreeNode* root = sorted_numbers[mid]; // the root of the Balanced Tree
