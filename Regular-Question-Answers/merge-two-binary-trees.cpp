@@ -1,5 +1,6 @@
 // Author: Ceren Yaşar
 // Question Link: https://leetcode.com/problems/merge-two-binary-trees/description/
+// Reviewer: Denis Davidoglu
 
 // Time Complexity: O(min(m, n))
 // m, n denote the number of nodes in the trees
