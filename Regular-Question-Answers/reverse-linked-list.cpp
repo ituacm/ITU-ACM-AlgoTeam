@@ -1,20 +1,21 @@
 // Author: Hacer Akıncı
-// Question Link: https://leetcode.com/problems/reverse-linked-list/description/
+// Question Link: https://leetcode.com/problems/reverse-linked-list/
+// Reviewer: Denis Davidoglu
 
 /*
-    To reverse a linked list, we can start from head and keep going until to the end, and reverse the direction of nodes.
+    To reverse a linked list, we can start from head and keep going until the end, and reverse the direction of nodes.
     For this, we need to keep three important nodes; Prev, Curr, Next. For example, we have a linked list like the following.
 
     1 -> 2 -> 3 -> 4 -> 5 -> NULL
     
     In first step, current node is 1, next node of current node is 2 and previous node is NULL
-    because 1 is head and there is no previous node of head.
+    because 1 is the head and there is no previous node of head.
 
     Every step, we change the next node of current node to prev node. So, we reverse the direction, and we get;
 
     NULL <- 1  2 -> 3 -> 4 -> 5 -> NULL 
 
-    If we don't keep the next node of current node (in this step, 2) we cannot get the next node after the reverse operation
+    If we don't keep the next node of current node (in this step, 2), we cannot get the next node after the reverse operation,
     because we lose the connection between current and next node (1 and 2).  
 
     Now for the next step, we should update variables.
@@ -45,9 +46,7 @@ public:
     
     ListNode* reverseList(ListNode* head) {
         // if the linked list is empty, then there is no node to reverse
-        if (head == NULL) {
-            return NULL;
-        }
+        if (head == NULL) return NULL;
 
         // for the head, previous node is NULL
         ListNode* prev = NULL;
