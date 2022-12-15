@@ -1,5 +1,5 @@
 // Author: Murat Biberoğlu
-// Question Link: https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/description/
+// Question Link: https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
 // Reviewer: Denis Davidoglu
 
 class Solution {
