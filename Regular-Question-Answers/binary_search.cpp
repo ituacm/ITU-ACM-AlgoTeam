@@ -1,5 +1,6 @@
 // Author: Novruz Amirov
 // Question Link: https://leetcode.com/problems/binary-search/
+// Reviewers: Emre Çelik, Denis Davidoglu
 
 /*
     Problem Description:
@@ -24,21 +25,23 @@ public:
         
         // the vector will be searched untill, left and right
         // pointer meets in middle.
-        while(left <= right ){ 
+        while (left <= right) { 
             
             // each time mid pointer will be decremented
             // to the size divided by 2, that will cause
             // the time complexity to be log n.
             int mid = (left + right) / 2;
-            if(nums[mid] == target){ 
-                return mid;// if target was found, stop the program.
+            
+            if (nums[mid] == target) { 
+                // if target was found, stop the program.
+                return mid; 
             }
-            else if(nums[mid] > target){
-                // beacuse the vector is sorted, if target is smaller
+            else if (nums[mid] > target) {
+                // because the vector is sorted, if target is smaller
                 // than the mid, then the left part will be searched.
                 right = mid - 1;
             }
-            else{
+            else {
                 // because the vector is sorted, if target is greater 
                 // than the mid, then the right part will be searched.
                 left = mid + 1;
