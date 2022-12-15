@@ -13,8 +13,8 @@ public:
 */
 
 /* The function flatten() is slightly modified by adding parameter "parrent", *
- * which allows to proper relinking. By default it is set to NULL, so that    *
- * it is still callable from main() without any changes.                      */
+ * which allows proper relinking. By default it is set to NULL, so that it is *
+ * still callable from main() without any changes.                            */
 
 class Solution {
 public:
@@ -25,8 +25,9 @@ public:
         Node *tail, *current;
     
         /* Loop where flatten() is called recursively on each node.           *
-         * Tail is also searched here. By the time it is set every other      *
-         * node would be processed by flatten(), ensuring that it is valid.   */
+         * Tail is also searched here. It comes the last, by the time it is   *
+         * set, every other node would have been processed by flatten(),      *
+         * ensuring that it is valid.                                         */
         current = head;
         while (current != NULL) {
             if (current->next == NULL) tail = current;
@@ -38,7 +39,7 @@ public:
          * only on successive calls of flatten(), that is when there is a     *
          * "parrent".                                                         */
         if (parrent != NULL) {
-            // If is required to avoid runtime error
+            // This if block is required to avoid runtime error
             if (parrent->next != NULL) {
                 parrent->next->prev = tail;
                 tail->next = parrent->next;   
