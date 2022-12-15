@@ -1,7 +1,7 @@
 // Author: Denis Davidoglu
 // Question Link: https://leetcode.com/problems/available-captures-for-rook/
 
-/* The following implementation firstly searches for pawn located either    * 
+/* The following implementation firstly searches for pawns located either   * 
  * up, down, left or right of the rook. Afterwards, the found pawns'        *
  * diagonals are checked for having bishops. If there is no bishop on the   * 
  * diagonal, the pawn is counted.                                           */
@@ -14,37 +14,30 @@ public:
         
         // Increasing X and increasing Y diagonal
         for (int i = x; i < 8 && (y+i-x) < 8; i++) {
-            // If there is a bishop on current tile return true
-            if (board[i][y+i-x] == 'b')
-                return true;
+            // If there is a bishop on current tile, return true
+            if (board[i][y+i-x] == 'b') return true;
+                
             /* If current tile is not empty, no bishop further can reach    *
              * the pawn, so loop terminates                                 */
-            if (board[i][y+i-x] != '.')
-                break;
+            if (board[i][y+i-x] != '.') break;
         }
 
         // Decreasing X and decreasing Y diagonal
         for (int i = x; i >= 0 && (y+i-x) >= 0; i--) {
-            if (board[i][y+i-x] == 'b')
-                return true;
-            if (board[i][y+i-x] != '.')
-                break;
+            if (board[i][y+i-x] == 'b') return true;
+            if (board[i][y+i-x] != '.') break;
         }
 
         // Increasing X and decreasing Y diagonal
         for (int i = x; i < 8 && (y-i+x) < 8; i++) {
-            if (board[i][y-i+x] == 'b')
-                return true;
-            if (board[i][y-i+x] != '.')
-                break;
+            if (board[i][y-i+x] == 'b') return true;
+            if (board[i][y-i+x] != '.') break;
         }
 
         // Decreasing X and increasing Y diagonal
         for (int i = x; i >= 0 && (y-i+x) >= 0; i--) {
-            if (board[i][y-i+x] == 'b')
-                return true;
-            if (board[i][y-i+x] != '.')
-                break;
+            if (board[i][y-i+x] == 'b') return true;
+            if (board[i][y-i+x] != '.') break;
         }
         return false;
     }
@@ -71,9 +64,8 @@ public:
                 result += !bishopAtDiagonal(i, rookY, board);
     
             /* If tile is not empty, rook cannot attack anything after it.  * 
-             * Therefore the loop must break.                               */
-            if (board[i][rookY] != '.')
-                break;
+             * Therefore, the loop must break.                              */
+            if (board[i][rookY] != '.') break;
         }
 
         // Decreasing X
@@ -81,17 +73,15 @@ public:
             if (board[i][rookY] == 'p') 
                 result += !bishopAtDiagonal(i, rookY, board);
             
-            if (board[i][rookY] != '.')
-                break;
+            if (board[i][rookY] != '.') break;
         }
 
         // Increasing Y
         for (int j = rookY+1; j < 8; j++) {
             if (board[rookX][j] == 'p')
                 result += !bishopAtDiagonal(rookX, j, board);
-        
-            if (board[rookX][j] != '.')
-                break;
+                
+            if (board[rookX][j] != '.') break;
         }
 
         // Descreasing Y
@@ -99,9 +89,9 @@ public:
             if (board[rookX][j] == 'p')
                 result += !bishopAtDiagonal(rookX, j, board);
         
-            if (board[rookX][j] != '.')
-                break;
+            if (board[rookX][j] != '.') break;
         }
+        
         return result;
     }
 };
