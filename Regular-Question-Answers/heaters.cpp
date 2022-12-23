@@ -1,26 +1,24 @@
 // Author: Bilgenur Çelik
 // Question Link: https://leetcode.com/problems/heaters/
+// Reviewer: Denis Davidoglu
 // Time Comp.: O(nlog(m)) n = houses.size() m = heaters.size()
 
 class Solution {
 public:
     /* With this helper find the closest heater's distance using binary seach.*/
     int helper(int house, vector<int>& heaters, int begin, int end) {
-
         int dist = INT_MAX;
         int mid;
 
-        while(begin < end) {
+        while (begin < end) {
             mid = (begin + end) / 2;
             // check each mid-point's distance.
             dist = min(abs(heaters[mid] - house), dist);
 
             // if closers are on left:
-            if(heaters[mid] > house)
-                end = mid;
+            if (heaters[mid] > house) end = mid;
             // if closers are on right:
-            else
-                begin = mid+1;
+            else begin = mid+1;
         }
 
         return dist;
@@ -34,9 +32,8 @@ public:
         int minRadius = INT_MIN;
 
         // find the closest heater's distance for each house
-        for(int i : houses){
+        for (int i : houses)
             minRadius = max(minRadius, helper(i, heaters, 0, heaters.size()));
-        }
 
         return minRadius;
     }
