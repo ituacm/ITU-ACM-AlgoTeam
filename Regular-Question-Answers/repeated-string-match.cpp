@@ -8,31 +8,35 @@
 class Solution {
 public:
     int repeatedStringMatch(string a, string b) {
-        int count; //We are declaring our answer attribute.
-        if(b.empty()){
-            //Checking for special case and return answer.
+        int count; // We are declaring our answer attribute.
+        
+        // Checking for special case and return answer.
+        if (b.empty()) {
             return 1;
-        } 
-        for(int i = 0, j = 0; j < b.size() && i < a.size(); i++, j = 0){
-            //Catching a string in b string with while loop.
-            while(i < a.size() && a[i] != b[j]){
-                 i++;
-            }
-            int k = i; //Assign our i value to k for protect i value.
-            count = 1; //Reassignin in every loop if there is separation.
-            while(a[k++] == b[j++]){//Check a and b string are equal in loop.
-                if(j == b.size()){
-                    //If we reached last element of b string then return answer.
+        }
+        
+        for (int i = 0; i < a.size(); i++) {
+            // Catching a string in b string with while loop.
+            while (i < a.size() && a[i] != b[0]) i++;
+           
+            int j = 0;
+            int k = i; // Assign our i value to k for protect i value.
+            count = 1; // Reassigning in every loop if there is separation.
+            while (a[k++] == b[j++]) { // Check a and b string are equal in loop.
+                // If we reached last element of b string then return answer.
+                if (j == b.size()) {
                     return count;
                 } 
-                if(k == a.size()){
-                    //If They are equal and a string is done make k is 0 and decrease count by 1.
+                // If they are equal and a string is done make k is 0 and decrease count by 1.    
+                if (k == a.size()) {
                     k = 0; 
                     count++;
                 }
             }
+            if (j > b.size()) break;
         }
-        //If we cant reach last element of b string with equality, return -1.
+        
+        // If we can't reach last element of b string with equality, return -1.
         return -1;
     }
 };
