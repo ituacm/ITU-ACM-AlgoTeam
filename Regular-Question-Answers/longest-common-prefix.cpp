@@ -34,4 +34,3 @@ string longestCommonPrefix(vector<string>& stringArray){
         return answerWord;
     }
 };
-
