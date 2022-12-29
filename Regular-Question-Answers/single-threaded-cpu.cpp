@@ -69,21 +69,3 @@ public:
 
     }
 };
-
-int main() {
-    vector<vector<int>> case1 = {{19,13},{16,9},{21,10},{32,25},{37,4},{49,24},{2,15},{38,41},{37,34},{33,6},{45,4},{18,18},{46,39},{12,24}};
-    vector<vector<int>> case2 = {{7,10},{7,12},{7,5},{7,4},{7,2}};
-    Solution s;
-    
-    vector<int> out1 = s.getOrder(case1);
-    vector<int> out2 = s.getOrder(case2);
-
-    for (auto& i: out1) {
-        cout << i << ' ';
-    }
-    cout << '\n';
-    for (auto& i: out2) {
-        cout << i << ' ';
-    }
-    cout << '\n';
-}
