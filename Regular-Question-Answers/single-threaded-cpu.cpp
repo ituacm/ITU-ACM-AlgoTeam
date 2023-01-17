@@ -1,14 +1,16 @@
 // Author: Rojen Arda Şeşen
 // Question Link: https://leetcode.com/problems/single-threaded-cpu/
+// Reviewer: Denis Davidoglu
 
 // Time Complexity: T(n) <= O(nlogn)
 
-// Overloading parentheses operator of structs to obtain a custom comparators.
+// Overloading parentheses operator of structs to obtain custom comparators.
+
 // Helps to sort tasks by their running times.
 struct CompareRunningTimes {
     bool operator()(const vector<int>& a, const vector<int>& b) {
         if (a[1] == b[1]) {
-            return a[2] > b[2];   // If running times are the same, compare indexes.
+            return a[2] > b[2]; // If running times are the same, compare indexes.
         }
         return a[1] > b[1];
     }
@@ -24,7 +26,6 @@ struct CompareAvailabilityTimes {
 class Solution {
 public:
     vector<int> getOrder(vector<vector<int>>& tasks) {
-
         for (int i = 0; i < tasks.size(); i++) {
             // Adding each task's initial index to itself as a new element.
             // Now, each task's 2nd index shows the task's initial index in the "tasks" array.
@@ -41,7 +42,6 @@ public:
         priority_queue<vector<int>, vector<vector<int>>, CompareRunningTimes> availableTasks;
 
         while (!availableTasks.empty() || index < tasks.size()) {
-
             if (availableTasks.empty() && cpuTime < tasks[index][0]) {
                 // If there are no available tasks, CPU remains idle
                 // -> CPU time keeps getting incremented until a task becomes available.
@@ -66,6 +66,5 @@ public:
         }
 
         return order;
-
     }
 };
