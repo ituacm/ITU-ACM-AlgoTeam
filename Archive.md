@@ -501,4 +501,40 @@
 	<td><a href="https://leetcode.com/problems/repeated-string-match/">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/repeated-string-match.cpp">Editorial</a></td>
 </tr>
+<tr>
+	<td align=center>55</td>
+	<td>Remove Duplicates From Sorted Array</td>
+	<td><a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/remove-duplicates-from-sorted-array.cpp">Editorial</a></td>
+	<td>Unique Binary Search Trees</td>
+	<td><a href="https://leetcode.com/problems/unique-binary-search-trees/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/unique-binary-search-trees.cpp">Editorial</a></td>
+</tr>
+<tr>
+	<td align=center>56</td>
+	<td>Middle Of The Linked List</td>
+	<td><a href="https://leetcode.com/problems/middle-of-the-linked-list/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/middle-of-the-linked-list.cpp">Editorial</a></td>
+	<td>Search Suggestions System</td>
+	<td><a href="https://leetcode.com/problems/search-suggestions-system/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/search-suggestions-system.cpp">Editorial</a></td>
+</tr>
+<tr>
+	<td align=center>57</td>
+	<td>Maximum 69 Number</td>
+	<td><a href="https://leetcode.com/problems/maximum-69-number/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/maximum-69-number.cpp">Editorial</a></td>
+	<td>Is Graph Bipartite</td>
+	<td><a href="https://leetcode.com/problems/is-graph-bipartite/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/is-graph-bipartite.cpp">Editorial</a></td>
+</tr>
+<tr>
+	<td align=center>58</td>
+	<td>Sort The People</td>
+	<td><a href="https://leetcode.com/problems/sort-the-people/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/sort-the-people.cpp">Editorial</a></td>
+	<td>Search A 2D Matrix</td>
+	<td><a href="https://leetcode.com/problems/search-a-2d-matrix/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/search-a-2d-matrix.cpp">Editorial</a></td>
+</tr>
 </table>
