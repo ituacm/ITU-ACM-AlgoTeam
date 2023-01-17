@@ -1,5 +1,6 @@
 // Author: Murat Biberoğlu
 // Question: https://leetcode.com/problems/maximum-69-number/
+// Reviewer: Denis Davidoglu
 
 class Solution {
 public:
@@ -8,21 +9,21 @@ public:
         stack<int> digits;  // LIFO Data Structure
 
         // Put all digits to stack, most significant digit at the top
-        while(num) {
+        while (num) {
             digits.push(num % 10);
             num /= 10;
         }
 
-        // if true, that means we didn't converted a 6 to 9 yet
-        // if false, that means we converted a 6 to 9 
+        // true means we didn't converted a 6 to 9 yet
+        // false means we converted a 6 to 9 
         bool flag = true;
-        while(!digits.empty()) {
+        while (!digits.empty()) {
             int d = digits.top();
             digits.pop();
 
             // if digit is 6 and flag is true then,
             // convert digit to 9 and mark flag as false
-            if(d == 6 && flag) {
+            if (d == 6 && flag) {
                 d = 9;
                 flag = false;
             }
