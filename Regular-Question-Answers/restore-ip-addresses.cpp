@@ -1,7 +1,3 @@
-#include <bits/stdc++.h>
-
-using namespace std;
-
 // Author: Rojen Arda Şeşen
 // Reviewer: 
 // Question Link: https://leetcode.com/problems/restore-ip-addresses/
