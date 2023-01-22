@@ -63,9 +63,3 @@ public:
     }
 
 };
-
-int main() {
-    string in = "0279245587303";
-    Solution s;
-    s.restoreIpAddresses(in);
-}
