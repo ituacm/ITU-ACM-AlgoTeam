@@ -537,4 +537,22 @@
 	<td><a href="https://leetcode.com/problems/search-a-2d-matrix/">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/search-a-2d-matrix.cpp">Editorial</a></td>
 </tr>
+<tr>
+	<td align=center>59</td>
+	<td>Verifying An Alien Dictionary</td>
+	<td><a href="https://leetcode.com/problems/verifying-an-alien-dictionary/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/verifying-an-alien-dictionary.cpp">Editorial</a></td>
+	<td>Array Of Doubled Pairs</td>
+	<td><a href="https://leetcode.com/problems/array-of-doubled-pairs/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/array-of-doubled-pairs.cpp">Editorial</a></td>
+</tr>
+<tr>
+	<td align=center>60</td>
+	<td>Minimum Cost Of Buying Candies With Discount</td>
+	<td><a href="https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/minimum-cost-of-buying-candies-with-discount.cpp">Editorial</a></td>
+	<td>Loud And Rich</td>
+	<td><a href="https://leetcode.com/problems/loud-and-rich/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Regular-Question-Answers/loud-and-rich.cpp">Editorial</a></td>
+</tr>
 </table>
