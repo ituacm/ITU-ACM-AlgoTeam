@@ -29,6 +29,7 @@ public:
         }
         newArr.push_back(make_pair(current, count));
 
+        // Stage 2 & 3
         for (int i = 0; i < newArr.size(); i++) {
             /* Zero is the special case, because when multiplied by 2,  *
              * the result is still zero. If there exists an even number *
