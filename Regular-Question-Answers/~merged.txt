@@ -114,3 +114,7 @@ https://leetcode.com/problems/maximum-69-number/
 https://leetcode.com/problems/is-graph-bipartite/
 https://leetcode.com/problems/sort-the-people/
 https://leetcode.com/problems/search-a-2d-matrix/
+https://leetcode.com/problems/verifying-an-alien-dictionary/
+https://leetcode.com/problems/array-of-doubled-pairs/
+https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/
+https://leetcode.com/problems/loud-and-rich/
