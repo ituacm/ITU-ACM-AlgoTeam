@@ -31,12 +31,12 @@ public:
 
         // Stage 2 & 3
         for (int i = 0; i < newArr.size(); i++) {
-            /* Zero is the special case, because when multiplied by 2,  *
-             * the result is still zero. If there exists an even number *
-             * of zeros such that they are grouped in pairs, there are  *
-             * no problems. Otherwise the result is false.              */
+            /* Zero is a special case, because when multiplied by 2, the*
+             * result is still zero. If there exists an even number of  *
+             * zeros such that they are grouped in pairs, there are no  *
+             * problems. Otherwise the result is false.                 */
             if (newArr[i].first == 0)
-                if (newArr[i].second%2) return false;
+                if (newArr[i].second % 2) return false;
                 else continue;
             
             /* Checking whether the number of occurrences is equal to   *
@@ -75,7 +75,7 @@ public:
         return true;
     }
 
-    // The double (or half) is found using simple binary search.
+    // The double (or half) is found using a simple binary search.
     pair<int,int>* findDoubleOf(int n) {
         int left = 0, right = newArr.size()-1, mid;
 
