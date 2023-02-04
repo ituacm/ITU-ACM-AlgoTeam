@@ -7,5 +7,5 @@ Everyone is welcomed our Algorithm community. We are a bunch of people who loves
 - [algoComp'23](https://algocomp.ituacm.com/)
 - [Bootcamp](https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/docs/2022-SummerTerm.md)
 - [Algo101](https://github.com/ituacm/ITU-ACM-22-23-Algo101)
-- [Problem Solving Sprints](https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/docs/Archive.md)
+- [Problem Solving Sprints](https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/docs/ProblemSolvingSprints.md)
 
