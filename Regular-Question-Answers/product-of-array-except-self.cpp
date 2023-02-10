@@ -10,6 +10,7 @@
  * prefix:  1   1   2   6   24
  * postfix:     24  24  12  4   1  (ex : for 3rd element 6*1)
  */
+
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
