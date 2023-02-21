@@ -16,6 +16,7 @@ public:
                         }
                     }
                 }
+
             And to provide circularity, we can additionally loop through 0 to i-1:
                 for(int i = 0; i < n; i++){
                     for(int j = i+1; j < n; j++){
@@ -33,6 +34,7 @@ public:
                         }
                     }
                 }
+
             Furthermore, we can simplify the code like so:
                 for(int i = 0; i < n; i++){
                     // Loop through exactly n-1 numbers
@@ -43,26 +45,29 @@ public:
                         }
                     }
                 }
+
             But... this is SLOW. As you can see, it performs roughly n^2 operations.
+            Although the constraints allow such a solution, we may seek a more efficient solution!
         */
 
         /*
-            Although the constraints allow such a solution, we can search for a more efficient solution!
-
-            We can think of the following idea: for each element whose next greater number hasn't been found
-            yet, if the current element is larger than that element, then this element what we are looking for.
+            We can think of the following idea: for each element "x" whose next greater number hasn't been found
+            yet, if the current element is larger than x, then the current element is what we are looking for.
 
             So, our first aim is to store the elements whose next greater number hasn't been found yet.
             Let's call our storage "waiting_for_next_greater".
             Notice that if we store the elements with the same order they appear in nums,
-            waiting_for_next_greater is going to be a non-increasing array. Why?
+            waiting_for_next_greater is going to be a non-increasing array.
+
+            Why?
+
             Assume there are two elements in waiting_for_next_greater that violate this condition: x and y.
-            We assumed x < y. But then, we would have actually found the next greater number for x because
+            That is, x < y. But then, we would have actually found the next greater number for x because
             y is already greater than x. So, x can't be inside waiting_for_next_greater.
 
             With that being said, since waiting_for_next_greater is going to be non-increasing, we can
-            traverse waiting_for_next_greater from right to left and as long as the last element inside
-            waiting_for_next_greater is smaller than our current element (which has not been added to waiting_for_next_greater yet),
+            traverse waiting_for_next_greater from right to left. Meanwhile, as long as the last element inside
+            waiting_for_next_greater is smaller than the current element (which has not been added to waiting_for_next_greater yet),
             we assign the current element as the next greater number for the last element, and remove the last element from
             waiting_for_next_greater.
 
@@ -75,6 +80,7 @@ public:
             Since each element is processed at most 2 times (added to and removed from waiting_for_next_greater),
             this algorithm works in O(n)!
             Note that if the while loop in handle_current_element gets executed, it always pops an element.
+            (This is where right-to-left traversal shines!)
             Therefore, we don't make any unnecessary iterations, which guarantees the O(n) complexity.
         */
 
