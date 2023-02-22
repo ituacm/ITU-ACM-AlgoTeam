@@ -1,8 +1,8 @@
 // Author: Rojen Arda Şeşen
-// Reviewer: 
 // Question Link: https://leetcode.com/problems/restore-ip-addresses/
+// Reviewer: Denis Davidoglu
 
-// We're required to split the given string into 4 valid sections. 
+// We are required to split the given string into 4 valid sections. 
 // A section is valid when it's not greater than 255 and does not have
 // a leading 0 except it's 0 (0 is valid, 01 or 012 is not).
 
@@ -35,7 +35,7 @@ public:
         // by 3.
         int maxLen = min(3, static_cast<int> (s.length()) - (nSplits - 1));
 
-        // Looping through the nubmer of digits the first section can have.
+        // Looping through the number of digits the first section can have.
         for (int digits = 1; digits < maxLen + 1; digits++) {
             
             // Creating a substring from s.
@@ -44,10 +44,9 @@ public:
             string remaining(s.begin() + digits, s.end());
 
             // Break if the section is invalid -> greater than 255
-            if (stoi(firstSection) > 255)
-                break;
+            if (stoi(firstSection) > 255) break;
 
-            // Recursively calling splitIP funciton on the lower part
+            // Recursively calling splitIP function on the lower part
             // of s, splitting it into nSplits - 1 parts. After the
             // function returns a list of possible lower sections,
             // iteration over the items and mergeing each with the
@@ -61,5 +60,4 @@ public:
         }
         return possibles;
     }
-
 };
