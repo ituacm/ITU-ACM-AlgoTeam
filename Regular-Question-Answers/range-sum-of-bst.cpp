@@ -1,5 +1,6 @@
 // Author: Ceren Yaşar
 // Question Link: https://leetcode.com/problems/range-sum-of-bst/
+// Reviewer: Denis Davidoglu
 
 // Time Comlplexity: O(N)
 // Space Complexity: O(logN) --> because of the stack memory used by the recursive function 'dfs'.
@@ -24,9 +25,7 @@ class Solution {
     int sum = 0;
 
     void dfs(TreeNode* cursor, int low, int high) {
-        if (cursor == nullptr) {
-            return;
-        }
+        if (cursor == nullptr) return;
 
         if (cursor->val < low) {
             // If the current node has a value less than the lower bound, there is no need to visit its left children since
