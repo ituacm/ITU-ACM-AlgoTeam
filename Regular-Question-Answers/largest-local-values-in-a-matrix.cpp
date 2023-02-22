@@ -1,7 +1,6 @@
 // Author: Rojen Arda Şeşen
-// Reviewer:
 // Question Link: https://leetcode.com/problems/largest-local-values-in-a-matrix/
-
+// Reviewer: Denis Davidoglu
 
 // Simple brute force solution. We iterate over the local element to
 // find the maximum for each entry of maxLocal array.
