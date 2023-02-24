@@ -1,6 +1,13 @@
 // Author: Berke Dönmez
 // Problem Link: https://leetcode.com/problems/next-greater-element-ii/
 
+/*
+    The intended solution uses monotonic stack to solve in O(n).
+
+    However, there exists another O(n * log(n)) solution that utilizes sparse table and binary search.
+    We shared it as a bonus solution below the actual solution. It isn't explained though :P
+*/
+
 class Solution {
 public:
     vector<int> nextGreaterElements(vector<int> &nums) {
@@ -120,6 +127,58 @@ public:
             handle_current_element(nums[i]);
         }
 
+        return next_greater;
+    }
+};
+
+/*
+    Bonus O(n * log(n)) solution: sparse table & binary search!
+*/
+class Solution {
+public:
+    vector<int> nextGreaterElements(vector<int> &nums) {
+        int n = nums.size();
+        const int LG = log2(n) + 2;
+        int range_max[n][LG];
+        for (int i = 0; i < n; i++)
+            range_max[i][0] = nums[i];
+        for (int j = 1; j < LG; j++) {
+            for (int i = 0; i < n; i++) {
+                int r = min(n - 1, i + (1 << (j - 1)));
+                range_max[i][j] = max(range_max[i][j - 1], range_max[r][j - 1]);
+            }
+        }
+
+        auto find_max = [&](int l, int r) {
+            int range_length = r - l + 1;
+            int lg = log2(range_length);
+            return max(range_max[l][lg], range_max[r - (1 << lg) + 1][lg]);
+        };
+
+        auto find_index_of_first_greater = [&](int lower_bound, int l, int r) {
+            int left = l;
+            while (l < r) {
+                int mid = (l + r) / 2;
+                int mx = find_max(left, mid);
+                if (mx > lower_bound)
+                    r = mid;
+                else
+                    l = mid + 1;
+            }
+            return l;
+        };
+
+        vector<int> next_greater(n, -1);
+        for (int i = 0; i < n; i++) {
+            int next_greater_idx = find_index_of_first_greater(nums[i], i, n);
+            if (next_greater_idx == n) {
+                next_greater_idx = find_index_of_first_greater(nums[i], 0, i);
+                if (next_greater_idx == i)
+                    next_greater_idx = -1;
+            }
+            if (next_greater_idx != -1)
+                next_greater[i] = nums[next_greater_idx];
+        }
         return next_greater;
     }
 };
