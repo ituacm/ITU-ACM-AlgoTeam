@@ -1,11 +1,12 @@
 // Author: Berke Dönmez
 // Problem Link: https://leetcode.com/problems/range-addition-ii/
+// Reviewer: Denis Davidoglu
 
 class Solution {
 public:
     int maxCount(int m, int n, vector<vector<int>> &ops) {
         /*
-            Notice that every operation affects the top left cell (matrix[0][0]), so, this cell will
+            Notice that every operation affects the top left cell (matrix[0][0]), so this cell will
             contain the maximum integer.
             Therefore, the problem actually boils down to finding the number of cells
             that get incremented after every operation, just like matrix[0][0].
@@ -23,7 +24,7 @@ public:
                 x <= min(a_i)
                 y <= min(b_i)
 
-            We actually solved the problem now :D
+            We actually solved the problem by now :D
             Just find the minimums of a_i and b_i. The number of (x, y)'s will then be the product.
         */
 
