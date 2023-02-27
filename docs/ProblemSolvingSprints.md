@@ -591,4 +591,13 @@
 	<td><a href="https://leetcode.com/problems/jump-game-ii/">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/jump-game-ii.cpp">Editorial</a></td>
 </tr>
+<tr>
+	<td align=center>65</td>
+	<td>Range Addition Ii</td>
+	<td><a href="https://leetcode.com/problems/range-addition-ii/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/range-addition-ii.cpp">Editorial</a></td>
+	<td>Next Greater Element Ii</td>
+	<td><a href="https://leetcode.com/problems/next-greater-element-ii/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/next-greater-element-ii.cpp">Editorial</a></td>
+</tr>
 </table>
