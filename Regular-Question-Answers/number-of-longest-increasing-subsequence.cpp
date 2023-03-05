@@ -1,5 +1,6 @@
 // Author: Berke Dönmez
 // Problem Link: https://leetcode.com/problems/number-of-longest-increasing-subsequence/
+// Reviewer: Denis Davidoglu
 
 class Solution {
 public:
@@ -34,8 +35,7 @@ public:
 
                     Write the opposite condition and continue if it holds.
                 */
-                if (nums[i] <= nums[j])
-                    continue;
+                if (nums[i] <= nums[j]) continue;
 
                 int candidate_lis_length = lis_length[j] + 1;
                 if (lis_length[i] < candidate_lis_length) {
@@ -52,10 +52,10 @@ public:
             Finally, we should re-iterate over all positions because each can be the ending position of a LIS.
             For instance, think about nums = [1, 1, 1].
         */
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++)
             if (max_lis_length == lis_length[i])
                 ans += number_of_lis[i];
-        }
+
         return ans;
     }
 };
