@@ -1,6 +1,7 @@
-// Author: Novruz Amirov
 // ITU ACM AlgoTeam
+// Author: Novruz Amirov
 // Question link: https://leetcode.com/problems/partition-labels/
+// Reviewer: Denis Davidoglu
 
 class Solution {
 public:
@@ -17,9 +18,8 @@ public:
     vector<int> partitionLabels(string s) {
         // creating unordered map to store the last index of each character.
         unordered_map<char, int> lastIndex;
-        for (int i = 0; i < s.length(); i++) {
+        for (int i = 0; i < s.length(); i++)
             lastIndex[s[i]] = i;
-        }
 
         // the vector to return the size of each substring
         vector<int> partitionLengths;
@@ -35,7 +35,7 @@ public:
             }
         }
 
-        return partitionLengths; // return the result
+        return partitionLengths;
         /*
             Overall Time Complexity: O(N + N) = O(N)
             Space Complexity: O(1)
