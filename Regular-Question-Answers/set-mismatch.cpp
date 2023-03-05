@@ -1,5 +1,6 @@
 // Author: Berke Dönmez
 // Problem Link: https://leetcode.com/problems/set-mismatch/
+// Reviewer: Denis Davidoglu
 
 /*
     I've prepared two different solutions.
@@ -27,12 +28,11 @@ public:
         */
         int n = nums.size();
         int duplicate = -1;
-        for (int i = 1; i < n; i++) {
+        for (int i = 1; i < n; i++)
             if (nums[i] == nums[i - 1]) {
                 duplicate = nums[i];
                 break;
             }
-        }
 
         /*
             Now, how to find the missing number?
@@ -57,13 +57,13 @@ public:
 
         /*
         vector<int> occurrences(n+1);
-        for(int num: nums){
+        for (int num: nums)
             occurrences[num]++;
-        }
+            
         int duplicate, missing;
-        for(int i = 1; i <= n; i++){
-            if(!occurrences[i]) missing = i;
-            if(occurrences[i] == 2) duplicate = i;
+        for (int i = 1; i <= n; i++) {
+            if (!occurrences[i]) missing = i;
+            if (occurrences[i] == 2) duplicate = i;
         }
         */
 
