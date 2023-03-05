@@ -1,5 +1,6 @@
 // Author: Bilgenur Çelik
 // Question Link: https://leetcode.com/problems/product-of-array-except-self/
+// Reviewer: Denis Davidoglu
 
 /*
  * For each element try to find the product of all elements except itself.
@@ -18,13 +19,13 @@ public:
         vector<int> prefix(sz+1, 1);
         vector<int> postfix(sz+1, 1);
 
-        for (int i=0; i<sz; i++) {
+        for (int i = 0; i < sz; i++) {
             prefix[i+1] = nums[i]*prefix[i];
             postfix[sz-i-1] = postfix[sz-i] * nums[sz-i-1];
         }
 
         vector<int> products(sz);
-        for (int i=0; i<sz; i++) {
+        for (int i = 0; i < sz; i++) {
             products[i] = prefix[i] * postfix[i+1];
         }
 
@@ -54,12 +55,12 @@ public:
         vector<int> products(sz);
 
         int num = 1;
-        for (int i=0; i<sz; i++) {
+        for (int i = 0; i < sz; i++) {
             products[i] = num;
             num *= nums[i];
         }
         num = 1;
-        for (int i=0; i<sz; i++) {
+        for (int i = 0; i < sz; i++) {
             products[sz-i-1] *= num;
             num *= nums[sz-i-1];
         }
