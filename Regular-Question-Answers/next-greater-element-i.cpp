@@ -1,5 +1,6 @@
 // Author: Bilgenur Çelik
 // Question Link: https://leetcode.com/problems/next-greater-element-i/
+// Reviewer: Denis Davidoglu
 
 /*
  * This question is a simple monotonic decreasing stack implementation.
@@ -9,7 +10,7 @@
  *
  * 5 4 6 3 1 2
  * 5-4 is in stack
- * 6 is grater than both thus 5 and 4 will be popped and mapped as 6
+ * 6 is greater than both thus 5 and 4 will be popped and mapped as 6
  * 6-3-1 will be in stack
  * 2 will make 1 popped and mapped as 2.
  *
