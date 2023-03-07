@@ -555,4 +555,76 @@
 	<td><a href="https://leetcode.com/problems/loud-and-rich/">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/loud-and-rich.cpp">Editorial</a></td>
 </tr>
+<tr>
+	<td align=center>61</td>
+	<td>Richest Customer Wealth</td>
+	<td><a href="https://leetcode.com/problems/richest-customer-wealth/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/richest-customer-wealth.cpp">Editorial</a></td>
+	<td>Single Threaded Cpu</td>
+	<td><a href="https://leetcode.com/problems/single-threaded-cpu/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/single-threaded-cpu.cpp">Editorial</a></td>
+</tr>
+<tr>
+	<td align=center>62</td>
+	<td>Unique Email Addresses</td>
+	<td><a href="https://leetcode.com/problems/unique-email-addresses/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/unique-email-addresses.cpp">Editorial</a></td>
+	<td>Course Schedule</td>
+	<td><a href="https://leetcode.com/problems/course-schedule/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/course-schedule.cpp">Editorial</a></td>
+</tr>
+<tr>
+	<td align=center>63</td>
+	<td>The Employee That Worked On The Longest Task</td>
+	<td><a href="https://leetcode.com/problems/the-employee-that-worked-on-the-longest-task/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/the-employee-that-worked-on-the-longest-task.cpp">Editorial</a></td>
+	<td>Find The Original Array Of Prefix Xor</td>
+	<td><a href="https://leetcode.com/problems/find-the-original-array-of-prefix-xor/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/find-the-original-array-of-prefix-xor.cpp">Editorial</a></td>
+</tr>
+<tr>
+	<td align=center>64</td>
+	<td>Range Sum Of Bst</td>
+	<td><a href="https://leetcode.com/problems/range-sum-of-bst/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/range-sum-of-bst.cpp">Editorial</a></td>
+	<td>Jump Game Ii</td>
+	<td><a href="https://leetcode.com/problems/jump-game-ii/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/jump-game-ii.cpp">Editorial</a></td>
+</tr>
+<tr>
+	<td align=center>65</td>
+	<td>Range Addition Ii</td>
+	<td><a href="https://leetcode.com/problems/range-addition-ii/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/range-addition-ii.cpp">Editorial</a></td>
+	<td>Next Greater Element Ii</td>
+	<td><a href="https://leetcode.com/problems/next-greater-element-ii/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/next-greater-element-ii.cpp">Editorial</a></td>
+</tr>
+<tr>
+	<td align=center>66</td>
+	<td>Next Greater Element I</td>
+	<td><a href="https://leetcode.com/problems/next-greater-element-i/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/next-greater-element-i.cpp">Editorial</a></td>
+	<td>Product Of Array Except Self</td>
+	<td><a href="https://leetcode.com/problems/product-of-array-except-self/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/product-of-array-except-self.cpp">Editorial</a></td>
+</tr>
+<tr>
+	<td align=center>67</td>
+	<td>Set Mismatch</td>
+	<td><a href="https://leetcode.com/problems/set-mismatch/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/set-mismatch.cpp">Editorial</a></td>
+	<td>Number Of Longest Increasing Subsequence</td>
+	<td><a href="https://leetcode.com/problems/number-of-longest-increasing-subsequence/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/number-of-longest-increasing-subsequence.cpp">Editorial</a></td>
+</tr>
+<tr>
+	<td align=center>68</td>
+	<td>Search Insert Position</td>
+	<td><a href="https://leetcode.com/problems/search-insert-position/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/search-insert-position.cpp">Editorial</a></td>
+	<td>Partition Labels</td>
+	<td><a href="https://leetcode.com/problems/partition-labels/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/partition-labels.cpp">Editorial</a></td>
+</tr>
 </table>
