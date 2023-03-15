@@ -1,5 +1,6 @@
 // Author: Berke Dönmez
 // Problem Link: https://leetcode.com/problems/minimum-size-subarray-sum/
+// Reviewer: Denis Davidoglu
 
 /*
     Solution 1: O(n)
@@ -42,9 +43,8 @@ public:
                 While the sum without the leftmost element in the subarray isn't less than the target,
                 increment l. This minimizes the subarray length ending at r.
             */
-            while (sum - nums[l] >= target) {
+            while (sum - nums[l] >= target)
                 sum -= nums[l++]; // We used post-increment: first use the current value, then increment.
-            }
 
             // Whether sum is greater than or equal to the target should be checked.
             // For each r, we update the answer if it needs to be updated.
@@ -53,8 +53,7 @@ public:
         }
 
         // Here is how we check whether there exists any subarray!
-        if (ans > n)
-            ans = 0;
+        if (ans > n) ans = 0;
 
         return ans;
     }
@@ -108,15 +107,14 @@ public:
             target_index--; // Now it's the largest j s.t. prefix_sum[j] <= target_to_subtract.
 
             /*
-                However, there might not be any suitable j. This can happen when prefix_sum[i+1] itself is smallar than the target.
+                However, there might not be any suitable j. This can happen when prefix_sum[i+1] itself is smaller than the target.
                 In this case, we'll have target_index = -1.
                 I left the "why" part to you. Figure it out yourselves! :)
             */
             if (target_index >= 0)
                 ans = min(ans, i + 1 - target_index);
         }
-        if (ans > n)
-            ans = 0;
+        if (ans > n) ans = 0;
         return ans;
     }
 };
