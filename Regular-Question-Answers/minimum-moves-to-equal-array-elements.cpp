@@ -1,5 +1,6 @@
 // Author: Berke Dönmez
 // Problem Link: https://leetcode.com/problems/minimum-moves-to-equal-array-elements/
+// Reviewer: Denis Davidoglu
 
 /*
     Solution: O(n) (n = nums.length)
@@ -30,16 +31,15 @@ public:
 
             You can also use a single loop to find the minimum value:
                 int minimum_value = nums[0];
-                for(int num: nums){
+                for (int num: nums)
                     minimum_value = min(minimum_value, num);
-                }
         */
         int minimum_value = *min_element(nums.begin(), nums.end());
         int ans = 0;
-        for (int num : nums) {
+        for (int num : nums)
             // It always holds that num >= minimum_value, no need to use abs.
             ans += num - minimum_value;
-        }
+
         return ans;
     }
 };
