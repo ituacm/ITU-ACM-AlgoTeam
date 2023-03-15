@@ -627,4 +627,31 @@
 	<td><a href="https://leetcode.com/problems/partition-labels/">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/partition-labels.cpp">Editorial</a></td>
 </tr>
+<tr>
+	<td align=center>69</td>
+	<td>Arranging Coins</td>
+	<td><a href="https://leetcode.com/problems/arranging-coins/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/arranging-coins.cpp">Editorial</a></td>
+	<td>Minimum Size Subarray Sum</td>
+	<td><a href="https://leetcode.com/problems/minimum-size-subarray-sum/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/minimum-size-subarray-sum.cpp">Editorial</a></td>
+</tr>
+<tr>
+	<td align=center>70</td>
+	<td>Add Digits</td>
+	<td><a href="https://leetcode.com/problems/add-digits/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/add-digits.cpp">Editorial</a></td>
+	<td>Swap Nodes In Pairs</td>
+	<td><a href="https://leetcode.com/problems/swap-nodes-in-pairs/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/swap-nodes-in-pairs.cpp">Editorial</a></td>
+</tr>
+<tr>
+	<td align=center>71</td>
+	<td>Check If All The Integers In A Range Are Covered</td>
+	<td><a href="https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/check-if-all-the-integers-in-a-range-are-covered.cpp">Editorial</a></td>
+	<td>Minimum Moves To Equal Array Elements</td>
+	<td><a href="https://leetcode.com/problems/minimum-moves-to-equal-array-elements/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/minimum-moves-to-equal-array-elements.cpp">Editorial</a></td>
+</tr>
 </table>
