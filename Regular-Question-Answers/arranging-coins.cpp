@@ -1,5 +1,6 @@
 // Author: Berke Dönmez
 // Problem Link: https://leetcode.com/problems/arranging-coins/
+// Reviewer: Denis Davidoglu
 
 /*
     We want to find the max n_rows such that,
@@ -33,7 +34,7 @@ public:
             Another option is to cast with (ll): (ll) n_rows * (n_rows + 1) / 2.
             Anyway, I prefer 1ll :)
         */
-        while (1ll * n_rows * (n_rows + 1) / 2 <= n)
+        while (1ll * n_rows * (n_rows + 1) / 2 <= n) 
             n_rows++;
 
         /*
@@ -87,11 +88,10 @@ public:
                 You may also use (l + r) / 2 + 1.
             */
             int n_rows = ((long long)l + r + 1) / 2; // cast to long long to avoid overflow!
-            if (1ll * n_rows * (n_rows + 1) / 2 <= n) {
+            if (1ll * n_rows * (n_rows + 1) / 2 <= n)
                 l = n_rows;
-            } else {
+            else
                 r = n_rows - 1;
-            }
         }
 
         return l;
@@ -105,7 +105,7 @@ public:
         n_rows * (n_rows + 1) <= 2n
 
     This implies n_rows is somewhat close to sqrt(2n).
-    Just check the neighboring values to find the actual answer.
+    Just check the neighbouring values to find the actual answer.
 */
 class Solution {
 public:
