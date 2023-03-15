@@ -1,5 +1,6 @@
 // Author: Berke Dönmez
 // Problem Link: https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/
+// Reviewer: Denis Davidoglu
 
 /*
     Solution 1: O(N * right) where N = ranges.length
@@ -8,8 +9,8 @@
     at least one range. Initially, every integer is uncovered, that is, is_covered[i] = false.
 
     Then, for every range [start, end], we can mark points within the range as covered.
-    To optimize a bit, we can start marking from max(start, left) and end at min(right, end) because
-    we don't care about any integer outside [left, right].
+    To optimize a bit, we can start marking from max(start, left) and end at min(right, end), 
+    because we don't care about any integer outside [left, right].
     For every range, this takes at most "right - left + 1" number of operations, hence the time complexity.
 
     After taking care of ranges, we can check whether any integer within [left, right] remained uncovered.
@@ -42,8 +43,7 @@ public:
 
         // Check whether any integer within [left, right] remained uncovered.
         for (int cur = left; cur <= right; cur++)
-            if (!is_covered[cur])
-                return false;
+            if (!is_covered[cur]) return false;
         return true;
     }
 };
@@ -103,8 +103,7 @@ public:
         */
         for (int i = 1; i <= right; i++) {
             cur_n_ranges += n_ranges_covering[i];
-            if (left <= i && !cur_n_ranges)
-                return false;
+            if (left <= i && !cur_n_ranges) return false;
         }
         return true;
     }
