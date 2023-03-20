@@ -134,3 +134,9 @@ https://leetcode.com/problems/set-mismatch/
 https://leetcode.com/problems/number-of-longest-increasing-subsequence/
 https://leetcode.com/problems/search-insert-position/
 https://leetcode.com/problems/partition-labels/
+https://leetcode.com/problems/arranging-coins/
+https://leetcode.com/problems/minimum-size-subarray-sum/
+https://leetcode.com/problems/add-digits/
+https://leetcode.com/problems/swap-nodes-in-pairs/
+https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/
+https://leetcode.com/problems/minimum-moves-to-equal-array-elements/
