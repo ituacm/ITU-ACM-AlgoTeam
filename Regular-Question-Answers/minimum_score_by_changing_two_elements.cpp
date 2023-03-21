@@ -1,14 +1,15 @@
 // Author : Ömer Faruk Erdem
 // Question Link: https://leetcode.com/problems/minimum-score-by-changing-two-elements/
+// Reviewer: Denis Davidoglu
 
 // Time Complexity :  O(nlogn)
 // Space Complexity : O(1)
 
 /*
     * We are given three definitions. We need to understand them clearly to solve the question.
-    * Low score is the minimum difference between any pair of  element in the array.
-    * High score is the maximum difference between any pair of  element in the array.
-    * In the other words, if we sort the array, high score is the substraction of last element from first element.
+    * Low score is the minimum difference between any pair of element in the array.
+    * High score is the maximum difference between any pair of element in the array.
+    * In the other words, if we sort the array, high score is the subtraction of last element from first element.
     * And score is the summation of low and high score.
 */
 class Solution {
@@ -22,7 +23,7 @@ public:
             
             we will have something like that
 
-            Main idea here is to putting the elements of the array in a as small range as possible by changing only two elements  
+            Main idea here is putting the elements of the array in a range as small as possible by changing only two elements  
             So that high score will be minimized.
             And low score will be minimized also. By making it 0.
             If we make one of the two elements equal to another element in the array, low score will be '0'
@@ -38,7 +39,7 @@ public:
         */
 
         // Sort the array
-        sort(nums.begin(),nums.end() );
+        sort(nums.begin(), nums.end());
         
         // Calculate the values of high score by the intervals.
         int n1 = nums[n-3]-nums[0];
@@ -47,6 +48,6 @@ public:
         
         // Return the minimum high score among these three.
         // Low range can be 0 because we can make one of the removed numbers equal to the another number in the range.
-        return min( n1 , min (n2, n3) );
+        return min(n1 , min(n2, n3));
     }
 };
