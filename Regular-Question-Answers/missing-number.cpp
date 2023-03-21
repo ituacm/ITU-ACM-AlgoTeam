@@ -1,5 +1,6 @@
-// Author : Ömer Faruk Erdem
+// Author: Ömer Faruk Erdem
 // Question Link: https://leetcode.com/problems/missing-number/
+// Reviewer: Denis Davidoglu
 
 // Time Complexity :  O(n)
 // Space Complexity : O(1)
@@ -23,9 +24,7 @@ public:
         int real = 0 ;
 
         // Get the summation of all integers in the vector
-        for(int x : nums){
-            real += x;
-        } 
+        for (int x : nums) real += x;
 
         return expected - real;
     }
