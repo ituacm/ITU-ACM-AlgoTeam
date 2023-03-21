@@ -16,6 +16,24 @@
 	<th><b>Editorial</b></th>
 	</tr>
 <tr>
+	<td align=center>73</td>
+	<td>Remove One Element To Make The Array Strictly Increasing</td>
+	<td><a href="https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/remove-one-element-to-make-the-array-strictly-increasing.cpp">Editorial</a></td>
+	<td>Maximum Area Of A Piece Of Cake After Horizontal And Vertical Cuts</td>
+	<td><a href="https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts.cpp">Editorial</a></td>
+</tr>
+<tr>
+	<td align=center>72</td>
+	<td>Missing Number</td>
+	<td><a href="https://leetcode.com/problems/missing-number/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/missing-number.cpp">Editorial</a></td>
+	<td>Minimum Score By Changing Two Elements</td>
+	<td><a href="https://leetcode.com/problems/minimum-score-by-changing-two-elements/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/minimum-score-by-changing-two-elements.cpp">Editorial</a></td>
+</tr>
+<tr>
 	<td align=center>71</td>
 	<td>Check If All The Integers In A Range Are Covered</td>
 	<td><a href="https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/">Link</a></td>
