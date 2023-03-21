@@ -1,5 +1,6 @@
 // Author: Berke Dönmez
 // Problem Link: https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/
+// Reviewer: Denis Davidoglu
 
 /*
     Solution: O(n * log(n) + m * log(m)) (n = horizontalCuts.length, m = verticalCuts.length)
@@ -8,7 +9,8 @@
     Two cuts are considered consecutive if there is no other cut in between.
     So, there are (n+1) * (m+1) pieces of cake.
 
-    To maximize the piece's area, we can focus on finding the maximum difference between every two consecutive cuts (separately for both directions). Then, the answer will be the product of the two maximum differences (one for vertical, one for horizontal).
+    To maximize the piece's area, we can focus on finding the maximum difference between every two consecutive cuts (separately for both directions). 
+    Then, the answer will be the product of the two maximum differences (one for vertical, one for horizontal).
 
     However, the initial orders of cuts (the input orders) aren't necessarily increasing/decreasing, which is why we should first sort them.
     Hence the complexity.
@@ -17,9 +19,8 @@ class Solution {
 public:
     int maxConsecutiveDiff(vector<int> &cuts) {
         int max_diff = 0;
-        for (int i = 1; i < cuts.size(); i++) {
+        for (int i = 1; i < cuts.size(); i++)
             max_diff = max(max_diff, cuts[i] - cuts[i - 1]);
-        }
         return max_diff;
     }
     int maxArea(int h, int w, vector<int> &horizontalCuts, vector<int> &verticalCuts) {
