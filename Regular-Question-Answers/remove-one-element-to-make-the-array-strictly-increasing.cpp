@@ -1,5 +1,6 @@
 // Author: Berke Dönmez
 // Problem Link: https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/
+// Reviewer: Denis Davidoglu
 
 /*
     Solution 1: O(n^2) (n = nums.length)
@@ -135,33 +136,31 @@ public:
             For the prefix until the i-th element to be strictly increasing, the prefix until the (i-1)-th element should be strictly increasing,
             and the (i-1)-th element should be smaller than the i-th element.
         */
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++)
             /*
                 (Regarding the expression "i ? nums[i] > nums[i-1] : true")
                 If i != 0, then the previous element exists. The condition should be nums[i] > nums[i-1].
                 Otherwise, we should take "true" as there's nothing else to violate.
             */
             is_increasing_prefix[i + 1] = is_increasing_prefix[i] && (i ? nums[i] > nums[i - 1] : true);
-        }
 
         /*
             Recall!
             Similarly, for the suffix starting from the i-th element to be strictly increasing, the suffix starting from the (i+1)-th element should be strictly increasing,
             and the i-th element should be smaller than the (i+1)-th element.
         */
-        for (int i = n - 1; i >= 0; i--) {
+        for (int i = n - 1; i >= 0; i--)
             /*
                 (Regarding the expression "i+1 < n ? nums[i] < nums[i+1] : true")
                 If i+1 < n, then the next element exists. The condition should be nums[i] < nums[i+1].
                 Otherwise, we should take "true" as there's nothing else to violate.
             */
             is_increasing_suffix[i] = is_increasing_suffix[i + 1] && (i + 1 < n ? nums[i] < nums[i + 1] : true);
-        }
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++)
             if (isIncreasingAfterRemoval(i))
                 return true;
-        }
+
         return false;
     }
 };
