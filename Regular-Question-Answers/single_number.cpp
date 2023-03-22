@@ -16,7 +16,7 @@ public:
         // Same numbers are located at 2*i'th and 2*i + 1'th indexes, i < n / 2.
         // Single number will break this trend, so we will look for this trend breaker.
 
-        // Sorting operation takes log(n) time and checking for single number takes n/2 time, so complexity is O(log(n)).
+        // Sorting operation takes nlog(n) time and checking for single number takes n/2 time, so complexity is O(nlog(n)).
 
         // Edge case, nums have only 1 element.
         if (nums.size() == 1)
