@@ -1,6 +1,6 @@
 // Author: Fatih Baskın
-// Reviewer:
 // Question Link: https://leetcode.com/problems/reverse-integer/
+// Reviewer: Denis Davidoglu
 
 class Solution
 {
@@ -28,20 +28,16 @@ public:
         // This shifting and modulo operations will occur log10(n) times, so complexity is O(log(n)).
 
         // Overflow check:
-        if (x <= -1e9 || x >= 1e9)
-        {
+        if (x <= -1e9 || x >= 1e9) {
             int mask;
             int limit;
 
             // We should determine mask and limit values
-            if (x >= 0)
-            {
+            if (x >= 0) {
                 // If x is positive, limit = INT_MAX, mask = 1e9.
                 limit = INT_MAX;
                 mask = 1e9;
-            }
-            else
-            {
+            } else {
                 // If x is negative, limit = INT_MIN, mask = -1e9.
                 limit = INT_MIN;
                 mask = -1e9;
@@ -51,8 +47,7 @@ public:
             // We will check x from right to left and limit numbers from left to right.
             int x_cpy = x;
 
-            while (x_cpy != 0)
-            {
+            while (x_cpy != 0) {
                 // Rightmost digit of x
                 int x_digit = x_cpy % 10;
                 x_cpy /= 10;
@@ -63,18 +58,15 @@ public:
                 mask /= 10;
 
                 // We can work with negative numbers, modulo can yield a negative number.
-                // But will alvays get a positive number from limit divided by mask.
+                // But will always get a positive number from limit divided by mask.
                 // Again, to fix that issue we will make sure x_digit is positive.
-                if (x_digit < 0)
-                    x_digit *= -1;
+                if (x_digit < 0) x_digit *= -1;
 
                 // If the obtained x_digit > limit_digit, we will get an overflow by reversing, so return 0.
-                if (x_digit > limit_digit)
-                    return 0;
+                if (x_digit > limit_digit) return 0;
                 // If obtained x_digit is smaller than limit_digit, no way that this operation can generate an overflow.
                 // So break the loop and continue.
-                if (x_digit < limit_digit)
-                    break;
+                if (x_digit < limit_digit) break;
             }
         }
 
@@ -83,8 +75,7 @@ public:
         int res = 0;
 
         // x will reach zero eventually, we will stop when we reach 0.
-        while (x != 0)
-        {
+        while (x != 0) {
             // By the operation explained above, doing the operation as explained.
             // Since we are adding to the right, we need to shift result to left in each operation, which means multiplication by 10.
             res = (res * 10) + (x % 10);
