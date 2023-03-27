@@ -16,6 +16,15 @@
 	<th><b>Editorial</b></th>
 	</tr>
 <tr>
+	<td align=center>74</td>
+	<td>Single Number</td>
+	<td><a href="https://leetcode.com/problems/single-number/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/single-number.cpp">Editorial</a></td>
+	<td>Reverse Integer</td>
+	<td><a href="https://leetcode.com/problems/reverse-integer/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/reverse-integer.cpp">Editorial</a></td>
+</tr>
+<tr>
 	<td align=center>73</td>
 	<td>Remove One Element To Make The Array Strictly Increasing</td>
 	<td><a href="https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/">Link</a></td>
