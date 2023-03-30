@@ -1,5 +1,6 @@
 // Author: Berke Dönmez
 // Problem Link: https://leetcode.com/problems/furthest-building-you-can-reach/
+// Reviewr: Denis Davidoglu
 
 /*
     Solution: O(H * log(L)) (H = heights.length, L = number of ladders)
@@ -69,8 +70,7 @@ public:
             int diff = heights[i] - heights[i - 1];
 
             // No need to use bricks/ladders.
-            if (diff <= 0)
-                continue;
+            if (diff <= 0) continue;
 
             /*
                 Instead of checking whether the new difference is larger than the smallest difference in max_diffs,
@@ -90,9 +90,7 @@ public:
                 max_diffs.pop();
 
                 // We don't have enough bricks left, which shows the (i-1)-th building is the furthest one.
-                if (bricks < min_diff) {
-                    return i - 1;
-                }
+                if (bricks < min_diff) return i - 1;
 
                 // Use the bricks now.
                 bricks -= min_diff;
