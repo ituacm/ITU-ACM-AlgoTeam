@@ -1,3 +1,5 @@
+https://leetcode.com/problems/check-if-matrix-is-x-matrix/
+https://leetcode.com/problems/furthest-building-you-can-reach/
 https://leetcode.com/problems/single-number/
 https://leetcode.com/problems/reverse-integer/
 https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/
