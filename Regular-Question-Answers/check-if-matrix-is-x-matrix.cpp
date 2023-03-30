@@ -1,5 +1,6 @@
 // Author: Berke Dönmez
 // Problem Link: https://leetcode.com/problems/check-if-matrix-is-x-matrix/
+// Reviewer: Denis Davidoglu
 
 /*
     Solution: O(n^2) (n = grid.length)
@@ -11,7 +12,7 @@
     For instance, isInDiagonal(0, 0) = true, isInDiagonal(0, 1) = false for n = 3.
     With a bit of observation, we can see the following:
         1- The cells in the first diagonal (\) satisfy i = j (the row and column numbers are equal). It's because as the row number increases, the column number also increases by the same amount.
-        2- The cells in the other diagonal (/) satisfy i + j = n - 1. (0-indexed) It's because as the row number increases, the column number decrases by the same amount.
+        2- The cells in the other diagonal (/) satisfy i + j = n - 1. (0-indexed) It's because as the row number increases, the column number decreases by the same amount.
 
     Combining these together, every cell (i, j) must satisfy either of the following in an X-Matrix:
         - Either grid[i][j] = 0 and isDiagonal(i, j) = false, or,
