@@ -16,6 +16,15 @@
 	<th><b>Editorial</b></th>
 	</tr>
 <tr>
+	<td align=center>75</td>
+	<td>Check If Matrix Is X Matrix</td>
+	<td><a href="https://leetcode.com/problems/check-if-matrix-is-x-matrix/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/check-if-matrix-is-x-matrix.cpp">Editorial</a></td>
+	<td>Furthest Building You Can Reach</td>
+	<td><a href="https://leetcode.com/problems/furthest-building-you-can-reach/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/furthest-building-you-can-reach.cpp">Editorial</a></td>
+</tr>
+<tr>
 	<td align=center>74</td>
 	<td>Single Number</td>
 	<td><a href="https://leetcode.com/problems/single-number/">Link</a></td>
