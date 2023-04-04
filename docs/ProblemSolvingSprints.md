@@ -16,6 +16,15 @@
 	<th><b>Editorial</b></th>
 	</tr>
 <tr>
+	<td align=center>76*</td>
+	<td>Reducing Dishes (Hard)</td>
+	<td><a href="https://leetcode.com/problems/reducing-dishes/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/reducing-dishes.cpp">Editorial</a></td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
 	<td align=center>75</td>
 	<td>Check If Matrix Is X Matrix</td>
 	<td><a href="https://leetcode.com/problems/check-if-matrix-is-x-matrix/">Link</a></td>
