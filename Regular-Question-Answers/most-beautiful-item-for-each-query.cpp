@@ -1,6 +1,6 @@
 // Author: Rojen Arda Şeşen
 // Question Link: https://leetcode.com/problems/most-beautiful-item-for-each-query/
-// Reviewer:
+// Reviewer: Denis Davidoglu
 
 
 class Solution {
@@ -17,7 +17,6 @@ public:
         
         // Sorting queries according to their prices, from lowest to highest.
         sort(queryWithIndexes.begin(), queryWithIndexes.end());
-
 
         int itemIndex = 0;
         vector<int> maximumBeauties(queries.size()); // Output vector
