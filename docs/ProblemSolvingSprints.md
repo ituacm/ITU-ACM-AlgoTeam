@@ -16,6 +16,42 @@
 	<th><b>Editorial</b></th>
 	</tr>
 <tr>
+	<td align=center>77</td>
+	<td>Most Beautiful Item For Each Query</td>
+	<td><a href="https://leetcode.com/problems/most-beautiful-item-for-each-query/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/most-beautiful-item-for-each-query.cpp">Editorial</a></td>
+	<td>Check If All 1S Are At Least Length K Places Away</td>
+	<td><a href="https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/check-if-all-1s-are-at-least-length-k-places-away.cpp">Editorial</a></td>
+</tr>
+<tr>
+	<td align=center>76*</td>
+	<td>Reducing Dishes (Hard)</td>
+	<td><a href="https://leetcode.com/problems/reducing-dishes/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/reducing-dishes.cpp">Editorial</a></td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+	<td align=center>75</td>
+	<td>Check If Matrix Is X Matrix</td>
+	<td><a href="https://leetcode.com/problems/check-if-matrix-is-x-matrix/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/check-if-matrix-is-x-matrix.cpp">Editorial</a></td>
+	<td>Furthest Building You Can Reach</td>
+	<td><a href="https://leetcode.com/problems/furthest-building-you-can-reach/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/furthest-building-you-can-reach.cpp">Editorial</a></td>
+</tr>
+<tr>
+	<td align=center>74</td>
+	<td>Single Number</td>
+	<td><a href="https://leetcode.com/problems/single-number/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/single-number.cpp">Editorial</a></td>
+	<td>Reverse Integer</td>
+	<td><a href="https://leetcode.com/problems/reverse-integer/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/reverse-integer.cpp">Editorial</a></td>
+</tr>
+<tr>
 	<td align=center>73</td>
 	<td>Remove One Element To Make The Array Strictly Increasing</td>
 	<td><a href="https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/">Link</a></td>
