@@ -16,6 +16,15 @@
 	<th><b>Editorial</b></th>
 	</tr>
 <tr>
+	<td align=center>77</td>
+	<td>Most Beautiful Item For Each Query</td>
+	<td><a href="https://leetcode.com/problems/most-beautiful-item-for-each-query/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/most-beautiful-item-for-each-query.cpp">Editorial</a></td>
+	<td>Check If All 1S Are At Least Length K Places Away</td>
+	<td><a href="https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/check-if-all-1s-are-at-least-length-k-places-away.cpp">Editorial</a></td>
+</tr>
+<tr>
 	<td align=center>76*</td>
 	<td>Reducing Dishes (Hard)</td>
 	<td><a href="https://leetcode.com/problems/reducing-dishes/">Link</a></td>
