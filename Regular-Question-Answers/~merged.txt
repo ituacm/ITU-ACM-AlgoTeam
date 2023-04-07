@@ -1,3 +1,5 @@
+https://leetcode.com/problems/most-beautiful-item-for-each-query/
+https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/
 https://leetcode.com/problems/reducing-dishes/
 https://leetcode.com/problems/check-if-matrix-is-x-matrix/
 https://leetcode.com/problems/furthest-building-you-can-reach/
