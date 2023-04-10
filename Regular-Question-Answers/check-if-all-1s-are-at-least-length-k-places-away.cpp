@@ -1,6 +1,6 @@
 // Author: Rojen Arda Şeşen
 // Question Link: https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/
-// Reviewers:
+// Reviewer: Denis Davidoglu
 
 class Solution {
 public:
@@ -12,14 +12,12 @@ public:
             if (num) { // If current number is 1
                 // If the distance is smaller than k and current '1' is not the first
                 // '1' on the vector, we return false.
-                if (counter >= 0 && counter < k)
-                    return false;
+                if (counter >= 0 && counter < k) return false;
                 // On each '1' encounter, we reset the counter
                 counter = 0;
             }
-            else if (counter >= 0)
-                // We count the distance between ones by incrementing the counter on '0' encounter.
-                counter++;
+            // We count the distance between ones by incrementing the counter on '0' encounter.
+            else if (counter >= 0) counter++;  
         }
         // If all distances are valid, we return true.
         return true;
