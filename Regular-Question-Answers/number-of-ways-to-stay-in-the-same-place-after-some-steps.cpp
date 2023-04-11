@@ -1,5 +1,6 @@
 // Author: Berke Dönmez
 // Problem Link: https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/
+// Reviewer: Denis Davidoglu
 
 /*
     Solution: O(steps * min(arrLen, steps))
@@ -51,7 +52,6 @@ public:
 
         // Repeatedly compute the dp of the next step "steps" number of times.
         while (steps--) {
-
             /*
                 This is the dp array representing the next step.
                 It's all initialized to zero, because we'll use the previous step's
