@@ -16,6 +16,24 @@
 	<th><b>Editorial</b></th>
 	</tr>
 <tr>
+	<td align=center>79*</td>
+	<td>Number Of Ways To Stay In The Same Place After Some Steps (Hard)</td>
+	<td><a href="https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/number-of-ways-to-stay-in-the-same-place-after-some-steps.cpp">Editorial</a></td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+	<td align=center>78*</td>
+	<td>Max Points On A Line (Hard)</td>
+	<td><a href="https://leetcode.com/problems/max-points-on-a-line/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/max-points-on-a-line.cpp">Editorial</a></td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
 	<td align=center>77</td>
 	<td>Most Beautiful Item For Each Query</td>
 	<td><a href="https://leetcode.com/problems/most-beautiful-item-for-each-query/">Link</a></td>
