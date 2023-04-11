@@ -1,8 +1,9 @@
 // Author: Murat Biberoglu
 // Question Link: https://leetcode.com/problems/max-points-on-a-line/
+// Reviewer: Denis Davidoglu
 
-// The idea is counting the number of points on each line
-// which is described by all point pairs and taking their maximum
+// The idea to count the number of points on each line
+// which is described by all point pairs and to take their maximum
 class Solution {
    public:
     int maxPoints(vector<vector<int>>& points) {
@@ -25,7 +26,7 @@ class Solution {
         return result;
     }
 
-    // returns true if all the points at the same line else returns false
+    // returns true if all the points at the same line, otherwise returns false
     bool onTheSameLine(vector<vector<int>>& points, int p1, int p2, int p3) {
         int dist_x_1 = points[p1][0] - points[p2][0];
         int dist_y_1 = points[p1][1] - points[p2][1];
