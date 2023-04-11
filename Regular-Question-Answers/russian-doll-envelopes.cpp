@@ -38,39 +38,50 @@
 
 class Solution {
     int binarySearch(vector<int>& arr, int target) {
+        // Creating left and right indices for binary search
         int left = 0, right = arr.size() - 1;
+        // Loop terminates when the left index is greater than the right index
         while (left <= right) {
             int mid = (left + right) / 2;
             if (arr[mid] == target)
                 return mid;
-            if (target > arr[mid]) {
+            // If the target is on the right side of the mid, we update the left index
+            else if (target > arr[mid])
                 left = mid + 1;
-            } else {
+            // If the target is on the left side of the mid, we update the right index
+            else 
                 right = mid - 1;
-            }
         }
         return left;
     }
 public:
     int maxEnvelopes(vector<vector<int>>& envelopes) {
+        // Sorting the envelopes in ascending order with respect to their widths and in descending order
+        // with respect to their heights
         sort(
             envelopes.begin(),
             envelopes.end(),
+            // Using a lambda function to compare the envelopes
+            // Lambda function returns the comparison of the 2nd indices if the 1st
+            // indices are equal, else it returns the comparison of the 1st indices
             [](const vector<int>& a, const vector<int>& b) {
                 return a[0] == b[0] ? a[1] > b[1] : a[0] < b[0];
             }
         ); // O(nlogn)
+        // Creating a vector to store the bottom values of each stack
+        // We only need the bottom values of the stacks since we do the comparison based on bottom values
         vector<int> dp;
-        int ans = 1;
         for (int i = 0; i < envelopes.size(); i++) {
             int index = binarySearch(dp, envelopes[i][1]); // O(logn)
-            if (index == dp.size()) {
+            // If current value can't fit on a stack, we create a new stack
+            if (index == dp.size())
                 dp.push_back(envelopes[i][1]);
-            }
+            // Else we place the current value to the bottom of the found stack
             else {
                 dp[index] = envelopes[i][1];
             }
         }
+        // Returning the size of the stack, i.e. length of the LIS, as mentioned above.
         return dp.size();
     }
 };
