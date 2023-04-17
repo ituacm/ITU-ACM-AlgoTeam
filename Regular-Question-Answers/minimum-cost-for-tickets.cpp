@@ -1,5 +1,5 @@
-// Author : Ömer Faruk ERDEM
-// Question Link : https://leetcode.com/problems/minimum-cost-for-tickets/
+// Author: Ömer Faruk ERDEM
+// Question Link: https://leetcode.com/problems/minimum-cost-for-tickets/
 // Reviewer: Denis Davidoglu
 
 // Time Complexity : O(n)
