@@ -16,6 +16,15 @@
 	<th><b>Editorial</b></th>
 	</tr>
 <tr>
+	<td align=center>80</td>
+	<td>Pascals Triangle Ii</td>
+	<td><a href="https://leetcode.com/problems/pascals-triangle-ii/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/pascals-triangle-ii.cpp">Editorial</a></td>
+	<td>Minimum Cost For Tickets</td>
+	<td><a href="https://leetcode.com/problems/minimum-cost-for-tickets/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/minimum-cost-for-tickets.cpp">Editorial</a></td>
+</tr>
+<tr>
 	<td align=center>79*</td>
 	<td>Number Of Ways To Stay In The Same Place After Some Steps (Hard)</td>
 	<td><a href="https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/">Link</a></td>
