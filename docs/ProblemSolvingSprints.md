@@ -16,6 +16,15 @@
 	<th><b>Editorial</b></th>
 	</tr>
 <tr>
+	<td align=center>81*</td>
+	<td>Russian Doll Envelopes (Hard)</td>
+	<td><a href="https://leetcode.com/problems/russian-doll-envelopes/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/russian-doll-envelopes.cpp">Editorial</a></td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
 	<td align=center>80</td>
 	<td>Pascals Triangle Ii</td>
 	<td><a href="https://leetcode.com/problems/pascals-triangle-ii/">Link</a></td>
