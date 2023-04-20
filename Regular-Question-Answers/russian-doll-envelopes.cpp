@@ -1,32 +1,36 @@
 // Author: Rojen Arda Şeşen
 // Question Link: https://leetcode.com/problems/russian-doll-envelopes/
-// Reviewer: 
+// Reviewer: Denis Davidoglu
 
 // Time Complexity: O(nlogn)
 // Space Complexity: O(n)
 
 /**************************************************************************************************
 
-    The question requires us to fit the envelopes within each other. In order for an envelope to fit
-    within another envevlopes, its dimensions must be strictly smaller than the oter. This question
+    The question requires to fit the envelopes within each other. In order for an envelope to fit
+    within another envelopes, its dimensions must be strictly smaller than the other. This question
     is similar to the longest increasing subsequence problem. We can sort the envelopes in ascending order
     with respect to their widths and in descending order with respect to their heights and apply the 
-    "patience sorting" algorithm on the sorted list to aquire the longest increating subsequence. The
+    "patience sorting" algorithm on the sorted list to aquire the longest increasing subsequence. The
     reason why we sort the envelopes in reverse orders is because we want to find the longest increasing
     subsequence of the heights of the envelopes. 
+    
     An example:
     
     envelopes = [[5,4],[6,4],[6,7],[2,3]]
+    
     Sort the envelopes in ascending order with respect to their widths and in descending order with
     respect to their heights:
+    
     sorted_envelopes = [[2,3],[5,4],[6,4],[6,7]]
                            ^     ^     ^     ^
     [3, 4, 4, 7] -> LIS of this array is [3, 4, 7] -> LIS of envelopes: [[2,3], [5,4], [6,7]]
+    
     Now that the width are in ascending order, finding the longest increasing subsequence of the heights
     will lead us to the answer of the problem. In order the find the LIS, we use the patience sorting
     algorithm. In each step, we check if there the current height can be placed on the bottom of a stack.
     Leftmost stack with a bottom value greater than the current value is the adequate stack. If there
-    is no such a stack, we create a new stack with the current height, else we place the height to the
+    is no such a stack, we create a new stack with the current height, otherwise we place the height to the
     bottom of the found stack. The number of stacks is the answer of the problem. Search of the adequate
     stack can be done with binary search. This way, in each step we can find the adequate stack in O(logn)
     and in total the time complexity of the algorithm will be O(nlogn).
@@ -63,7 +67,7 @@ public:
             envelopes.end(),
             // Using a lambda function to compare the envelopes
             // Lambda function returns the comparison of the 2nd indices if the 1st
-            // indices are equal, else it returns the comparison of the 1st indices
+            // indices are equal, otherwise it returns the comparison of the 1st indices
             [](const vector<int>& a, const vector<int>& b) {
                 return a[0] == b[0] ? a[1] > b[1] : a[0] < b[0];
             }
@@ -76,7 +80,7 @@ public:
             // If current value can't fit on a stack, we create a new stack
             if (index == dp.size())
                 dp.push_back(envelopes[i][1]);
-            // Else we place the current value to the bottom of the found stack
+            // Else we place the current value to the bottom of the stack found
             else {
                 dp[index] = envelopes[i][1];
             }
