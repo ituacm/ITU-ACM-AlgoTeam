@@ -1,5 +1,6 @@
 // Author: Ali Kemal Coşkun
 // Question Link: https://leetcode.com/problems/backspace-string-compare/
+// Reviewer: Denis Davidoglu
 
 // Time complexity: O(N)
 // Space complexity: O(N)
@@ -14,38 +15,19 @@ public:
         stack<char> s_stack;
         stack<char> t_stack;
 
-        for(int i=0;i<s.size();i++){
-
-            
-            if(s[i] != '#'){
+        for (int i = 0; i < s.size(); i++)
+            if (s[i] != '#') {
                 s_stack.push(s[i]);
+            } else if(!s_stack.empty()) {
+                s_stack.pop();
             }
-
-
-            
-            else{
-                if(!s_stack.empty()){
-                    s_stack.pop();
-                }
-            }
-        }
-
-
-        for(int i=0;i<t.size();i++){
-
-            
-            if(t[i] != '#'){
+        
+        for (int i = 0; i < t.size(); i++)
+            if (t[i] != '#') {
                 t_stack.push(t[i]);
+            } else if(!t_stack.empty()) {
+                t_stack.pop();
             }
-
-
-            
-            else{
-                if(!t_stack.empty()){
-                    t_stack.pop();
-                }
-            }
-        }
 
         return s_stack == t_stack;
     }
