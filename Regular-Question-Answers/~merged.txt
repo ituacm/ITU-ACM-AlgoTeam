@@ -1,4 +1,7 @@
+https://leetcode.com/problems/backspace-string-compare/
+https://leetcode.com/problems/time-needed-to-inform-all-employees/
 https://leetcode.com/problems/russian-doll-envelopes/
+https://leetcode.com/problems/integer-to-english-words
 https://leetcode.com/problems/pascals-triangle-ii/
 https://leetcode.com/problems/minimum-cost-for-tickets/
 https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/
