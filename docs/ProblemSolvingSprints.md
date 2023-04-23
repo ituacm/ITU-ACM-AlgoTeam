@@ -16,10 +16,28 @@
 	<th><b>Editorial</b></th>
 	</tr>
 <tr>
-	<td align=center>81*</td>
+	<td align=center>83</td>
+	<td>Backspace String Compare</td>
+	<td><a href="https://leetcode.com/problems/backspace-string-compare/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/backspace-string-compare.cpp">Editorial</a></td>
+	<td>Time Needed To Inform All Employees</td>
+	<td><a href="https://leetcode.com/problems/time-needed-to-inform-all-employees/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/time-needed-to-inform-all-employees.cpp">Editorial</a></td>
+</tr>
+<tr>
+	<td align=center>82*</td>
 	<td>Russian Doll Envelopes (Hard)</td>
 	<td><a href="https://leetcode.com/problems/russian-doll-envelopes/">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/russian-doll-envelopes.cpp">Editorial</a></td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+	<td align=center>81*</td>
+	<td>Integer To English Words (Hard)</td>
+	<td><a href="https://leetcode.com/problems/integer-to-english-words">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/integer-to-english-words.cpp">Editorial</a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
