@@ -16,6 +16,24 @@
 	<th><b>Editorial</b></th>
 	</tr>
 <tr>
+	<td align=center>85*</td>
+	<td>Falling Squares (Hard)</td>
+	<td><a href="https://leetcode.com/problems/falling-squares/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/falling-squares.cpp">Editorial</a></td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+	<td align=center>84*</td>
+	<td>Minimum Number Of Increments On Subarrays To Form A Target Array (Hard)</td>
+	<td><a href="https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/minimum-number-of-increments-on-subarrays-to-form-a-target-array.cpp">Editorial</a></td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
 	<td align=center>83</td>
 	<td>Backspace String Compare</td>
 	<td><a href="https://leetcode.com/problems/backspace-string-compare/">Link</a></td>
