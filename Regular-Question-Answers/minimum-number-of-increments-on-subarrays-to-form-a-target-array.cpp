@@ -1,5 +1,6 @@
 // Author: Berke Dönmez
 // Problem Link: https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/
+// Reviewer: Denis Davidoglu
 
 /*
     Solution: O(n) (n = target.length)
@@ -8,7 +9,7 @@
     (It helped me figuring out the solution :D)
 
     Each time, we would want to decrement one of the widest subarrays that doesn't
-    contain any zeros. Here, "widest" means not extendable in neither direction
+    contain any zeros. Here, "widest" means not extendable in either direction
     (no non-zero elements outside).
 
     For instance, the following array contains 3 widest subarrays:
@@ -73,9 +74,8 @@ public:
                 greater than both neighbors.
                 Actually, including equality helps for the next step!
             */
-            if (!i || i + 1 == n || target[i] >= target[i - 1] && target[i] >= target[i + 1]) {
+            if (!i || i + 1 == n || target[i] >= target[i - 1] && target[i] >= target[i + 1])
                 local_max_ids.push_back(i);
-            }
         }
 
         /*
@@ -98,9 +98,8 @@ public:
                 the previous local maximums.
             */
             int min_between = target[local_max_ids[i]];
-            for (int j = local_max_ids[i]; j >= local_max_ids[i - 1]; j--) {
+            for (int j = local_max_ids[i]; j >= local_max_ids[i - 1]; j--)
                 min_between = min(min_between, target[j]);
-            }
 
             /*
                 This is for the second step: decrease operations by merging.
