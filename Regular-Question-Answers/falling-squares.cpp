@@ -1,8 +1,9 @@
 // Author: Murat Biberoğlu
 // Question Link: https://leetcode.com/problems/falling-squares/
+// Reviewer: Denis Davidoglu
 
-// When a square falls we need to update heights of the points that in the range.
-// However we need to do that in a fast way therefore we are going to use Segment Tree with Lazy Propagation.
+// When a square falls, we need to update heights of the points that are in the range.
+// However, we need to do that in a fast way; therefore, we are going to use Segment Tree with Lazy Propagation.
 
 // The range of numbers is [0, 10^8] and each opearation on Segment Tree is
 // O(n*log n), therefore just using Segment Tree is not sufficient.
