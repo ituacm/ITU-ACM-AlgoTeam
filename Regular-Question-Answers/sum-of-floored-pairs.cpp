@@ -1,5 +1,6 @@
 // Author: Berke Dönmez
 // Problem Link: https://leetcode.com/problems/sum-of-floored-pairs/
+// Reviewer: Denis Davidoglu
 
 /*
     Solution: O(M * log(M)) (M = max(nums))
@@ -58,8 +59,7 @@ public:
         vector<int> cnt(mx + 1);
 
         // First, process each element to obtain the non-prefix sum version of the array.
-        for (int n : nums)
-            cnt[n]++;
+        for (int n : nums) cnt[n]++;
 
         // Then, convert it to a prefix sum array.
         for (int i = 1; i <= mx; i++) {
@@ -74,8 +74,7 @@ public:
             int n_elements_equal_q = cnt[q] - cnt[q - 1];
 
             // This isn't required at all, but decreases the run time dramatically!
-            if (!n_elements_equal_q)
-                continue;
+            if (!n_elements_equal_q) continue;
 
             /*  [Consider these as floor divisions]
                 (k*q) / q, (k*q + 1) / q, ..., ((k+1)*q - 1) / q
