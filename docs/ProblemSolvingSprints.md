@@ -16,6 +16,15 @@
 	<th><b>Editorial</b></th>
 	</tr>
 <tr>
+	<td align=center>86*</td>
+	<td>Sum Of Floored Pairs (Hard)</td>
+	<td><a href="https://leetcode.com/problems/sum-of-floored-pairs/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/sum-of-floored-pairs.cpp">Editorial</a></td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
 	<td align=center>85*</td>
 	<td>Falling Squares (Hard)</td>
 	<td><a href="https://leetcode.com/problems/falling-squares/">Link</a></td>
