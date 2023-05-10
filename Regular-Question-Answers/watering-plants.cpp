@@ -1,5 +1,5 @@
 // Author: Serhat Sarı
-// Question Link: https://leetcode.com/problems/sort-the-students-by-their-kth-score/
+// Question Link: https://leetcode.com/problems/watering-plants/
 
 /*
 Here we hold a current_capacity variable to know the amount of water left inside bucket 
