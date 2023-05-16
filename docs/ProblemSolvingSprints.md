@@ -16,6 +16,15 @@
 	<th><b>Editorial</b></th>
 	</tr>
 <tr>
+	<td align=center>87*</td>
+	<td>Count Vowels Permutation (Hard)</td>
+	<td><a href="https://leetcode.com/problems/count-vowels-permutation/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/count-vowels-permutation.cpp">Editorial</a></td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
 	<td align=center>86*</td>
 	<td>Sum Of Floored Pairs (Hard)</td>
 	<td><a href="https://leetcode.com/problems/sum-of-floored-pairs/">Link</a></td>
