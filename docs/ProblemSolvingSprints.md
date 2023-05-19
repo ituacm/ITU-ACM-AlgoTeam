@@ -16,6 +16,15 @@
 	<th><b>Editorial</b></th>
 	</tr>
 <tr>
+	<td align=center>88</td>
+	<td>Kth Largest Element In A Stream</td>
+	<td><a href="https://leetcode.com/problems/kth-largest-element-in-a-stream/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/kth-largest-element-in-a-stream.cpp">Editorial</a></td>
+	<td>Watering Plants</td>
+	<td><a href="https://leetcode.com/problems/watering-plants/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/watering-plants.cpp">Editorial</a></td>
+</tr>
+<tr>
 	<td align=center>87*</td>
 	<td>Count Vowels Permutation (Hard)</td>
 	<td><a href="https://leetcode.com/problems/count-vowels-permutation/">Link</a></td>
