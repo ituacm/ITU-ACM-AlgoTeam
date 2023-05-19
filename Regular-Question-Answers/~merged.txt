@@ -1,3 +1,5 @@
+https://leetcode.com/problems/kth-largest-element-in-a-stream/
+https://leetcode.com/problems/watering-plants/
 https://leetcode.com/problems/count-vowels-permutation/
 https://leetcode.com/problems/sum-of-floored-pairs/
 https://leetcode.com/problems/falling-squares/
