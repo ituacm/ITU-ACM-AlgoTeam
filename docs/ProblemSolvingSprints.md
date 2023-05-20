@@ -22,7 +22,7 @@
 	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/k-items-with-the-maximum-sum.cpp">Editorial</a></td>
 	<td>Aximum Points You Can Obtain From Cards</td>
 	<td><a href="https://leetcode.com/problemsmaximum-points-you-can-obtain-from-cards">Link</a></td>
-	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/aximum-points-you-can-obtain-from-cards.cpp">Editorial</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/maximum-points-you-can-obtain-from-cards.cpp">Editorial</a></td>
 </tr>
 <tr>
 	<td align=center>88</td>
