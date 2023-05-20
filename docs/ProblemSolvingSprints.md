@@ -16,6 +16,15 @@
 	<th><b>Editorial</b></th>
 	</tr>
 <tr>
+	<td align=center>89</td>
+	<td>K Items With The Maximum Sum</td>
+	<td><a href="https://leetcode.com/problems/k-items-with-the-maximum-sum/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/k-items-with-the-maximum-sum.cpp">Editorial</a></td>
+	<td>Aximum Points You Can Obtain From Cards</td>
+	<td><a href="https://leetcode.com/problemsmaximum-points-you-can-obtain-from-cards">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/aximum-points-you-can-obtain-from-cards.cpp">Editorial</a></td>
+</tr>
+<tr>
 	<td align=center>88</td>
 	<td>Kth Largest Element In A Stream</td>
 	<td><a href="https://leetcode.com/problems/kth-largest-element-in-a-stream/">Link</a></td>
