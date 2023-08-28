@@ -1,6 +1,9 @@
 // Author: Fatih Çakır
 // Question Link: https://leetcode.com/problems/valid-palindrome/
 
+// Time comp -> O(n)
+// Space comp -> O(n)
+
 class Solution {
 public:
     bool isPalindrome(string s) {
@@ -23,8 +26,9 @@ public:
         while (left < right) {
             if (cleanString[left] != cleanString[right]) 
                 return false; // Not a palindrome
-            
-            left++;
+
+            // One character approach from right and left
+            left++; 
             right--;
         }
 
