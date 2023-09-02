@@ -1,5 +1,11 @@
 //Author: Semih Gençten
 //Question Link: https://leetcode.com/problems/counting-bits/description/
+/*
+    To solve this question optimally, I try to grasp basic relationship between the results. 
+    Then I used to Dynamic Programming to exploit the knowledge of previous results.
+    Time complexity: O(n)
+    Space complexity: O(n)
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

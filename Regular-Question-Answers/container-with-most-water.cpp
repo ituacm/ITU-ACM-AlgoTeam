@@ -3,12 +3,15 @@
 
 #include <bits/stdc++.h>
 using namespace std;
-
-//I implemented the two pointer technique for the solution 
+/*
+    I implemented the two pointer technique for the solution.
+    Time complexity: O(n)
+    Space Complexity: O(1) 
+*/
 class Solution {
 public:
     int maxArea(vector<int>& height) {
-        int leftPointer = 0, rightPointer = height.size()-1; //pointers are inialized
+        int leftPointer = 0, rightPointer = height.size() - 1; //pointers are inialized
         int maxArea = 0; 
         
         while(leftPointer != rightPointer)
