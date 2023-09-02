@@ -16,7 +16,7 @@ public:
             int shortLine = min(height[leftPointer], height[rightPointer]); //Since the shorter line will determine the amount of water, we take the short line's height
             int area = (rightPointer - leftPointer) * shortLine; //Calculate the area for current iteration
             maxArea = max(maxArea, area); //compare and determine the new maximum area
-            //this part arranges the pointers for next iteration
+            //this part arranges the pointers for the next iteration
             if(shortLine == height[leftPointer])
             {
                 leftPointer++;

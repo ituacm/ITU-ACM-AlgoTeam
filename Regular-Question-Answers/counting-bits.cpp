@@ -1,34 +1,26 @@
+//Author: Semih Gençten
+//Question Link: https://leetcode.com/problems/counting-bits/description/
+
 #include <bits/stdc++.h>
 using namespace std;
 
-vector<int> countBits(int n) {
-        vector<int> result;
-        for(int i = 0; i < n; i++){
-            vector<int> bin = decToBinary(n);
-            int numberOfOnes = 0;
-            for(int i = 0; i < bin.size(); i++){
-                if(bin[i] == 1)
-                    numberOfOnes++;
-            }
-            result.push_back(numberOfOnes);
-        }
-        return result;
-    }
-vector<int> decToBinary(int n){
-    int temp = n;
-    vector<int> bin;
-    while(temp != 0){
-        bin.push_back(temp % 2);
-        temp = temp / 10;
-    }
-    return bin;
-}
+class Solution {
+public:
+    vector<int> countBits(int n) {
+        vector<int> dp(n + 1); // dp vector is initialized
 
-int main(){
-    int n = 5;
-    // vector<int> res = countBits(n);
-    // for(int i = 0; i < res.size(); i++){
+        dp[0] = 0; // since binary representation of 0 is 0
 
-    // }
-    cout<<countBits(n)<<endl;
-}
+        for(int i = 1; i <= n; i++){
+            dp[i] = dp[ i / 2 ] + (i % 2); //As you can see below, even numbers' answers are always equal to the answer of half of the number.
+        }                                  //Also you can see that the answers' of odd numbers are always one more than previous number's answer. 
+
+        return dp;
+    }
+};
+
+//0 -> 0   -> 0
+//1 -> 1   -> 1
+//2 -> 10  -> 1
+//3 -> 11  -> 2
+//4 -> 100 -> 1
