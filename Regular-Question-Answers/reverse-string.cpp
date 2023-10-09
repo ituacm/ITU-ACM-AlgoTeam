@@ -2,28 +2,27 @@
 // Question Link: https://leetcode.com/problems/reverse-string/
 // Reviewer: Ömer
 /* Problem is reversing the letters in a string
-* I used Stack because its FILO 
-* I iteratively pushed them into stack and rewrite then popped .
-* Time and space complexity is O(n)
+* I used a two-pointer approach because it allows for an in-place reversal without extra space.
+* I initialized 'left' to the start and 'right' to the end, then iteratively swapped them.
+* Time complexity is O(n) and space complexity is O(1).
 */
 
 #include <vector>
 #include <stack>
 
+#include <vector>
+
 class Solution {
 public:
     void reverseString(std::vector<char>& s) {
-        std::stack<char> stack;
+        int left = 0;
+        int right = s.size() - 1;
 
-        // Push all characters onto the stack
-        for (char c : s) {
-            stack.push(c);
-        }
-
-        // Pop characters from the stack and overwrite the original array
-        for (int i = 0; i < s.size(); ++i) {
-            s[i] = stack.top();
-            stack.pop();
+        while (left < right) {
+            // Swap characters at left and right pointers
+            std::swap(s[left], s[right]);
+            ++left;
+            --right;
         }
     }
 };
