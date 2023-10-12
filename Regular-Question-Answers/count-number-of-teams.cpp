@@ -1,6 +1,6 @@
 // Author: Murat Biberoğlu
 // Reviewer: Ahmet Furkan Kavraz
-// Question Link: https://leetcode.com/problems/minimum-depth-of-binary-tree/
+// Question Link: https://leetcode.com/problems/count-number-of-teams/
 
 
 class Solution {
