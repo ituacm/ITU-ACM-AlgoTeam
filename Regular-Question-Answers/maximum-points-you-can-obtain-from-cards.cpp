@@ -1,5 +1,5 @@
 // Author: Emre Çelik
-// Question Link: https://leetcode.com/problemsmaximum-points-you-can-obtain-from-cards
+// Question Link: https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards
 // Reviewer: Denis Davidoglu
 
 //Time Complexity: O(n)
