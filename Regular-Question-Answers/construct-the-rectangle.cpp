@@ -1,6 +1,6 @@
 // Author: Anıl Dervişoğlu
 // Question Link: https://leetcode.com/problems/construct-the-rectangle/
-// Reviewers: Ali Davut Eskiocak
+// Reviewers: Ahmet Furkan Kavraz
 
 /*
     Problem Description: The problem asks for the dimensions of a rectangle that meets the given area.
@@ -15,7 +15,7 @@ public:
     vector<int> constructRectangle(int area) {
 
         // Iterate from the square root of the area down to 1
-        for (int width = sqrt(area); width > 0; width--)
+        for (int width = sqrt(area); width > 1; width--)
         {
             // Check if width is a divisor of area
             if (area % width == 0)

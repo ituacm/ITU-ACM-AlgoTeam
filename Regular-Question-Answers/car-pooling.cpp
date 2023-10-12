@@ -1,6 +1,6 @@
 // Author: Anıl Dervişoğlu
 // Question Link: https://leetcode.com/problems/car-pooling/
-// Reviewers: Semih Gençten
+// Reviewers: Fatih Baskın
 
 /*
     Problem Description: The problem asks to determine if a car with a given seat
@@ -26,16 +26,12 @@ public:
         }
 
         // The array will be converted to show remaining passenger on each trip
+        // and if passenger count surpasses the capacity at any location, the trip cannot be done returning false
         int currentCount = 0;
         for (auto &location : passengerCount)
         {
             currentCount += location; // number of remaining passengers in the given location
             location = currentCount;
-        }
-
-        // If passenger count surpasses the capacity at any location the trip cannot be done, returning false
-        for (auto &location : passengerCount)
-        {
             if (location > capacity)
                 return false;
         }
