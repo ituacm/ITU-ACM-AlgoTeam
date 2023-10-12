@@ -1,4 +1,7 @@
 // Author: Ali Emre Kaya
+// Reviewer: Fatih Baskın
+// Time Complexity: O(n^2)
+// Space Complexity: O(1)
 // Question Link: https://leetcode.com/problems/rotate-image/
 
 class Solution {
