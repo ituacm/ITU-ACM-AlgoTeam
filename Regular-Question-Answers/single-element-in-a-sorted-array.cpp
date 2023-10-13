@@ -1,6 +1,6 @@
-// Author: Mehmet Tolga kýlýnçkaya
+// Author: Mehmet Tolga kÃ½lÃ½nÃ§kaya
 // Reviewer:
-// Question Link: https://leetcode.com/problems/contains-duplicate/
+// Question Link: https://leetcode.com/problems/single-element-in-a-sorted-array
 
 // Time Complexity  -> 0(n) , Space Complexity -> 0(1)
 class Solution {
@@ -21,6 +21,6 @@ public:
         }
 
         // If no non-duplicate element is found, return an invalid value (-1 in this case).
-        return nums[-1];
+        return -1;
     }
 };
