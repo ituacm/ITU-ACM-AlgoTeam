@@ -2,33 +2,31 @@
 // Question Link: https://leetcode.com/problems/valid-palindrome/
 
 // Time comp -> O(n)
-// Space comp -> O(n)
+// Space comp -> O(1)
 
 class Solution {
 public:
     bool isPalindrome(string s) {
-        string cleanString = ""; 
-
-        // Clear input string by removing all non-alphanumeric characters
-        // Converting all uppercase letters into lowercase letters
-        for (char c : s) {
-            if (isalnum(c)) {
-                cleanString += tolower(c);
-            }
-        }
 
         // Two-pointer method
 
         int left = 0; // Pointer for the first character
-        int right = cleanString.length() - 1; // Pointer for the last character
-                                            
-        // Comparing characters from both ends to the middle
-        while (left < right) {
-            if (cleanString[left] != cleanString[right]) 
-                return false; // Not a palindrome
+        int right = s.length() - 1; // Pointer for the last character
 
-            // One character approach from right and left
-            left++; 
+        // Comparing characters from both ends to the middle                                   
+        while (left < right) {
+            while (left < right && !isalnum(s[left])) {
+                left++; // Skip non-alphanumeric characters from the left
+            }
+            while (left < right && !isalnum(s[right])) {
+                right--; // Skip non-alphanumeric characters from the right
+            }
+            
+            if (tolower(s[left]) != tolower(s[right])) {
+                return false; // Not a palindrome
+            }
+            
+            left++;
             right--;
         }
 
