@@ -108,6 +108,7 @@ https://leetcode.com/problems/partition-labels/
 https://leetcode.com/problems/pascals-triangle-ii/
 https://leetcode.com/problems/path-with-maximum-probability/
 https://leetcode.com/problems/perfect-number/
+https://leetcode.com/problems/permutations-ii/
 https://leetcode.com/problems/plus-one/
 https://leetcode.com/problems/positions-of-large-groups/
 https://leetcode.com/problems/power-of-three/
@@ -129,6 +130,7 @@ https://leetcode.com/problems/reverse-bits/
 https://leetcode.com/problems/reverse-integer/
 https://leetcode.com/problems/reverse-linked-list/
 https://leetcode.com/problems/reverse-linked-list-ii/
+https://leetcode.com/problems/reverse-string/
 https://leetcode.com/problems/reverse-vowels-of-a-string/
 https://leetcode.com/problems/reverse-words-in-a-string/
 https://leetcode.com/problems/richest-customer-wealth/

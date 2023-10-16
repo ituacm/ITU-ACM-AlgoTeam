@@ -367,6 +367,7 @@ construct-binary-tree-from-preorder-and-inorder-traversal,Medium
 construct-binary-tree-from-preorder-and-postorder-traversal,Medium
 construct-binary-tree-from-string,Medium
 construct-k-palindrome-strings,Medium
+construct-product-matrix,Medium
 construct-quad-tree,Medium
 construct-smallest-number-from-di-string,Medium
 construct-string-from-binary-tree,Easy
@@ -465,6 +466,7 @@ count-of-interesting-subarrays,Medium
 count-of-matches-in-tournament,Easy
 count-of-range-sum,Hard
 count-of-smaller-numbers-after-self,Hard
+count-of-sub-multisets-with-bounded-sum,Hard
 count-operations-to-obtain-zero,Easy
 count-pairs-in-two-arrays,Medium
 count-pairs-of-equal-substrings-with-minimum-difference,Medium
@@ -840,6 +842,8 @@ find-good-days-to-rob-the-bank,Medium
 find-greatest-common-divisor-of-array,Easy
 find-if-path-exists-in-graph,Easy
 find-in-mountain-array,Hard
+find-indices-with-index-and-value-difference-i,Easy
+find-indices-with-index-and-value-difference-ii,Medium
 find-interview-candidates,Medium
 find-k-closest-elements,Medium
 find-k-length-substrings-with-no-repeated-characters,Medium
@@ -1221,6 +1225,7 @@ last-person-to-fit-in-the-bus,Medium
 last-stone-weight,Easy
 last-stone-weight-ii,Medium
 last-substring-in-lexicographical-order,Hard
+last-visited-integers,Easy
 latest-time-by-replacing-hidden-digits,Easy
 leaf-similar-trees,Easy
 league-statistics,Medium
@@ -1311,6 +1316,8 @@ longest-substring-without-repeating-characters,Medium
 longest-turbulent-subarray,Medium
 longest-uncommon-subsequence-i,Easy
 longest-uncommon-subsequence-ii,Medium
+longest-unequal-adjacent-groups-subsequence-i,Medium
+longest-unequal-adjacent-groups-subsequence-ii,Medium
 longest-univalue-path,Medium
 longest-uploaded-prefix,Medium
 longest-valid-parentheses,Hard
@@ -2434,6 +2441,7 @@ shifting-letters,Medium
 shifting-letters-ii,Medium
 shopping-offers,Medium
 short-encoding-of-words,Medium
+shortest-and-lexicographically-smallest-beautiful-string,Medium
 shortest-bridge,Medium
 shortest-common-supersequence,Hard
 shortest-completing-word,Easy
