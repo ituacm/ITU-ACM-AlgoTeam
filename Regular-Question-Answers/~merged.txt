@@ -13,11 +13,14 @@ https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
 https://leetcode.com/problems/binary-search/
 https://leetcode.com/problems/binary-tree-inorder-traversal/
+https://leetcode.com/problems/car-pooling/
 https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/
 https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/
 https://leetcode.com/problems/check-if-matrix-is-x-matrix/
 https://leetcode.com/problems/climbing-stairs/
 https://leetcode.com/problems/combination-sum-ii/
+https://leetcode.com/problems/construct-the-rectangle/
+https://leetcode.com/problems/contains-duplicate/
 https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/
 https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
 https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/
@@ -141,6 +144,7 @@ https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
 https://leetcode.com/problems/search-insert-position/
 https://leetcode.com/problems/search-suggestions-system/
 https://leetcode.com/problems/set-mismatch/
+https://leetcode.com/problems/single-element-in-a-sorted-array/
 https://leetcode.com/problems/single-number/
 https://leetcode.com/problems/single-threaded-cpu/
 https://leetcode.com/problems/slowest-key/

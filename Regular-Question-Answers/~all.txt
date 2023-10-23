@@ -1528,6 +1528,7 @@ maximum-product-subarray,Medium
 maximum-profit-from-trading-stocks,Medium
 maximum-profit-in-job-scheduling,Hard
 maximum-profit-of-operating-a-centennial-wheel,Medium
+maximum-profitable-triplets-with-increasing-prices-i,Medium
 maximum-repeating-substring,Easy
 maximum-rows-covered-by-columns,Medium
 maximum-running-time-of-n-computers,Hard
@@ -1658,6 +1659,7 @@ minimum-ascii-delete-sum-for-two-strings,Medium
 minimum-average-difference,Medium
 minimum-bit-flips-to-convert-number,Easy
 minimum-changes-to-make-alternating-binary-string,Easy
+minimum-changes-to-make-k-semi-palindromes,Hard
 minimum-common-value,Easy
 minimum-consecutive-cards-to-pick-up,Medium
 minimum-cost-for-tickets,Medium
@@ -1743,6 +1745,7 @@ minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix,Hard
 minimum-number-of-flips-to-make-the-binary-string-alternating,Medium
 minimum-number-of-food-buckets-to-feed-the-hamsters,Medium
 minimum-number-of-frogs-croaking,Medium
+minimum-number-of-groups-to-create-a-valid-assignment,Medium
 minimum-number-of-increments-on-subarrays-to-form-a-target-array,Hard
 minimum-number-of-k-consecutive-bit-flips,Hard
 minimum-number-of-keypresses,Medium
@@ -1820,6 +1823,8 @@ minimum-subarrays-in-a-valid-split,Medium
 minimum-subsequence-in-non-increasing-order,Easy
 minimum-suffix-flips,Medium
 minimum-sum-of-four-digit-number-after-splitting-digits,Easy
+minimum-sum-of-mountain-triplets-i,Easy
+minimum-sum-of-mountain-triplets-ii,Medium
 minimum-sum-of-squared-difference,Medium
 minimum-swaps-to-arrange-a-binary-grid,Medium
 minimum-swaps-to-group-all-1s-together,Medium
