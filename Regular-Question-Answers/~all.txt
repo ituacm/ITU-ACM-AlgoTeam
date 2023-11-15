@@ -561,7 +561,7 @@ create-object-from-two-arrays,Easy
 create-sorted-array-through-instructions,Hard
 create-target-array-in-the-given-order,Easy
 critical-connections-in-a-network,Hard
-curry,Hard
+curry,Medium
 custom-interval,Medium
 custom-sort-string,Medium
 customer-order-frequency,Easy
@@ -708,6 +708,9 @@ distinct-prime-factors-of-product-of-array,Medium
 distinct-subsequences,Hard
 distinct-subsequences-ii,Hard
 distribute-candies,Easy
+distribute-candies-among-children-i,Easy
+distribute-candies-among-children-ii,Medium
+distribute-candies-among-children-iii,Hard
 distribute-candies-to-people,Easy
 distribute-coins-in-binary-tree,Medium
 distribute-money-to-maximum-children,Easy
@@ -821,6 +824,8 @@ find-and-replace-pattern,Medium
 find-array-given-subset-sums,Hard
 find-bottom-left-tree-value,Medium
 find-center-of-star-graph,Easy
+find-champion-i,Easy
+find-champion-ii,Medium
 find-closest-node-to-given-two-nodes,Medium
 find-closest-number-to-zero,Easy
 find-common-characters,Easy
@@ -906,6 +911,7 @@ find-the-highest-altitude,Easy
 find-the-index-of-the-first-occurrence-in-a-string,Easy
 find-the-index-of-the-large-integer,Medium
 find-the-k-beauty-of-a-number,Easy
+find-the-k-or-of-an-array,Easy
 find-the-k-sum-of-an-array,Hard
 find-the-k-th-lucky-number,Medium
 find-the-kth-largest-integer-in-the-array,Medium
@@ -1074,6 +1080,7 @@ height-checker,Easy
 height-of-binary-tree-after-subtree-removal-queries,Hard
 height-of-special-binary-tree,Medium
 hexspeak,Easy
+high-access-employees,Medium
 high-five,Easy
 highest-grade-for-each-student,Medium
 highest-salaries-difference,Easy
@@ -1240,6 +1247,7 @@ lemonade-change,Easy
 length-of-last-word,Easy
 length-of-longest-fibonacci-subsequence,Medium
 length-of-the-longest-alphabetical-continuous-substring,Medium
+length-of-the-longest-subsequence-that-sums-to-target,Medium
 length-of-the-longest-valid-substring,Hard
 letter-case-permutation,Medium
 letter-combinations-of-a-phone-number,Medium
@@ -1363,6 +1371,7 @@ map-of-highest-peak,Medium
 map-sum-pairs,Medium
 market-analysis-i,Medium
 market-analysis-ii,Hard
+market-analysis-iii,Medium
 masking-personal-information,Medium
 match-substring-after-replacement,Hard
 matchsticks-to-square,Medium
@@ -1418,6 +1427,7 @@ maximum-average-subarray-i,Easy
 maximum-average-subarray-ii,Hard
 maximum-average-subtree,Medium
 maximum-bags-with-full-capacity-of-rocks,Medium
+maximum-balanced-subsequence-sum,Hard
 maximum-beauty-of-an-array-after-applying-operation,Medium
 maximum-binary-string-after-change,Medium
 maximum-binary-tree,Medium
@@ -1512,6 +1522,7 @@ maximum-of-minimum-values-in-all-subarrays,Medium
 maximum-or,Medium
 maximum-path-quality-of-a-graph,Hard
 maximum-performance-of-a-team,Hard
+maximum-points-after-collecting-coins-from-all-nodes,Hard
 maximum-points-in-an-archery-competition,Medium
 maximum-points-you-can-obtain-from-cards,Medium
 maximum-population-year,Easy
@@ -1529,9 +1540,11 @@ maximum-profit-from-trading-stocks,Medium
 maximum-profit-in-job-scheduling,Hard
 maximum-profit-of-operating-a-centennial-wheel,Medium
 maximum-profitable-triplets-with-increasing-prices-i,Medium
+maximum-profitable-triplets-with-increasing-prices-ii,Hard
 maximum-repeating-substring,Easy
 maximum-rows-covered-by-columns,Medium
 maximum-running-time-of-n-computers,Hard
+maximum-score-after-applying-operations-on-a-tree,Medium
 maximum-score-after-splitting-a-string,Easy
 maximum-score-from-performing-multiplication-operations,Hard
 maximum-score-from-removing-stones,Medium
@@ -1543,10 +1556,13 @@ maximum-score-words-formed-by-letters,Hard
 maximum-segment-sum-after-removals,Hard
 maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold,Medium
 maximum-size-subarray-sum-equals-k,Medium
+maximum-spending-after-buying-items,Hard
 maximum-split-of-positive-even-integers,Medium
 maximum-star-sum-of-a-graph,Medium
 maximum-strength-of-a-group,Medium
 maximum-strictly-increasing-cells-in-a-matrix,Hard
+maximum-strong-pair-xor-i,Easy
+maximum-strong-pair-xor-ii,Hard
 maximum-students-taking-exam,Hard
 maximum-subarray,Medium
 maximum-subarray-min-product,Medium
@@ -1702,6 +1718,7 @@ minimum-domino-rotations-for-equal-row,Medium
 minimum-edge-reversals-so-every-node-is-reachable,Hard
 minimum-edge-weight-equilibrium-queries-in-a-tree,Hard
 minimum-elements-to-add-to-form-a-given-sum,Medium
+minimum-equal-sum-of-two-arrays-after-replacing-zeros,Medium
 minimum-factorization,Medium
 minimum-falling-path-sum,Medium
 minimum-falling-path-sum-ii,Hard
@@ -1715,6 +1732,7 @@ minimum-height-trees,Medium
 minimum-hours-of-training-to-win-a-competition,Easy
 minimum-impossible-or,Medium
 minimum-incompatibility,Hard
+minimum-increment-operations-to-make-array-beautiful,Medium
 minimum-increment-to-make-array-unique,Medium
 minimum-index-of-a-valid-split,Medium
 minimum-index-sum-of-two-lists,Easy
@@ -1738,6 +1756,7 @@ minimum-moves-to-reach-target-with-rotations,Hard
 minimum-moves-to-spread-stones-over-grid,Medium
 minimum-non-zero-product-of-the-array-elements,Medium
 minimum-number-of-arrows-to-burst-balloons,Medium
+minimum-number-of-changes-to-make-binary-string-beautiful,Medium
 minimum-number-of-days-to-disconnect-island,Hard
 minimum-number-of-days-to-eat-n-oranges,Hard
 minimum-number-of-days-to-make-m-bouquets,Medium
@@ -1790,6 +1809,7 @@ minimum-operations-to-make-the-array-alternating,Medium
 minimum-operations-to-make-the-array-increasing,Easy
 minimum-operations-to-make-the-array-k-increasing,Hard
 minimum-operations-to-make-the-integer-zero,Medium
+minimum-operations-to-maximize-last-elements-in-arrays,Medium
 minimum-operations-to-reduce-an-integer-to-0,Medium
 minimum-operations-to-reduce-x-to-zero,Medium
 minimum-operations-to-remove-adjacent-ones-in-matrix,Hard
@@ -2005,6 +2025,7 @@ number-of-squareful-arrays,Hard
 number-of-steps-to-reduce-a-number-in-binary-representation-to-one,Medium
 number-of-steps-to-reduce-a-number-to-zero,Easy
 number-of-strings-that-appear-as-substrings-in-word,Easy
+number-of-strings-which-can-be-rearranged-to-contain-substring,Medium
 number-of-students-doing-homework-at-a-given-time,Easy
 number-of-students-unable-to-eat-lunch,Easy
 number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold,Medium
@@ -2043,6 +2064,7 @@ number-of-ways-to-earn-points,Hard
 number-of-ways-to-form-a-target-string-given-a-dictionary,Hard
 number-of-ways-to-paint-n-3-grid,Hard
 number-of-ways-to-reach-a-position-after-exactly-k-steps,Medium
+number-of-ways-to-reach-destination-in-the-grid,Hard
 number-of-ways-to-rearrange-sticks-with-k-sticks-visible,Hard
 number-of-ways-to-reconstruct-a-tree,Hard
 number-of-ways-to-reorder-array-to-get-same-bst,Hard
@@ -2625,6 +2647,8 @@ subarray-product-less-than-k,Medium
 subarray-sum-equals-k,Medium
 subarray-sums-divisible-by-k,Medium
 subarray-with-elements-greater-than-varying-threshold,Hard
+subarrays-distinct-element-sum-of-squares-i,Easy
+subarrays-distinct-element-sum-of-squares-ii,Hard
 subarrays-with-k-different-integers,Hard
 subdomain-visit-count,Medium
 subrectangle-queries,Medium

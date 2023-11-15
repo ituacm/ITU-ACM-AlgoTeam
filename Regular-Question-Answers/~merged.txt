@@ -8,11 +8,13 @@ https://leetcode.com/problems/array-of-doubled-pairs/
 https://leetcode.com/problems/available-captures-for-rook/
 https://leetcode.com/problems/backspace-string-compare/
 https://leetcode.com/problems/balance-a-binary-search-tree/
+https://leetcode.com/problems/balanced-binary-tree/
 https://leetcode.com/problems/base-7/
 https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
 https://leetcode.com/problems/binary-search/
 https://leetcode.com/problems/binary-tree-inorder-traversal/
+https://leetcode.com/problems/binary-tree-right-side-view/
 https://leetcode.com/problems/car-pooling/
 https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/
 https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/
@@ -46,6 +48,7 @@ https://leetcode.com/problems/group-anagrams/
 https://leetcode.com/problems/hamming-distance/
 https://leetcode.com/problems/happy-number/
 https://leetcode.com/problems/heaters/
+https://leetcode.com/problems/increasing-triplet-subsequence/
 https://leetcode.com/problems/integer-to-english-words/
 https://leetcode.com/problems/integer-to-roman/
 https://leetcode.com/problems/is-graph-bipartite/
@@ -72,7 +75,9 @@ https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/
 https://leetcode.com/problems/maximum-product-of-three-numbers/
 https://leetcode.com/problems/maximum-units-on-a-truck/
 https://leetcode.com/problems/maximum-xor-for-each-query/
+https://leetcode.com/problems/maximum-xor-with-an-element-from-array/
 https://leetcode.com/problems/merge-intervals/
+https://leetcode.com/problems/merge-sorted-array/
 https://leetcode.com/problems/merge-two-binary-trees/
 https://leetcode.com/problems/merge-two-sorted-lists/
 https://leetcode.com/problems/middle-of-the-linked-list/
@@ -87,6 +92,7 @@ https://leetcode.com/problems/minimum-moves-to-equal-array-elements/
 https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/
 https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/
 https://leetcode.com/problems/minimum-score-by-changing-two-elements/
+https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/
 https://leetcode.com/problems/minimum-size-subarray-sum/
 https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/
 https://leetcode.com/problems/missing-number/
@@ -99,6 +105,7 @@ https://leetcode.com/problems/next-greater-element-i/
 https://leetcode.com/problems/next-greater-element-ii/
 https://leetcode.com/problems/next-permutation/
 https://leetcode.com/problems/number-complement/
+https://leetcode.com/problems/number-of-beautiful-pairs/
 https://leetcode.com/problems/number-of-laser-beams-in-a-bank/
 https://leetcode.com/problems/number-of-longest-increasing-subsequence/
 https://leetcode.com/problems/number-of-operations-to-make-network-connected/
@@ -138,6 +145,7 @@ https://leetcode.com/problems/reverse-vowels-of-a-string/
 https://leetcode.com/problems/reverse-words-in-a-string/
 https://leetcode.com/problems/richest-customer-wealth/
 https://leetcode.com/problems/roman-to-integer/
+https://leetcode.com/problems/rotate-image/
 https://leetcode.com/problems/russian-doll-envelopes/
 https://leetcode.com/problems/search-a-2d-matrix/
 https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
@@ -163,6 +171,7 @@ https://leetcode.com/problems/two-sum/
 https://leetcode.com/problems/ugly-number/
 https://leetcode.com/problems/unique-binary-search-trees/
 https://leetcode.com/problems/unique-paths/
+https://leetcode.com/problems/valid-palindrome/
 https://leetcode.com/problems/valid-parentheses/
 https://leetcode.com/problems/valid-sudoku/
 https://leetcode.com/problems/validate-binary-search-tree/
