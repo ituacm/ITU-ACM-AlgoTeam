@@ -1,6 +1,6 @@
 // Author: Murat Biberoğlu
 // Question Link: https://leetcode.com/problems/perfect-number/
-// Reviewers: Fatih Baskın, Feyza Sarı, Denis Davidoglu 
+// Reviewers: Fatih Baskın, Feyza Sarı, Denis Davidoglu
 
 class Solution {
    public:

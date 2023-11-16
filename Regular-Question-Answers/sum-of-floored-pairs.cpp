@@ -47,7 +47,7 @@
         This is why it's all efficient!
 */
 class Solution {
-public:
+   public:
     int sumOfFlooredPairs(vector<int> &nums) {
         const int mod = 1e9 + 7;
 

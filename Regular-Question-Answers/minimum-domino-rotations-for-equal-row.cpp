@@ -11,26 +11,25 @@
  * rotated differently. Even in this case, either loop gives the same answer.				*/
 
 class Solution {
-public:
+   public:
     int minDominoRotations(vector<int>& tops, vector<int>& bottoms) {
         int n = tops.size(), counterTop, counterBottom, target;
-        
+
         target = tops[0];
         counterTop = counterBottom = 0;
         for (int i = 0; i < n && (tops[i] == target || bottoms[i] == target); i++) {
             counterTop += (target != tops[i]);
             counterBottom += (target != bottoms[i]);
-            if (i == n-1) return min(counterTop, counterBottom);
+            if (i == n - 1) return min(counterTop, counterBottom);
         }
-        
+
         target = bottoms[0];
         counterTop = counterBottom = 0;
         for (int i = 0; i < n && (tops[i] == target || bottoms[i] == target); i++) {
             counterTop += (target != tops[i]);
             counterBottom += (target != bottoms[i]);
-            if (i == n-1) return min(counterTop, counterBottom);
+            if (i == n - 1) return min(counterTop, counterBottom);
         }
         return -1;
     }
 };
-

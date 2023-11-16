@@ -30,7 +30,7 @@ class Solution {
         int index1 = 0;
         int index2 = 0;
         int array_index = l;
-        
+
         // make comparision and merge the array
         while (index1 < len1 && index2 < len2) {
             // create bitsets of numbers

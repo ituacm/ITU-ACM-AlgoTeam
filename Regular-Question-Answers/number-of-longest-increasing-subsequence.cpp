@@ -3,7 +3,7 @@
 // Reviewer: Denis Davidoglu
 
 class Solution {
-public:
+   public:
     int findNumberOfLIS(vector<int> &nums) {
         /*
             The constraints allow us to implement an O(n^2) algorithm.
@@ -19,7 +19,7 @@ public:
         */
 
         int n = nums.size();
-        int max_lis_length = 0; // Length of the final LISs
+        int max_lis_length = 0;  // Length of the final LISs
         int ans = 0;
 
         // Initially, every element itself forms a LIS, hence the initial values of 1's.
@@ -40,9 +40,9 @@ public:
                 int candidate_lis_length = lis_length[j] + 1;
                 if (lis_length[i] < candidate_lis_length) {
                     lis_length[i] = candidate_lis_length;
-                    number_of_lis[i] = number_of_lis[j]; // Reset because LIS is longer now
+                    number_of_lis[i] = number_of_lis[j];  // Reset because LIS is longer now
                 } else if (lis_length[i] == candidate_lis_length) {
-                    number_of_lis[i] += number_of_lis[j]; // Increase
+                    number_of_lis[i] += number_of_lis[j];  // Increase
                 }
             }
             max_lis_length = max(max_lis_length, lis_length[i]);

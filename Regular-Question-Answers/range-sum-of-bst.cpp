@@ -50,7 +50,7 @@ class Solution {
         dfs(cursor->left, low, high);
     }
 
-public:
+   public:
     int rangeSumBST(TreeNode* root, int low, int high) {
         dfs(root, low, high);
         return sum;

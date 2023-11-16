@@ -17,7 +17,7 @@ We can either pay the fee while selling or buying the stock. Let's say we pay wh
 
 There can't be any left unsold stock so the ending state should be s0 (return the last element of s0)
 
-// Let's define s0 and s1: (consider how to reach them) 
+// Let's define s0 and s1: (consider how to reach them)
 First of all they are vectors having 2 possible operations each step.
 s0: 1. stay in s0 (don't buy)
     2. sell stock (selling will contribute positively)
@@ -68,14 +68,14 @@ public:
 */
 
 class Solution {
-public:
+   public:
     int maxProfit(vector<int>& prices, int fee) {
         int size = prices.size();
 
         int returnState = 0;
-        int holdState = - prices[0] - fee;
+        int holdState = -prices[0] - fee;
 
-        for(int i=1; i < size; i++){
+        for (int i = 1; i < size; i++) {
             returnState = max(returnState, holdState + prices[i]);
             holdState = max(holdState, returnState - prices[i] - fee);
         }
@@ -83,7 +83,6 @@ public:
         return returnState;
     }
 };
-
 
 // time comp. -> O(n)
 // space comp. -> O(1)

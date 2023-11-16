@@ -3,8 +3,8 @@
 // Reviewer: Denis Davidoglu
 
 class Solution {
-public:
-    vector<int> mark; // holds colors of nodes
+   public:
+    vector<int> mark;  // holds colors of nodes
     int n;
 
     // We need to colorize graph with two colors such that there is
@@ -13,7 +13,7 @@ public:
     // and we need to detect same color for adjacent nodes.
     bool isBipartite(vector<vector<int>>& graph) {
         this->n = graph.size();
-        this->mark = vector<int>(n, -1); // initalize node colors as -1
+        this->mark = vector<int>(n, -1);  // initalize node colors as -1
 
         // The graph may not be connected so
         // if there is a uncolored node start dfs from that node
@@ -31,11 +31,11 @@ public:
         mark[node] = state;
 
         // for each adjacent node of "node"
-        for (auto nextnode: graph[node]) {
+        for (auto nextnode : graph[node]) {
             // if "nextnode" has same color with "node" then
             // this graph is not a bipartite graph, return false
             if (state == mark[nextnode]) return false;
-            
+
             // if "nextnode" is not colored before that means it is not visited
             // visit "nextnode", remember to revert color with (1 - state)
             else if (mark[nextnode] == -1)

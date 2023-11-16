@@ -6,13 +6,13 @@
 // Space comp. -> O(1)
 
 class Solution {
-public:
-    /* We want to know if the t string contains the s string's letters as a subsequence. 
-    *  With two pointers one pointing at the beginning of the t, another one to the s.
-    *  Move along the t string's letters. If the letter matches the s pointer's letter, point to the next value of s.
-    *  If the s pointer's value is equal to the length of the s, it is a subsequence.
-    *  If yes return true, else false.
-    */
+   public:
+    /* We want to know if the t string contains the s string's letters as a subsequence.
+     *  With two pointers one pointing at the beginning of the t, another one to the s.
+     *  Move along the t string's letters. If the letter matches the s pointer's letter, point to the next value of s.
+     *  If the s pointer's value is equal to the length of the s, it is a subsequence.
+     *  If yes return true, else false.
+     */
     bool isSubsequence(string s, string t) {
         // base case:
         if (s == "") return true;

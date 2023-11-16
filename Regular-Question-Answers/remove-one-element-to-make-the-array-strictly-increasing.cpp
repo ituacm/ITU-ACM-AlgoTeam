@@ -17,7 +17,7 @@
 class Solution {
     vector<int> nums;
 
-public:
+   public:
     /*
         It becomes much more readable when we extract the checking mechanism to another function.
 
@@ -97,7 +97,7 @@ class Solution {
     */
     vector<bool> is_increasing_prefix, is_increasing_suffix;
 
-public:
+   public:
     bool isIncreasingAfterRemoval(int position_to_remove) {
         /*
             Recall the 3-rd condition: the preceding element must be smaller than the succeeding element.

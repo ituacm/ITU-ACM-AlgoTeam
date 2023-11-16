@@ -47,19 +47,19 @@ class Trie {
         // note that bits compared from MSB to LSB
         TrieNode* t = root;
         for (int i = 31; i >= 0; i--) {
-            if (num & (1 << i)) {   // if current bit is 1
-                if (t->c0) {        // and if there is a corresponding bit 0
-                    t = t->c0;      // then go to that bit
-                    result += (1 << i);     // and increment result by 2^i
+            if (num & (1 << i)) {        // if current bit is 1
+                if (t->c0) {             // and if there is a corresponding bit 0
+                    t = t->c0;           // then go to that bit
+                    result += (1 << i);  // and increment result by 2^i
                 } else {
-                    t = t->c1;      // if there is no bit 0 go to bit 1
+                    t = t->c1;  // if there is no bit 0 go to bit 1
                 }
-            } else {                // if current bit is 0
-                if (t->c1) {        // and if there is a corresponding bit 1
-                    t = t->c1;      // then go to that bit
-                    result += (1 << i);     // and increment result by 2^i
+            } else {                     // if current bit is 0
+                if (t->c1) {             // and if there is a corresponding bit 1
+                    t = t->c1;           // then go to that bit
+                    result += (1 << i);  // and increment result by 2^i
                 } else {
-                    t = t->c0;      // if there is no bit 1 go to bit 0
+                    t = t->c0;  // if there is no bit 1 go to bit 0
                 }
             }
         }
@@ -87,9 +87,9 @@ class Solution {
     // after inserting we are sure that every number at the trie
     // then we can search for maximum xor without worried about m
     vector<int> maximizeXor(vector<int>& nums, vector<vector<int>>& queries) {
-        Trie trie = Trie(); // create trie
+        Trie trie = Trie();  // create trie
 
-        sort(nums.begin(), nums.end());     // sort ascendingly
+        sort(nums.begin(), nums.end());  // sort ascendingly
 
         // push indexes for offline query method
         for (int i = 0; i < queries.size(); i++)
@@ -98,9 +98,9 @@ class Solution {
         // sort vectors ascendingly with respect to their 1st index (constraint m)
         sort(queries.begin(), queries.end(), custom_sort());
 
-        vector<vector<int>> res;    // inner vector holds result with query index
+        vector<vector<int>> res;  // inner vector holds result with query index
         int lastPushed = -1;
-        for (int i = 0; i < (int) queries.size(); i++) {
+        for (int i = 0; i < (int)queries.size(); i++) {
             // find maximum numbers index that smaller or equal to current constraint m
             int pushUntil = upper_bound(nums.begin(), nums.end(), queries[i][1]) - nums.begin();
 
@@ -108,7 +108,7 @@ class Solution {
             for (int j = lastPushed + 1; j < pushUntil; j++)
                 trie.push(nums[j]);
 
-            lastPushed = pushUntil - 1;     // update lastPushed
+            lastPushed = pushUntil - 1;  // update lastPushed
 
             // push answer of the query and index of the query to the res vector
             int maxXOR = trie.getMaxXor(queries[i][0]);
@@ -120,7 +120,7 @@ class Solution {
 
         // push query results to the answer array
         vector<int> ans;
-        for (int i = 0; i < (int) res.size(); i++)
+        for (int i = 0; i < (int)res.size(); i++)
             ans.push_back(res[i][0]);
         return ans;
     }

@@ -9,14 +9,14 @@
     Two cuts are considered consecutive if there is no other cut in between.
     So, there are (n+1) * (m+1) pieces of cake.
 
-    To maximize the piece's area, we can focus on finding the maximum difference between every two consecutive cuts (separately for both directions). 
+    To maximize the piece's area, we can focus on finding the maximum difference between every two consecutive cuts (separately for both directions).
     Then, the answer will be the product of the two maximum differences (one for vertical, one for horizontal).
 
     However, the initial orders of cuts (the input orders) aren't necessarily increasing/decreasing, which is why we should first sort them.
     Hence the complexity.
 */
 class Solution {
-public:
+   public:
     int maxConsecutiveDiff(vector<int> &cuts) {
         int max_diff = 0;
         for (int i = 1; i < cuts.size(); i++)

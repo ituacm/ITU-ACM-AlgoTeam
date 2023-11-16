@@ -15,8 +15,8 @@ class Solution {
 
         vector<int> ans;
         for (int i = 0; i < positions.size(); i++) {
-            int start = compressed[positions[i][0]];                        // Include start
-            int end = compressed[positions[i][0] + positions[i][1]] - 1;    // Exclude end
+            int start = compressed[positions[i][0]];                      // Include start
+            int end = compressed[positions[i][0] + positions[i][1]] - 1;  // Exclude end
             int h = positions[i][1];
 
             int initialHeight = getMax(0, 0, counter - 1, start, end);  // Height of the square

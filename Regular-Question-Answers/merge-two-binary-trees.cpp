@@ -19,7 +19,7 @@
  */
 
 class Solution {
-public:
+   public:
     TreeNode* mergeTrees(TreeNode* root1, TreeNode* root2) {
         // If one of the roots are null, return the other.
         if (!root1) return root2;

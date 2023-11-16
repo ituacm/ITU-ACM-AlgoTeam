@@ -17,11 +17,9 @@
  * Space complexity: O(1)
  */
 
-class Solution 
-{
-public:
-    uint32_t reverseBits(uint32_t n) 
-    {
+class Solution {
+   public:
+    uint32_t reverseBits(uint32_t n) {
         // We will store the number here
         uint32_t result = 0;
         // Left mask will be 10000....000 (1 bit on the left, rest is 0, 2^31 = 2147483648)
@@ -39,11 +37,9 @@ public:
          *         maskL : 00100000
          *  result of OR : 00100000
          */
-        for (int i = 0; i < 32; i++)
-        {
+        for (int i = 0; i < 32; i++) {
             // If ANDing number and maskR shifted left by i times is not 0
-            if (n & (maskR << i))
-            {
+            if (n & (maskR << i)) {
                 // OR result with maskL shifted right i times
                 result |= (maskL >> i);
             }

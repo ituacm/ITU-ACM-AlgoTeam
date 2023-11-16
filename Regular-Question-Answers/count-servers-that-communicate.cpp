@@ -6,14 +6,14 @@
 // Memory Complexity: O(n*m)
 
 class Solution {
-public:
+   public:
     int countServers(vector<vector<int>>& grid) {
         // Declaring n and m as number of columns and rows.
         int n = grid.size();
         int m = grid[0].size();
         // Declaring row and col vectors with the number of servers in that row or column.
         vector<int> row(n), col(m);
-        
+
         // Search our grid to calculate number of server for row and col vectors.
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
@@ -24,10 +24,10 @@ public:
                 }
             }
         }
-        
+
         // Number of servers that communicate with at least one of the other servers.
         int total = 0;
-        
+
         /* Checking if ith row and jth column of our our grid have at least 2 servers
         to communicate with each other.*/
         for (int i = 0; i < n; i++) {
@@ -38,7 +38,7 @@ public:
                 }
             }
         }
-        
+
         return total;
     }
 };

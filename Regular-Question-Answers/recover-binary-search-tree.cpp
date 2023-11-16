@@ -16,16 +16,14 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-class Solution
-{
-private:
+class Solution {
+   private:
     // If you traverse a binary search tree inorder, you would get a sorted array.
     vector<int> numbers;
     // Index for inorderPlacer vector
     int vectorIndex = 0;
     // That is why we will use a inorder traversal function
-    void inorderTraversal(TreeNode *root)
-    {
+    void inorderTraversal(TreeNode *root) {
         // Edge case, if function jumps to NULL pointer, terminate
         if (root == nullptr)
             return;
@@ -37,8 +35,7 @@ private:
         inorderTraversal(root->right);
     }
     // Then we will traverse inorder again and place values correctly.
-    void inorderCorrecter(TreeNode *root)
-    {
+    void inorderCorrecter(TreeNode *root) {
         // Edge case, if function jumps to NULL pointer, terminate
         if (root == nullptr)
             return;
@@ -51,9 +48,8 @@ private:
         inorderCorrecter(root->right);
     }
 
-public:
-    void recoverTree(TreeNode *root)
-    {
+   public:
+    void recoverTree(TreeNode *root) {
         // First traverse the tree inorderly
         inorderTraversal(root);
         // Then sort the numbers

@@ -3,9 +3,9 @@
 // Reviewer: Denis Davidoglu
 
 class Solution {
-public:
+   public:
     // To make given number largest under given move, we need to convert first 6 to 9
-    int maximum69Number (int num) {
+    int maximum69Number(int num) {
         stack<int> digits;  // LIFO Data Structure
 
         // Put all digits to stack, most significant digit at the top
@@ -15,7 +15,7 @@ public:
         }
 
         // true means we didn't converted a 6 to 9 yet
-        // false means we converted a 6 to 9 
+        // false means we converted a 6 to 9
         bool flag = true;
         while (!digits.empty()) {
             int d = digits.top();

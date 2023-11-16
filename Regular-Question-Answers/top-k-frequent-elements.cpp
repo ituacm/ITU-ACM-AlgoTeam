@@ -9,12 +9,12 @@
 
 // We first create a class which contains the value and frequency of Numbers
 class Number {
-public:
+   public:
     int val;
     int frequency;
 
     // Constructor to use in Main
-    Number(int val, int frequency){
+    Number(int val, int frequency) {
         this->val = val;
         this->frequency = frequency;
     }
@@ -29,8 +29,7 @@ public:
 };
 
 class Solution {
-public:
-
+   public:
     /**
      * We will create a heap that contains most frequent K elements.
      * First, count the frequencies using unordered map
@@ -39,13 +38,12 @@ public:
      */
 
     vector<int> topKFrequent(vector<int>& nums, int k) {
-        
         // Min Heap for most frequent K number
         priority_queue<Number> mostKFrequentNumbers;
-        
+
         // Unordered map is used for counting the frequency of numbers at start
         unordered_map<int, int> countFrequenciesOfNumbers;
-        for (int& num: nums){
+        for (int& num : nums) {
             countFrequenciesOfNumbers[num]++;
         }
 
@@ -53,23 +51,22 @@ public:
         // After that we will push numbers if their frequency is greater than the number that is in the heap with least frequency
         // This element will be top element, because we create a min heap according to the frequencies
         int count = 0;
-        for ( auto itr = countFrequenciesOfNumbers.begin(); itr != countFrequenciesOfNumbers.end(); itr++ ){
-
+        for (auto itr = countFrequenciesOfNumbers.begin(); itr != countFrequenciesOfNumbers.end(); itr++) {
             // Push k numbers
-            if (count < k){
-                mostKFrequentNumbers.push( Number(itr->first, itr->second) );
+            if (count < k) {
+                mostKFrequentNumbers.push(Number(itr->first, itr->second));
                 count++;
             }
             // If frequency of the number is larger than min element in heap, push it to heap
             else if (itr->second > mostKFrequentNumbers.top().frequency) {
                 mostKFrequentNumbers.pop();
-                mostKFrequentNumbers.push( Number(itr->first, itr->second) );
+                mostKFrequentNumbers.push(Number(itr->first, itr->second));
             }
         }
 
         // Store result numbers in a vector
         vector<int> result;
-        while (!mostKFrequentNumbers.empty()){
+        while (!mostKFrequentNumbers.empty()) {
             result.push_back(mostKFrequentNumbers.top().val);
             mostKFrequentNumbers.pop();
         }

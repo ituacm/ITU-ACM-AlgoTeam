@@ -19,7 +19,7 @@
  *
  * */
 class Solution {
-public:
+   public:
     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
         stack<int> monotonic_stack;
 
@@ -33,9 +33,11 @@ public:
             }
             monotonic_stack.push(i);
         }
-        for (int &i : nums1) {
-            if (arr[i] == 0) i = -1;
-            else i = arr[i];
+        for (int& i : nums1) {
+            if (arr[i] == 0)
+                i = -1;
+            else
+                i = arr[i];
         }
 
         return nums1;

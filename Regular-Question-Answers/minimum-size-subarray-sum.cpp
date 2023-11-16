@@ -15,7 +15,7 @@
     Fun fact: this method is literally called the "two pointers" method :D (a.k.a. sliding window)
 */
 class Solution {
-public:
+   public:
     int minSubArrayLen(int target, vector<int> &nums) {
         int n = nums.size();
 
@@ -33,8 +33,8 @@ public:
             I chose n+1 but you can choose anything larger than n, e.g., INT_MAX.
         */
         int ans = n + 1;
-        int l = 0;   // Left pointer representing the left endpoint of the sliding subarray.
-        int sum = 0; // The sum of subarray nums[l..r]. Thanks to the constraints, it can be at most 10^9 that fits in int.
+        int l = 0;    // Left pointer representing the left endpoint of the sliding subarray.
+        int sum = 0;  // The sum of subarray nums[l..r]. Thanks to the constraints, it can be at most 10^9 that fits in int.
         for (int r = 0; r < n; r++) {
             // Increment r one by one, and each time, update the sum.
             sum += nums[r];
@@ -44,7 +44,7 @@ public:
                 increment l. This minimizes the subarray length ending at r.
             */
             while (sum - nums[l] >= target)
-                sum -= nums[l++]; // We used post-increment: first use the current value, then increment.
+                sum -= nums[l++];  // We used post-increment: first use the current value, then increment.
 
             // Whether sum is greater than or equal to the target should be checked.
             // For each r, we update the answer if it needs to be updated.
@@ -73,7 +73,7 @@ public:
     This allows us to binary search j -> this is where log(n) comes from.
 */
 class Solution {
-public:
+   public:
     int minSubArrayLen(int target, vector<int> &nums) {
         int n = nums.size();
         int ans = n + 1, l = 0, sum = 0;
@@ -83,7 +83,7 @@ public:
             This prevents us from accessing the (-1)-th element: prefix_sum[j-1].
             Strongly recommended! :)
         */
-        vector<int> prefix_sum(n + 1); // Every element is initialized to 0 even if we don't write it explicitly.
+        vector<int> prefix_sum(n + 1);  // Every element is initialized to 0 even if we don't write it explicitly.
         for (int i = 0; i < n; i++) {
             prefix_sum[i + 1] = prefix_sum[i] + nums[i];
 
@@ -104,7 +104,7 @@ public:
                     2- upper_bound(x) is the leftmost element > x.
             */
             int target_index = upper_bound(prefix_sum.begin(), prefix_sum.begin() + i + 1, target_to_subtract) - prefix_sum.begin();
-            target_index--; // Now it's the largest j s.t. prefix_sum[j] <= target_to_subtract.
+            target_index--;  // Now it's the largest j s.t. prefix_sum[j] <= target_to_subtract.
 
             /*
                 However, there might not be any suitable j. This can happen when prefix_sum[i+1] itself is smaller than the target.

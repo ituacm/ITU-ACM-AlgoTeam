@@ -5,9 +5,8 @@
 // Question Link: https://leetcode.com/problems/rotate-image/
 
 class Solution {
-public:
+   public:
     void rotate(vector<vector<int>>& matrix) {
-        
         // Size of the matrix (both rows and columns).
         int size = matrix.size();
 

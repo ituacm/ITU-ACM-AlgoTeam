@@ -25,7 +25,7 @@ class Solution {
             a -= mod;
     }
 
-public:
+   public:
     int numWays(int steps, int arrLen) {
         /*
             The furthest reasonable position is half the number of steps, because
@@ -114,7 +114,7 @@ class Solution {
             a -= mod;
     }
 
-public:
+   public:
     int numWays(int steps, int arrLen) {
         /*
             The furthest reasonable position is half the number of steps, because
@@ -143,7 +143,7 @@ public:
             However, arrays are the fastest! Use arrays whenever you can.
         */
         int index_offset = furthest_proper_position;
-        dp[index_offset] = 1; // The index "index_offset" corresponds to position 0.
+        dp[index_offset] = 1;  // The index "index_offset" corresponds to position 0.
 
         while (steps--) {
             vector<int> ndp(n_positions);

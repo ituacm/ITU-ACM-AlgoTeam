@@ -7,7 +7,7 @@
 // Space Complexity: O(k)
 
 class Solution {
-public:
+   public:
     vector<vector<int>> kSmallestPairs(vector<int>& nums1, vector<int>& nums2, int k) {
         priority_queue<pair<int, pair<int, int>>> pq;
         // our max heap will hold {sum, {number1, number2}}, sum denoting number1 + number2.
@@ -34,7 +34,7 @@ public:
         }
 
         vector<vector<int>> result(pq.size());
-        
+
         // our max heap holds the maximum sum value on top, but we need to store them in non-decreasing order
         // so we start assigning from the last element of our result array
         for (int i = result.size() - 1; i >= 0; i--) {

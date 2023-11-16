@@ -42,9 +42,8 @@
 */
 
 class Solution {
-public:
+   public:
     int totalFruit(vector<int>& fruitTrees) {
-
         // first fruit will be a tail to secondFruit
         int firstFruit = -1, secondFruit = -1;
         // secFruitCount will be the current pick if a third value comes along
@@ -53,7 +52,6 @@ public:
         int maxPick = 0;
         // last secondFruit (and if there is, firstFruit) tree count
         int currentPick = 0;
-
 
         for (int fruit : fruitTrees) {
             // if the fruit is one of the wanted two fruits then increase currentPick

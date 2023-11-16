@@ -10,7 +10,7 @@
 */
 
 class Solution {
-public:
+   public:
     vector<int> nextGreaterElements(vector<int> &nums) {
         int n = nums.size();
         /*
@@ -135,12 +135,12 @@ public:
     Bonus O(n * log(n)) solution: sparse table & binary search!
 */
 class Solution {
-public:
+   public:
     vector<int> nextGreaterElements(vector<int> &nums) {
         int n = nums.size();
         const int LG = log2(n) + 2;
         int range_max[n][LG];
-        
+
         for (int i = 0; i < n; i++)
             range_max[i][0] = nums[i];
         for (int j = 1; j < LG; j++)

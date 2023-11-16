@@ -11,7 +11,7 @@
 // We can build the tree as an adjacency list (adjList is a good choice for DFS/BFS).
 
 class Solution {
-public:
+   public:
     // Regular DFS function.
     // The 'result' is sent as a parameter to the function.
     // You can also write the code so that 'res' is updated in the main function.
@@ -21,15 +21,15 @@ public:
             return;
         }
         for (int i = 0; i < adjList[node].size(); i++)
-            dfs(adjList, informTime, adjList[node][i], time+informTime[node], res);
+            dfs(adjList, informTime, adjList[node][i], time + informTime[node], res);
     }
-    
+
     int numOfMinutes(int n, int headID, vector<int>& manager, vector<int>& informTime) {
-        vector<vector<int>> adjList(n, vector<int>()); 
+        vector<vector<int>> adjList(n, vector<int>());
 
         for (int i = 0; i < n; i++) {
             // 'head' has no manager.
-            if (i == headID) continue; 
+            if (i == headID) continue;
             adjList[manager[i]].push_back(i);
         }
         int res = 0;

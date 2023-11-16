@@ -4,9 +4,9 @@
 // Reviewer: Denis Davidoglu
 
 class Solution {
-public:
+   public:
     /*
-        This is the binary search implementation question, 
+        This is the binary search implementation question,
         because of O(logN) time complexity given in the question.
 
         Basically, in binary search we have 2 pointers left and right;
@@ -21,23 +21,22 @@ public:
         // left must be smaller or equal to right pointer
         while (left <= right) {
             // checking mid results in logN time complexity
-            int mid = (left + right) / 2; 
-            
-            if (nums[mid] == target) 
-                return mid; // target was found 
+            int mid = (left + right) / 2;
+
+            if (nums[mid] == target)
+                return mid;  // target was found
             else if (nums[mid] < target)
-                left = mid+1; // target must be in right of mid
+                left = mid + 1;  // target must be in right of mid
             else
-                right = mid-1; // target must be in left of mid
+                right = mid - 1;  // target must be in left of mid
         }
 
         // if not found in given array
-        return left; 
-        
+        return left;
+
         /*
             Overall Time Complexity: O(LogN)
             Space Complexity: O(1)
         */
-
     }
 };

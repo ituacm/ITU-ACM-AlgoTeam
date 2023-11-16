@@ -10,15 +10,15 @@
 //   -> 9 * (n - 2) * (n - 2) iterations --> O((n - 2)^2)
 
 class Solution {
-public:
+   public:
     vector<vector<int>> largestLocal(vector<vector<int>>& grid) {
         int n = grid.size();
         // Creating an (n - 2) x (n - 2) matrix and initializing with INT_MIN
         vector<vector<int>> maxLocal(n - 2, vector<int>(n - 2, INT_MIN));
 
         // For each element of maxLocal we iterate through possible maximums
-        for (int i = 0; i < n - 2; i++) {       // maxLocal row
-            for (int j = 0; j < n - 2; j++) {   // maxLocal column
+        for (int i = 0; i < n - 2; i++) {      // maxLocal row
+            for (int j = 0; j < n - 2; j++) {  // maxLocal column
 
                 // Rows of subarray of size 3x3, centering at (i + 1, j + 1)
                 for (int k = i; k < i + 3; k++) {

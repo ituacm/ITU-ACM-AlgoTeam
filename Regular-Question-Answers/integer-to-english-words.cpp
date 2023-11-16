@@ -7,7 +7,7 @@ class Solution {
     string numberToWords(int num) {
         if (num == 0) return "Zero";
 
-        this->init();   // initialize constants
+        this->init();  // initialize constants
 
         // holds the corresponding numbers for digits
         // 10^9, 10^6, 10^3, 10^0 (starting from 10^9)

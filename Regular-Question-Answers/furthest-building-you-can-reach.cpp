@@ -50,7 +50,7 @@
     Hope you had fun too! :)
 */
 class Solution {
-public:
+   public:
     int furthestBuilding(vector<int> &heights, int bricks, int ladders) {
         int n = heights.size();
 

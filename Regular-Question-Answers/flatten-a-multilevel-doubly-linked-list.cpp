@@ -17,13 +17,13 @@ public:
  * still callable from main() without any changes.                            */
 
 class Solution {
-public:
+   public:
     Node* flatten(Node* head, Node* parrent = NULL) {
         // Condition for exiting the recursion
         if (head == NULL) return NULL;
-        
+
         Node *tail, *current;
-    
+
         /* Loop where flatten() is called recursively on each node.           *
          * Tail is also searched here. It comes the last, by the time it is   *
          * set, every other node would have been processed by flatten(),      *
@@ -42,13 +42,13 @@ public:
             // This if block is required to avoid runtime error
             if (parrent->next != NULL) {
                 parrent->next->prev = tail;
-                tail->next = parrent->next;   
+                tail->next = parrent->next;
             }
             head->prev = parrent;
             parrent->next = head;
             parrent->child = NULL;
         }
-        
+
         return head;
     }
 };

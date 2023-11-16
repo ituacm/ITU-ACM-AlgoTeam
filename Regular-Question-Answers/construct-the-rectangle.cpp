@@ -11,21 +11,18 @@
 */
 
 class Solution {
-public:
+   public:
     vector<int> constructRectangle(int area) {
-
         // Iterate from the square root of the area down to 1
-        for (int width = sqrt(area); width > 1; width--)
-        {
+        for (int width = sqrt(area); width > 1; width--) {
             // Check if width is a divisor of area
-            if (area % width == 0)
-            {
+            if (area % width == 0) {
                 // If a divisor is found, immediately return the dimensions
                 // This ensures the difference between length and width is minimized
                 return {area / width, width};
             }
         }
-        
+
         // Return statement, although the loop should already find a solution
         return {area, 1};  // If no divisor is found, default to [area, 1]
     }

@@ -4,7 +4,7 @@
 
 // Time Complexity  -> 0(n) , Space Complexity -> 0(1)
 class Solution {
-public:
+   public:
     int singleNonDuplicate(vector<int>& nums) {
         // Check if the input array has only one element; if so, return that element.
         if (nums.size() == 1) {

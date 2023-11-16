@@ -3,7 +3,7 @@
 // Reviewer: Denis Davidoglu
 
 class Solution {
-public:
+   public:
     int maxCount(int m, int n, vector<vector<int>> &ops) {
         /*
             Notice that every operation affects the top left cell (matrix[0][0]), so this cell will

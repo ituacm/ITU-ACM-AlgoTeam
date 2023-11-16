@@ -3,7 +3,7 @@
 // Reviewer: Denis Davidoglu
 
 class Solution {
-public:
+   public:
     int findComplement(int num) {
         /* Complement of an integer is the inverted binary state of the integer.
         Mathematically we can get (2^m - 1) at maximum, m = binary digit size of the number.
