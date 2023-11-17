@@ -15,7 +15,7 @@
  */
 
 class Solution {
-   public:
+public:
     // Function for checking if all the elements in the map has same value
     bool allEqual(map<char, int> mp) {
         map<char, int>::iterator itr;

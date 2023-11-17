@@ -7,7 +7,7 @@ The two pointers will point to the first not sorted element and the first greate
 Thus, by swapping these numbers and sorting the rest of the array from the first not sorted element should yield the next permutation.  */
 
 class Solution {
-   public:
+public:
     void nextPermutation(vector<int>& nums) {
         // If the array has only one element, the next permutation is itself.
         if (nums.size() == 1) return;

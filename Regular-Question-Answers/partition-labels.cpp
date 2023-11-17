@@ -4,7 +4,7 @@
 // Reviewer: Denis Davidoglu
 
 class Solution {
-   public:
+public:
     /*
         Greedy algorithm question.
         1. Find last index of each character and store it (map)

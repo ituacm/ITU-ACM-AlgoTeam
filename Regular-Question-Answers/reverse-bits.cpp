@@ -18,7 +18,7 @@
  */
 
 class Solution {
-   public:
+public:
     uint32_t reverseBits(uint32_t n) {
         // We will store the number here
         uint32_t result = 0;

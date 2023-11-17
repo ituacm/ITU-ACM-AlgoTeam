@@ -6,7 +6,7 @@
 // value lies between the values of given nodes.
 
 class Solution {
-   public:
+public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
         TreeNode* currentNode = root;
         while (currentNode != NULL) {

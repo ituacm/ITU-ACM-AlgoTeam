@@ -2,7 +2,7 @@
 // Question Link: https://leetcode.com/problems/reverse-linked-list-ii/
 
 class Solution {
-   public:
+public:
     ListNode* reverseBetween(ListNode* head, int left, int right) {
         // the three sublist: prev, middle, next
         // only middle sublist will be reversed

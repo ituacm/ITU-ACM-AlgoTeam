@@ -35,7 +35,7 @@
 */
 
 class Solution {
-   public:
+public:
     // Depth-First Search function, to chech if the Graph
     // is connected by changing visited array of bools.
     void DFS(int x, vector<bool>& visited, vector<vector<int>>& adjacencyList) {

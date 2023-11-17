@@ -5,7 +5,7 @@
 // Space comp -> O(1)
 
 class Solution {
-   public:
+public:
     bool isPalindrome(string s) {
         // Two-pointer method
 

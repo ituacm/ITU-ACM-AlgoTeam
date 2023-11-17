@@ -2,7 +2,7 @@
 // Question Link: https://leetcode.com/problems/palindrome-linked-list/
 
 class Solution {
-   public:
+public:
     bool isPalindrome(ListNode* head) {
         // find the middle of the linked list using slow-fast pointers
         ListNode *slow = head, *fast = head;

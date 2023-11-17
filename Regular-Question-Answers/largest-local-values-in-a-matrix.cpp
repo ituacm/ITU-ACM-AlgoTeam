@@ -10,7 +10,7 @@
 //   -> 9 * (n - 2) * (n - 2) iterations --> O((n - 2)^2)
 
 class Solution {
-   public:
+public:
     vector<vector<int>> largestLocal(vector<vector<int>>& grid) {
         int n = grid.size();
         // Creating an (n - 2) x (n - 2) matrix and initializing with INT_MIN

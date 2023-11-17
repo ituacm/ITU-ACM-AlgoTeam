@@ -22,7 +22,7 @@
     It takes ~sqrt(n) iterations.
 */
 class Solution {
-   public:
+public:
     int arrangeCoins(int n) {
         int n_rows = 0;
 
@@ -77,7 +77,7 @@ class Solution {
     in the end, l (or r) becomes the answer.
 */
 class Solution {
-   public:
+public:
     int arrangeCoins(int n) {
         int l = 0, r = n;
         while (l < r) {
@@ -108,7 +108,7 @@ class Solution {
     Just check the neighbouring values to find the actual answer.
 */
 class Solution {
-   public:
+public:
     int arrangeCoins(int n) {
         int n_rows = sqrt(2ll * n);  // 2*n might overflow, use 2ll * n or (long long) 2 * n!
 

@@ -5,7 +5,7 @@
  * with one search with the same complexity is possible too.            */
 
 class Solution {
-   public:
+public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
         int mid;
         int n = matrix.size(), m = matrix[0].size();

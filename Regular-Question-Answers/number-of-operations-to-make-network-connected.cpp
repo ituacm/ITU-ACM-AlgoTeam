@@ -3,7 +3,7 @@
 // Reviewers: Murat Biberoğlu, Toygun Görmüş
 
 class Solution {
-   public:
+public:
     vector<bool> visited;
     vector<list<int>> graph;
     int disjointCount;

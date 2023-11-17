@@ -7,7 +7,7 @@
  * diagonal, the pawn is counted.                                           */
 
 class Solution {
-   public:
+public:
     bool bishopAtDiagonal(int x, int y, vector<vector<char>>& board) {
         /* To find bishop that protects pawn at board[x][y], four loops are *
          * used for each direction, each starting at the pawn's position.   */

@@ -13,7 +13,7 @@
  */
 
 class Solution {
-   public:
+public:
     int lengthOfLastWord(string s) {
         // Here we have two pointers
         // Inititalize pointer2 to s.size()-1 which is the end of the string

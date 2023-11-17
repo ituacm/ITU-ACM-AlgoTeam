@@ -19,7 +19,7 @@ int max(int a, int b) {
 }
 
 class Solution {
-   public:
+public:
     // Calculates the maximum depth of a binary tree.
     int maxDepth(TreeNode* root) {
         // if root is null pointer, terminate the program

@@ -3,7 +3,7 @@
 // Reviewer: Bilgenur Çelik
 
 class Solution {
-   public:
+public:
     // The core of solution to the problem is the function below.
     int reverse(int n) {
         vector<int> digits;

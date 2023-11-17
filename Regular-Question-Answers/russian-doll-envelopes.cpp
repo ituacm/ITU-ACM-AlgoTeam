@@ -59,7 +59,7 @@ class Solution {
         return left;
     }
 
-   public:
+public:
     int maxEnvelopes(vector<vector<int>>& envelopes) {
         // Sorting the envelopes in ascending order with respect to their widths and in descending order
         // with respect to their heights

@@ -3,7 +3,7 @@
 // Reviewer: Denis Davidoglu
 
 class Solution {
-   public:
+public:
     vector<int> maximumBeauty(vector<vector<int>>& items, vector<int>& queries) {
         // Sorting items in ascending order according to their prices.
         sort(items.begin(), items.end());

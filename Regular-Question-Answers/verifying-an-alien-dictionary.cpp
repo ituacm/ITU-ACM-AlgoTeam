@@ -2,7 +2,7 @@
 // Question Link: https://leetcode.com/problems/verifying-an-alien-dictionary/
 
 class Solution {
-   public:
+public:
     bool isAlienSorted(vector<string>& words, string order) {
         // Each character gets an associated order number, recorded in map
         map<char, int> orderMap;

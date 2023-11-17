@@ -7,7 +7,7 @@
 using namespace std;
 
 class Solution {
-   public:
+public:
     /*
      * If we reshape the question, it actually wants us to get the rightmost element of every layer of the tree.
      *

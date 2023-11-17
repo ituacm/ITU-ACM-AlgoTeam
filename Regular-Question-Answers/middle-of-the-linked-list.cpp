@@ -14,7 +14,7 @@
  */
 
 class Solution {
-   public:
+public:
     // the idea is holding two pointers to nodes, of which one is slow and one is fast
     // the slow one moves 1 node each step and the fast one moves 2 nodes at each step until fast is not null
     // we will move the slow one first and then move the fast one, because

@@ -3,7 +3,7 @@
 // Reviewer: Denis Davidoglu
 
 class Solution {
-   public:
+public:
     int reverse(int x) {
         // Since the environment does not let us to store 64-bit numbers, this means we can't use long long variable type.
         // Normal integers are in the range of -2^31 <= x <= 2^31 - 1, this is about 2 * 10^9.

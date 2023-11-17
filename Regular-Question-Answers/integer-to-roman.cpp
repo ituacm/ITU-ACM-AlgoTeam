@@ -3,7 +3,7 @@
 // Question Link: https://leetcode.com/problems/integer-to-roman/
 
 class Solution {
-   public:
+public:
     string intToRoman(int N) {
         // initialize values and their romen numerals
         int value[13] = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};

@@ -2,7 +2,7 @@
 // Question Link: https://leetcode.com/problems/ugly-number/
 
 class Solution {
-   public:
+public:
     bool isUgly(int n) {
         // the number should be positive as written in the question
         if (n <= 0)

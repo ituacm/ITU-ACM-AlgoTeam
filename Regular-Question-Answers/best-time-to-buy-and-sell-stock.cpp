@@ -6,7 +6,7 @@
 // Space comp. -> O(1)
 
 class Solution {
-   public:
+public:
     int maxProfit(vector<int>& prices) {
         // store maximum profit so far: (this will be the return value)
         int maxProfit = 0;

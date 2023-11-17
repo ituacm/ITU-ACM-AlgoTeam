@@ -1,7 +1,7 @@
 // Author: Ayşe Sarı
 // Link: https://leetcode.com/problems/permutations-ii/description/
 class Solution {
-   public:
+public:
     // This function calculates unique permutations in the given integer vector.
     vector<vector<int>> permuteUnique(vector<int>& nums) {
         vector<vector<int>> result;
@@ -9,7 +9,7 @@ class Solution {
         return result;
     }
 
-   private:
+private:
     void generateUniquePermutations(int index, vector<int>& nums, vector<vector<int>>& result) {
         if (index == nums.size()) {
             result.push_back(nums);  // Add the current permutation to the result vector.

@@ -10,7 +10,7 @@ class Solution {
     But in this operation we calculate some of the trees over and over again. To prevent this we can use dynamic programing.
     We should use a vector for storing the number of possible trees that consist i element.
     */
-   public:
+public:
     int numTrees(int n) {
         // create the vector for memoization
         // trees[i] = number of bst that consist 1-i elements

@@ -30,7 +30,7 @@ class Solution {
 
     */
 
-   public:
+public:
     long long MOD = 1e9 + 7;
 
     int countVowelPermutation(int n) {

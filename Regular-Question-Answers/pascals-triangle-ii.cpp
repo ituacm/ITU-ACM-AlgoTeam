@@ -5,7 +5,7 @@
 // Time Complexity : O(n^2)
 // Space Complexity : O(n^2)
 class Solution {
-   public:
+public:
     vector<int> getRow(int rowIndex) {
         // create a two dimensional array to store Pascal's triangle
         vector<vector<int>> pascalTriangle(rowIndex + 1);

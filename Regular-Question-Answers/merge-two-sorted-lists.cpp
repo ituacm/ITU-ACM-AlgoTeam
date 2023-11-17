@@ -33,7 +33,7 @@
 */
 
 class Solution {
-   public:
+public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
         ListNode* counterFirst = list1;   // To store pointer to list1
         ListNode* counterSecond = list2;  // To store pointer to list2

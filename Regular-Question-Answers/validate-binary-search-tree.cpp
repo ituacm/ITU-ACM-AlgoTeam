@@ -25,7 +25,7 @@
  */
 
 class Solution {
-   public:
+public:
     // Storing the result of the traversal in this vector
     vector<int> traversal;
     // Solution fuction

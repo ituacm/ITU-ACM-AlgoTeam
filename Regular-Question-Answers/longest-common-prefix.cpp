@@ -3,7 +3,7 @@
 // Question Link: https://leetcode.com/problems/longest-common-prefix/
 
 class Solution {
-   public:
+public:
     string longestCommonPrefix(vector<string>& stringArray) {
         int n = stringArray.size();
 

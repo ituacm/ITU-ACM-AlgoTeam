@@ -35,7 +35,7 @@
 */
 
 class Solution {
-   public:
+public:
     int findCenter(vector<vector<int>>& edges) {
         // Either first node or second node of the first
         // connection will be the centered node of the graph.

@@ -4,7 +4,7 @@
 
 // time complexity -> O(n)
 class Solution {
-   public:
+public:
     // Function to check if a vector contains duplicate elements
     bool containsDuplicate(vector<int>& nums) {
         // Create an unordered set to store the numbers we've seen

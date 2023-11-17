@@ -2,7 +2,7 @@
 // Question Link: https://leetcode.com/problems/rectangle-area
 
 class Solution {
-   public:
+public:
     int computeArea(int ax1, int ay1, int ax2, int ay2, int bx1, int by1, int bx2, int by2) {
         return (ay2 - ay1) * (ax2 - ax1) +  // area of first rectangle
                (by2 - by1) * (bx2 - bx1) -  // area of second rectangle

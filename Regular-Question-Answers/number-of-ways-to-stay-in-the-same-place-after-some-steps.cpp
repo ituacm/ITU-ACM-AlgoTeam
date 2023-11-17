@@ -25,7 +25,7 @@ class Solution {
             a -= mod;
     }
 
-   public:
+public:
     int numWays(int steps, int arrLen) {
         /*
             The furthest reasonable position is half the number of steps, because
@@ -114,7 +114,7 @@ class Solution {
             a -= mod;
     }
 
-   public:
+public:
     int numWays(int steps, int arrLen) {
         /*
             The furthest reasonable position is half the number of steps, because

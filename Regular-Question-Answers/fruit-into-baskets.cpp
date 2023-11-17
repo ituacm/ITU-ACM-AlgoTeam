@@ -42,7 +42,7 @@
 */
 
 class Solution {
-   public:
+public:
     int totalFruit(vector<int>& fruitTrees) {
         // first fruit will be a tail to secondFruit
         int firstFruit = -1, secondFruit = -1;

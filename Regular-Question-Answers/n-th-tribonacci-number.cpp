@@ -2,7 +2,7 @@
 // Question Link: https://leetcode.com/problems/n-th-tribonacci-number/
 
 class Solution {
-   public:
+public:
     // for dynamic programming
     unordered_map<int, int> cache;
 

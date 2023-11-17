@@ -10,7 +10,7 @@
  element - that equals val - and the last element of the array and decrease
  the size of the array we get the wanted array. */
 class Solution {
-   public:
+public:
     int removeElement(vector<int> &nums, int val) {
         // i is current place, size is array size
         int i = 0;

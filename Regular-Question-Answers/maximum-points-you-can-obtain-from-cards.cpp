@@ -5,7 +5,7 @@
 // Time Complexity: O(n)
 
 class Solution {
-   public:
+public:
     int maxScore(vector<int>& cardPoints, int k) {
         int result = 0;
 

@@ -18,7 +18,7 @@
 // Space complexity = O(1);
 
 class Solution {
-   public:
+public:
     // calculate gcd
     int myGcd(int x, int y) {
         if (y == 0) {

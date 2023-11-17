@@ -3,7 +3,7 @@
 // Reviewer: Denis Davidoglu
 
 class Solution {
-   public:
+public:
     vector<int> mark;  // holds colors of nodes
     int n;
 

@@ -3,7 +3,7 @@
 // Reviewer: Denis Davidoglu
 
 class Solution {
-   public:
+public:
     vector<int> sortByBits(vector<int> &arr) {
         merge_sort(arr, 0, arr.size() - 1);
         return arr;

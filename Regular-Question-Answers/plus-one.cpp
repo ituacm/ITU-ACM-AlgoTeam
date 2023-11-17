@@ -6,7 +6,7 @@
 // Space Complexity: O(1)
 
 class Solution {
-   public:
+public:
     vector<int> plusOne(vector<int>& digits) {
         digits[digits.size() - 1]++;
         // increment the least significant digit by one

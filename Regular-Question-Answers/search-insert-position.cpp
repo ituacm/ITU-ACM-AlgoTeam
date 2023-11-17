@@ -4,7 +4,7 @@
 // Reviewer: Denis Davidoglu
 
 class Solution {
-   public:
+public:
     /*
         This is the binary search implementation question,
         because of O(logN) time complexity given in the question.

@@ -9,7 +9,7 @@
 // O(n*log n), therefore just using Segment Tree is not sufficient.
 // To overcome this problem we are going to compress numbers in a smaller range without losing order of numbers.
 class Solution {
-   public:
+public:
     vector<int> fallingSquares(vector<vector<int>>& positions) {
         compress(positions);
 
@@ -30,7 +30,7 @@ class Solution {
         return ans;
     }
 
-   private:
+private:
     unordered_map<int, int> compressed;
     vector<int> tree;
     vector<int> lazy;

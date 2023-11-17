@@ -4,7 +4,7 @@
 // Time Comp.: O(nlog(m)) n = houses.size() m = heaters.size()
 
 class Solution {
-   public:
+public:
     /* With this helper find the closest heater's distance using binary seach.*/
     int helper(int house, vector<int>& heaters, int begin, int end) {
         int dist = INT_MAX;

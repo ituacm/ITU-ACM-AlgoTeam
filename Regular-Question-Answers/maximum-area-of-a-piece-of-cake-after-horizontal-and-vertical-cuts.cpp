@@ -16,7 +16,7 @@
     Hence the complexity.
 */
 class Solution {
-   public:
+public:
     int maxConsecutiveDiff(vector<int> &cuts) {
         int max_diff = 0;
         for (int i = 1; i < cuts.size(); i++)

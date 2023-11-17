@@ -3,7 +3,7 @@
 // Reviewers: Murat Biberoğlu, Toygun Görmüş
 
 class Solution {
-   public:
+public:
     bool hasZero(int n) {
         while (n > 0) {
             if (n % 10 == 0) return true;

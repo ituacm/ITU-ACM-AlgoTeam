@@ -17,7 +17,7 @@
  * };
  */
 class Solution {
-   private:
+private:
     // If you traverse a binary search tree inorder, you would get a sorted array.
     vector<int> numbers;
     // Index for inorderPlacer vector
@@ -48,7 +48,7 @@ class Solution {
         inorderCorrecter(root->right);
     }
 
-   public:
+public:
     void recoverTree(TreeNode *root) {
         // First traverse the tree inorderly
         inorderTraversal(root);

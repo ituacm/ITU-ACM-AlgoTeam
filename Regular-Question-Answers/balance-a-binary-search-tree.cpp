@@ -33,7 +33,7 @@
 */
 
 class Solution {
-   public:
+public:
     // vector for storing the elements of tree
     vector<TreeNode*> sorted_numbers;
 

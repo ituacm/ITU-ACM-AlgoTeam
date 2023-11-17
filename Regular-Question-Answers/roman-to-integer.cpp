@@ -3,7 +3,7 @@
 // Question Link: https://leetcode.com/problems/roman-to-integer/
 
 class Solution {
-   public:
+public:
     /* Utility function to get one single roman symbol's integer value.
      * Function takes character and returns its integer value.
      * Here I have used switch case but it could be done with many other ways to.

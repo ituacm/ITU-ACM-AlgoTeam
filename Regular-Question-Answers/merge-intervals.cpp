@@ -9,7 +9,7 @@
 #define invalid vector<int>(2, -1)
 
 class Solution {
-   public:
+public:
     // The function below takes two intervals and returns their
     // union or an invalid interval if the two do not intersect.
     // Note that it works only if a < b.

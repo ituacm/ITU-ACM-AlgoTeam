@@ -13,7 +13,7 @@
  * And score is the summation of low and high score.
  */
 class Solution {
-   public:
+public:
     int minimizeSum(vector<int>& nums) {
         int n = nums.size();
         /*

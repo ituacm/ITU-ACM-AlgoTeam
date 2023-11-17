@@ -6,7 +6,7 @@
 // Memory Complexity: O(1)
 
 class Solution {
-   public:
+public:
     string convertToBase7(int num) {
         // Taking the absolute value of num because we will operate on its
         // distance to 0 and then convert it to its actual value,

@@ -38,7 +38,7 @@ class Solution {
         return computed[n - 1] + computed[n - 2];
     }
 
-   public:
+public:
     int climbStairs(int n) {
         // 1-based indexing
         vector<int> computed(n + 1);

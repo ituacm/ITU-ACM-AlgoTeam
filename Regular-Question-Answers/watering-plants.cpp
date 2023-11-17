@@ -18,7 +18,7 @@ Time Complexity : O(n)
 */
 
 class Solution {
-   public:
+public:
     int current_capacity;
     int steps = 0;
 

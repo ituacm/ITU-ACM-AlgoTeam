@@ -11,7 +11,7 @@
 #include <vector>
 
 class Solution {
-   public:
+public:
     void reverseString(std::vector<char>& s) {
         int left = 0;
         int right = s.size() - 1;

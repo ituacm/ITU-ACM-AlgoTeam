@@ -17,7 +17,7 @@ public:
  * still callable from main() without any changes.                            */
 
 class Solution {
-   public:
+public:
     Node* flatten(Node* head, Node* parrent = NULL) {
         // Condition for exiting the recursion
         if (head == NULL) return NULL;

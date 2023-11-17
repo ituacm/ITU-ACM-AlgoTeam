@@ -24,7 +24,7 @@ struct CompareAvailabilityTimes {
 };
 
 class Solution {
-   public:
+public:
     vector<int> getOrder(vector<vector<int>>& tasks) {
         for (int i = 0; i < tasks.size(); i++) {
             // Adding each task's initial index to itself as a new element.

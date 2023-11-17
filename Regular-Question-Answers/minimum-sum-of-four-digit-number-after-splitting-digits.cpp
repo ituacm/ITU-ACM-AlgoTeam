@@ -2,7 +2,7 @@
 // Question Link: https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/
 
 class Solution {
-   public:
+public:
     int minimumSum(int num) {
         vector<int> digits;
         while (num > 0) {

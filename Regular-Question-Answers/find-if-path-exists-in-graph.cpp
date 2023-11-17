@@ -3,7 +3,7 @@
 // Question Link: https://leetcode.com/problems/find-if-path-exists-in-graph/
 
 class Solution {
-   public:
+public:
     int findRoot(vector<int>& parent, int node) {
         // If there is no parent of the node, then node itself is root
         if (parent[node] == -1) {

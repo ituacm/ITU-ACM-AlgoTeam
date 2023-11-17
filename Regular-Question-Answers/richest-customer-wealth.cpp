@@ -5,7 +5,7 @@
 // Time Compexity: O(n x m) where accounts is an n x m matrix.
 
 class Solution {
-   public:
+public:
     int maximumWealth(vector<vector<int>>& accounts) {
         int maxWealth = INT_MIN;
         // Looping through each customer

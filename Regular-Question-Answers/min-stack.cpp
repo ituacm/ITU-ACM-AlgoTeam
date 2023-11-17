@@ -2,7 +2,7 @@
 // Question Link: https://leetcode.com/problems/min-stack/
 
 class MinStack {
-   public:
+public:
     // the first value of stack is the value of number,
     // the second value of stack is the value of minimum number in whole stack
     stack<pair<int, int>> st;  // val, min

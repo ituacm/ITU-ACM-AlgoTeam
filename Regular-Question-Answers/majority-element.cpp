@@ -6,7 +6,7 @@
 // Space Complexity : O(1)
 
 class Solution {
-   public:
+public:
     int majorityElement(vector<int>& nums) {
         // Array can be first sorted to make alike elements adjacent
         sort(nums.begin(), nums.end());

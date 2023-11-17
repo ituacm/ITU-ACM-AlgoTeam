@@ -14,7 +14,7 @@
  */
 
 class Solution {
-   public:
+public:
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
         // adjList[n] gives a vector of courses which course n is a prerequisite for
         vector<vector<int>> adjList(numCourses, vector<int>());

@@ -3,7 +3,7 @@
 // Question Link: https://leetcode.com/problems/add-two-numbers/
 
 class Solution {
-   public:
+public:
     ListNode* addTwoNumbers(ListNode* list1, ListNode* list2) {
         int sum = 0, carry = 0;            // sum is sum of digits, if sum is larger than 10 we have to add sum/10 top next digit
         ListNode* head = new ListNode(0);  // creating the answer linked listed

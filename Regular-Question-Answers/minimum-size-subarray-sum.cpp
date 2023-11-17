@@ -15,7 +15,7 @@
     Fun fact: this method is literally called the "two pointers" method :D (a.k.a. sliding window)
 */
 class Solution {
-   public:
+public:
     int minSubArrayLen(int target, vector<int> &nums) {
         int n = nums.size();
 
@@ -73,7 +73,7 @@ class Solution {
     This allows us to binary search j -> this is where log(n) comes from.
 */
 class Solution {
-   public:
+public:
     int minSubArrayLen(int target, vector<int> &nums) {
         int n = nums.size();
         int ans = n + 1, l = 0, sum = 0;

@@ -12,7 +12,7 @@
 */
 
 class Solution {
-   public:
+public:
     bool carPooling(vector<vector<int>> &trips, int capacity) {
         // The vector array showing how many passengers has been picked up or dropped off on the each trip
         // Initialized in size 1001 per given limits in the question

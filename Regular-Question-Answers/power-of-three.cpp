@@ -11,7 +11,7 @@
 // is O(1). Space complexity is also O(1).
 
 class Solution {
-   public:
+public:
     bool isPowerOfThree(int n) {
         double result;
         result = log(n) / log(3);

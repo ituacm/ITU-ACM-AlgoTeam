@@ -19,7 +19,7 @@
  *
  * */
 class Solution {
-   public:
+public:
     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
         stack<int> monotonic_stack;
 

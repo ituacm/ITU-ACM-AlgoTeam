@@ -3,7 +3,7 @@
 // Question Link: https://leetcode.com/problems/sort-colors/
 
 class Solution {
-   public:
+public:
     /* We are given three different integers 0,1 and 2 as representative number of colors red,white and blue respectively.
      * And we are asked the sort them in the given order.
      * Since we will sort this 3 integers we can sort them without using any sorting algorithm .

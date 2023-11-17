@@ -2,7 +2,7 @@
 // Question Link: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
 
 class Solution {
-   public:
+public:
     vector<int> findDisappearedNumbers(vector<int>& nums) {
         // to check which elements are exist on list or not
         unordered_set<int> numbersFromOnetoN;

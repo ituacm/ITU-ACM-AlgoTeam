@@ -9,7 +9,7 @@
 
 // We first create a class which contains the value and frequency of Numbers
 class Number {
-   public:
+public:
     int val;
     int frequency;
 
@@ -29,7 +29,7 @@ class Number {
 };
 
 class Solution {
-   public:
+public:
     /**
      * We will create a heap that contains most frequent K elements.
      * First, count the frequencies using unordered map

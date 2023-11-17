@@ -19,7 +19,7 @@
  */
 
 class Solution {
-   public:
+public:
     TreeNode *lowestCommonAncestor(TreeNode *root, TreeNode *p, TreeNode *q) {
         // map for storing the parent nodes of the nodes
         unordered_map<TreeNode *, TreeNode *> parent;

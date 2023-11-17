@@ -6,7 +6,7 @@
  * which will be the result.                                        */
 
 class Solution {
-   public:
+public:
     void duplicateZeros(vector<int>& arr) {
         vector<int> arr2;
 

@@ -2,7 +2,7 @@
 // Question Link: https://leetcode.com/problems/add-binary/
 
 class Solution {
-   public:
+public:
     string addBinary(string a, string b) {
         // change the least significant bit to most significant bit
         reverse(a.begin(), a.end());

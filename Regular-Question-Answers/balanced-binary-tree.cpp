@@ -13,7 +13,7 @@ using namespace std;
  */
 
 class Solution {
-   public:
+public:
     /*
      * GENERAL IDEA: (bottom up)
      * We travel to the null nodes and start from there

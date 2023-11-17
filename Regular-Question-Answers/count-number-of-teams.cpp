@@ -3,7 +3,7 @@
 // Question Link: https://leetcode.com/problems/count-number-of-teams/
 
 class Solution {
-   public:
+public:
     // The idea is checking all the pair of indexes (i, j)
     // such that 0 <= i < j < n - 1
     //

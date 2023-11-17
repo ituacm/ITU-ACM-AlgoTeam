@@ -13,7 +13,7 @@
 */
 
 class Solution {
-   public:
+public:
     int search(vector<int>& nums, int target) {
         // left pointer, initially points to 0,
         // which is the starting point of vector.

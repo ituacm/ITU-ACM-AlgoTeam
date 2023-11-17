@@ -14,7 +14,7 @@
 // Space Complexity: O(V).
 
 class Solution {
-   public:
+public:
     int minScore(int n, vector<vector<int>> &roads) {
         // first create adjacency list from the given weighted edges.
         vector<vector<pair<int, int>>> adjacencyList(n + 1);

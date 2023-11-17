@@ -3,7 +3,7 @@
 // Question Link: https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/
 
 class Solution {
-   public:
+public:
     bool containsPattern(vector<int> &arr, int m, int k) {
         // initialize size of arr to n.
         int n = arr.size();

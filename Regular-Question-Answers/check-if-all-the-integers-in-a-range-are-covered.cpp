@@ -16,7 +16,7 @@
     After taking care of ranges, we can check whether any integer within [left, right] remained uncovered.
 */
 class Solution {
-   public:
+public:
     bool isCovered(vector<vector<int>> &ranges, int left, int right) {
         /*
             Defining is_covered as 1-indexed is more convenient.
@@ -80,7 +80,7 @@ class Solution {
     As you can see, this is straightforward prefix sum, which can be calculated in O(right)!
 */
 class Solution {
-   public:
+public:
     bool isCovered(vector<vector<int>> &ranges, int left, int right) {
         vector<int> n_ranges_covering(right + 1);
         for (auto &range : ranges) {

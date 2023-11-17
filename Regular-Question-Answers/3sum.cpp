@@ -4,7 +4,7 @@
 
 // time comp. -> O(n^2)
 class Solution {
-   public:
+public:
     vector<vector<int>> threeSum(vector<int>& nums) {
         // Sort the Array = O(n log(n))
         sort(nums.begin(), nums.end());

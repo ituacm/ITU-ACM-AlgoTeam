@@ -13,7 +13,7 @@
  */
 
 class Solution {
-   public:
+public:
     vector<int> productExceptSelf(vector<int>& nums) {
         int sz = nums.size();
         vector<int> prefix(sz + 1, 1);
@@ -49,7 +49,7 @@ class Solution {
  */
 
 class Solution {
-   public:
+public:
     vector<int> productExceptSelf(vector<int>& nums) {
         int sz = nums.size();
         vector<int> products(sz);

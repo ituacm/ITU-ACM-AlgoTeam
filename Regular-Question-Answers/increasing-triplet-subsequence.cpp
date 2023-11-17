@@ -5,7 +5,7 @@
 // Space comp -> O(1)
 
 class Solution {
-   public:
+public:
     bool increasingTriplet(vector<int>& nums) {
         int first = INT_MAX;   // Initialize with the maximum possible value
         int second = INT_MAX;  // Initialize with the maximum possible value

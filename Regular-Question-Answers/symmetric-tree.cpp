@@ -20,7 +20,7 @@
  */
 
 class Solution {
-   public:
+public:
     bool isSymmetric(TreeNode* root) {
         // This queue keeps pairs of tree nodes that are supposed to have equal values
         queue<pair<TreeNode*, TreeNode*>> nextToCheck;

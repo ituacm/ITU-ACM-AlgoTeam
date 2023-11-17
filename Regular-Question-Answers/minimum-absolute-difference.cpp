@@ -10,7 +10,7 @@
 // Space Complexity --> O(k), where k is the number of pairs with minimum difference.
 
 class Solution {
-   public:
+public:
     vector<vector<int>> minimumAbsDifference(vector<int>& arr) {
         int minDiff = INT_MAX;             // Minimum Difference
         vector<vector<int>> minDiffPairs;  // Pairs with the minimum difference.

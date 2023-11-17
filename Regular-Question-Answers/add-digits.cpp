@@ -3,7 +3,7 @@
 // Reviewer: Denis Davidoglu
 
 class Solution {
-   public:
+public:
     int addDigits(int num) {
         // Initialize our num to our answer attribute
         int answer = num;

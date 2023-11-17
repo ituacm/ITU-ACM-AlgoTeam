@@ -3,7 +3,7 @@
 // Question Link: https://leetcode.com/problems/happy-number/
 
 class Solution {
-   public:
+public:
     int mutate(int n) {
         int result = 0;
         while (n > 0) {

@@ -28,7 +28,7 @@
 */
 
 class Solution {
-   public:
+public:
     ListNode* reverse(ListNode* prev, ListNode* curr, ListNode* next) {
         // if next node is NULL, that means curr is equal to tail
         if (next == NULL) {

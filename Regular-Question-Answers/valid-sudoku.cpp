@@ -5,7 +5,7 @@
 // Space compexity: O(1)
 
 class Solution {
-   public:
+public:
     bool isValidSudoku(vector<vector<char>>& board) {
         // In sudoku there is nine 3 x 3 square in the grid and their index 0,1,2...8
         vector<vector<int>> countNumbersPerSquare(10);

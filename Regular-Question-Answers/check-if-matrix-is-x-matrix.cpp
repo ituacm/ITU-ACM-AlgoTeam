@@ -21,7 +21,7 @@
     We want p and q to have the same truth value.
 */
 class Solution {
-   public:
+public:
     bool checkXMatrix(vector<vector<int>> &grid) {
         int n = grid.size();
         /*

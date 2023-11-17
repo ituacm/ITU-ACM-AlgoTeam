@@ -36,7 +36,7 @@ minOperaion is the minimum of all whiteBlocks
 */
 
 class Solution {
-   public:
+public:
     int minimumRecolors(string blocks, int k) {
         int whiteBlocks = 0, i;
 

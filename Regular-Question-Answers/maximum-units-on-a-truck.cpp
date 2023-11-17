@@ -6,7 +6,7 @@ bool compare(vector<int>& arr1, vector<int>& arr2) {
 }
 
 class Solution {
-   public:
+public:
     int maximumUnits(vector<vector<int>>& boxTypes, int truckSize) {
         // sort according to the second element
         sort(boxTypes.begin(), boxTypes.end(), compare);

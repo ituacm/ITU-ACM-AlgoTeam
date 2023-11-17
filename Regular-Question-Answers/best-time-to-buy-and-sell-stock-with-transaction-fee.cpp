@@ -68,7 +68,7 @@ public:
 */
 
 class Solution {
-   public:
+public:
     int maxProfit(vector<int>& prices, int fee) {
         int size = prices.size();
 

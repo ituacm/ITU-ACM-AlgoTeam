@@ -3,7 +3,7 @@
 // Reviewer: Denis Davidoglu
 
 class Solution {
-   public:
+public:
     int singleNumber(vector<int> &nums) {
         // If we sort the numbers, twice repeated numbers will occupy two integer wide space side by side.
         // ex:

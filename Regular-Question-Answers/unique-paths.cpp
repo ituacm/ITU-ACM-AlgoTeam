@@ -38,7 +38,7 @@ class Solution {
         return mem[x][y];
     }
 
-   public:
+public:
     int uniquePaths(int m, int n) {
         // 1-based indexing to avoid confusion
         vector<vector<int>> mem(m + 1, vector<int>(n + 1));

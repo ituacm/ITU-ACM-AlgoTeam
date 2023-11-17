@@ -6,7 +6,7 @@
 // Space Complexity: O(N)
 
 class Solution {
-   public:
+public:
     int jump(vector<int>& nums) {
         // jumps[i] stores the current minimum number of jumps to reach index i.
         // It is initialized with INT_MAX - 1 to make correct comparisons at the first assignment to each index.

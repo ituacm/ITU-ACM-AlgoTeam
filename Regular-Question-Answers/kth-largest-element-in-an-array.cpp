@@ -2,7 +2,7 @@
 // Question Link: https://leetcode.com/problems/kth-largest-element-in-an-array/
 
 class Solution {
-   public:
+public:
     int findKthLargest(vector<int>& nums, int k) {
         // this function works as quicksort partition function
         // it selects a pivot and separates arrays into to half,

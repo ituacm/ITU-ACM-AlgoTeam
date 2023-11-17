@@ -21,7 +21,7 @@
  */
 
 class Solution {
-   public:
+public:
     // as provided by constraints a value can't be negative, thus initialize the previous value with -1
     int previous = -1;
     // minimum difference

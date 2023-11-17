@@ -2,7 +2,7 @@
 // Question Link: https://leetcode.com/problems/valid-parentheses/
 
 class Solution {
-   public:
+public:
     bool isValid(string s) {
         /**
          * This type of questions can be solved easily with stacks.

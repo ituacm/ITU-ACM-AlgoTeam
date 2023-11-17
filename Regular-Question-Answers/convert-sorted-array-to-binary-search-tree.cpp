@@ -2,7 +2,7 @@
 // Question Link: https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
 
 class Solution {
-   public:
+public:
     /**
      * The algorithm focuses to create a binary search tree using binary search :)
      * Every time find a mid value and create a node for that value

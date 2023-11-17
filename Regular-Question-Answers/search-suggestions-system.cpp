@@ -3,10 +3,10 @@
 // Reviewer: Denis Davidoglu
 
 class Solution {
-   public:
+public:
     // regular node class for trie
     class Node {
-       public:
+    public:
         // note that children are kept in ordered map because
         // we want first 3 words in lexicographical order
         map<char, Node*> children;

@@ -2,7 +2,7 @@
 // Question Link: https://leetcode.com/problems/palindrome-number/
 
 class Solution {
-   public:
+public:
     bool isPalindrome(int x) {
         // change number to the string
         string num = to_string(x);

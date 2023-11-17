@@ -4,7 +4,7 @@
 
 // The below solution is faster than 96.53% submissions
 class Solution {
-   public:
+public:
     int maximumProduct(vector<int>& nums) {
         /* There are two options we can get the result:
             1) Multiply the biggest three numbers

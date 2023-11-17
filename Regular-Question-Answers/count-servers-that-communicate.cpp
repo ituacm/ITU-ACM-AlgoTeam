@@ -6,7 +6,7 @@
 // Memory Complexity: O(n*m)
 
 class Solution {
-   public:
+public:
     int countServers(vector<vector<int>>& grid) {
         // Declaring n and m as number of columns and rows.
         int n = grid.size();

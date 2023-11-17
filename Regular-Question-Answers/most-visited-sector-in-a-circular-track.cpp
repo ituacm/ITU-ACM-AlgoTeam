@@ -6,7 +6,7 @@
 // Space Complexity O(n)
 
 class Solution {
-   public:
+public:
     vector<int> mostVisited(int n, vector<int>& rounds) {
         // holds the count of visiting for each sector
         vector<int> counts(n, 0);

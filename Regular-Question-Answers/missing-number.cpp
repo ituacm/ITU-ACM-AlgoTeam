@@ -6,7 +6,7 @@
 // Space Complexity : O(1)
 
 class Solution {
-   public:
+public:
     int missingNumber(vector<int>& nums) {
         /*
             To find the missing number, we can use Gauss's summation formula.

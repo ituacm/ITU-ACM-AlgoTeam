@@ -6,7 +6,7 @@
 // and compare it with a variable which holds current minimum depth of tree
 // to do so we are going to use preorder tree traversal
 class Solution {
-   public:
+public:
     int minDepth = INT_MAX;  // variable that holds minimum depth
     int level;               // variable that holds current level
 

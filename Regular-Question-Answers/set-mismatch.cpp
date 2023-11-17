@@ -8,7 +8,7 @@
 */
 
 class Solution {
-   public:
+public:
     vector<int> findErrorNums(vector<int> &nums) {
         /******************
             Solution 1

@@ -3,7 +3,7 @@
 // Reviewer: Denis Davidoglu
 
 class Solution {
-   public:
+public:
     bool kLengthApart(vector<int>& nums, int k) {
         // Initializing a counter from -1
         // The counter will be set to 0 when we first encounter a '1' on the vector nums.

@@ -7,7 +7,7 @@
 // Space Complexity: O(k)
 
 class Solution {
-   public:
+public:
     vector<vector<int>> kSmallestPairs(vector<int>& nums1, vector<int>& nums2, int k) {
         priority_queue<pair<int, pair<int, int>>> pq;
         // our max heap will hold {sum, {number1, number2}}, sum denoting number1 + number2.

@@ -7,13 +7,13 @@
 
 // TrieNode will hold 2 pointer, one points for bit 0 other one points bit 1
 class TrieNode {
-   public:
+public:
     TrieNode* c0 = nullptr;
     TrieNode* c1 = nullptr;
 };
 
 class Trie {
-   public:
+public:
     Trie() {
         root = new TrieNode();
     }
@@ -66,7 +66,7 @@ class Trie {
         return result;
     }
 
-   private:
+private:
     TrieNode* root;
 };
 
@@ -78,7 +78,7 @@ struct custom_sort {
 };
 
 class Solution {
-   public:
+public:
     // we are going to use offline query method in order to solve this question easly
     // the main idea of offline query is manipulating the order of queries to answer queries easly
 

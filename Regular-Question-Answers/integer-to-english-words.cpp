@@ -3,7 +3,7 @@
 // Reviewer: Denis Davidoglu
 
 class Solution {
-   public:
+public:
     string numberToWords(int num) {
         if (num == 0) return "Zero";
 
@@ -38,7 +38,7 @@ class Solution {
         return answer;
     }
 
-   private:
+private:
     unordered_map<int, string> constants;
     vector<string> units;
 

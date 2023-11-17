@@ -17,7 +17,7 @@
  */
 
 class Solution {
-   public:
+public:
     vector<int> inorderTraversal(TreeNode* root) {
         // Storage vector.
         vector<int> result;

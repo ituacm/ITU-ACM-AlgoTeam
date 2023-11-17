@@ -10,7 +10,7 @@
 // This is similar to LIFO principle of stack, so we can use stack for this question.
 
 class Solution {
-   public:
+public:
     bool backspaceCompare(string s, string t) {
         stack<char> s_stack;
         stack<char> t_stack;

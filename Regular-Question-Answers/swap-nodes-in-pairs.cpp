@@ -13,7 +13,7 @@
  * };
  */
 class Solution {
-   public:
+public:
     ListNode* swapPairs(ListNode* head) {
         // If rest of our linked list is empty or have one node, return it from the head.
         if (head == NULL || head->next == NULL)

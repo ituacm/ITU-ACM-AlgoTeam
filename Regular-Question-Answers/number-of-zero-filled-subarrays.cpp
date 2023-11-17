@@ -9,7 +9,7 @@ subarray that contains 1 element. This pattern is valid for the rest.
 */
 
 class Solution {
-   public:
+public:
     long long zeroFilledSubarray(vector<int>& nums) {
         // We initialize two counters. One is for counting consecutive zeros. One is for counting total subarrays.
         long long zero_count = 0;

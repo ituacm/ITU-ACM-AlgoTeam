@@ -5,7 +5,7 @@
 // time comp. = o(n^2)
 // initially lets look at this intuitive approach and improve it:
 class Solution {
-   public:
+public:
     vector<int> twoSum(vector<int>& nums, int target) {
         int len = nums.size();
         vector<int> result;
@@ -33,7 +33,7 @@ class Solution {
 
 // time comp. = O(n)
 class Solution {
-   public:
+public:
     vector<int> twoSum(vector<int>& nums, int target) {
         vector<int> result;
         // unordered_map to store values and the indicies

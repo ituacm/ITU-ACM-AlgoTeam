@@ -4,7 +4,7 @@
 
 // Complexity: O(n)
 class Solution {
-   public:
+public:
     int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
         // Storing the sum of differances, if total is < 0 cost is greater than total fuel, can't complete the circuit.
         int total = 0;

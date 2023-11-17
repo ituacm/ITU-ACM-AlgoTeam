@@ -6,7 +6,7 @@
 // Space Complexity : O(n)
 
 class Solution {
-   public:
+public:
     /* In the question, we are given an integer n and we are asked to create an array of size n+1 as written in the question.
        And we will return the maximum element in the array.
     */

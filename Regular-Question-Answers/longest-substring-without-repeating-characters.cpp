@@ -14,7 +14,7 @@
 */
 
 class Solution {
-   public:
+public:
     int lengthOfLongestSubstring(string s) {
         // keep the last index of characters before ith index
         unordered_map<char, int> last_index;

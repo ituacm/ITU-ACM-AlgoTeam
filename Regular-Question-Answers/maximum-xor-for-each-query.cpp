@@ -2,7 +2,7 @@
 // Question Link: https://leetcode.com/problems/maximum-xor-for-each-query/
 
 class Solution {
-   public:
+public:
     // find results for subarrays
     int findResult(int number, int maximumBit) {
         int result = 0;

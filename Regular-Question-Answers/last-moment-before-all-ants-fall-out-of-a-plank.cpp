@@ -6,7 +6,7 @@
 // Space comp. -> O(1)
 
 class Solution {
-   public:
+public:
     int getLastMoment(int n, vector<int>& left, vector<int>& right) {
         /* Answer is the max distance for one ant to reach the end of the plank
         * in the facing direction. But when two ants meet at some point,

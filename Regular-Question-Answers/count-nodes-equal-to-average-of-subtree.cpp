@@ -2,7 +2,7 @@
 // Question Link: https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/
 
 class Solution {
-   public:
+public:
     // result will be saved in totalCount
     int totalCount = 0;
 

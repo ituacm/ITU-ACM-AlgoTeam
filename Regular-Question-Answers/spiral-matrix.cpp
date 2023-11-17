@@ -3,7 +3,7 @@
 // Reviewers: Murat Biberoğlu, Toygun Görmüş
 
 class Solution {
-   public:
+public:
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
         vector<int> result;
         int i, j, i_direction, j_direction, i_step, j_step;

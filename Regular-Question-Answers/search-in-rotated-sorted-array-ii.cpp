@@ -2,7 +2,7 @@
 // Question Link: https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
 
 class Solution {
-   public:
+public:
     bool searchArr(vector<int>& arr, int l, int r, int target) {
         // check the bounds
         if (l > r || l < 0 || r >= arr.size())

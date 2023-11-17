@@ -7,7 +7,7 @@
 // a leading 0 except it's 0 (0 is valid, 01 or 012 is not).
 
 class Solution {
-   public:
+public:
     vector<string> restoreIpAddresses(string s) {
         return splitIP(s, 4);
     }

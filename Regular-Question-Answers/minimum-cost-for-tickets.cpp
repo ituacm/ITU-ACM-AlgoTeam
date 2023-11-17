@@ -16,7 +16,7 @@
     To find the minimum cost of grouping we can use top-down aproach
 */
 class Solution {
-   public:
+public:
     int mincostTickets(vector<int>& days, vector<int>& costs) {
         int size = days.size();
 

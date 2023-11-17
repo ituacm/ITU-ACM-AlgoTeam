@@ -3,7 +3,7 @@
 // Reviewer: Denis Davidoglu
 
 class Solution {
-   public:
+public:
     int findNumberOfLIS(vector<int> &nums) {
         /*
             The constraints allow us to implement an O(n^2) algorithm.

@@ -11,7 +11,7 @@
  * rotated differently. Even in this case, either loop gives the same answer.				*/
 
 class Solution {
-   public:
+public:
     int minDominoRotations(vector<int>& tops, vector<int>& bottoms) {
         int n = tops.size(), counterTop, counterBottom, target;
 

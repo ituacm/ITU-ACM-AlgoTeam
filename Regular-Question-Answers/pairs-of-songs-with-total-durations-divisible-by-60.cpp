@@ -3,7 +3,7 @@
 // Question Link: https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/
 
 class Solution {
-   public:
+public:
     int numPairsDivisibleBy60(vector<int>& time) {
         /* The first thing that might come to our mind is to go through each
         time[i] and simplify by taking mod 60. But instead of keeping storing

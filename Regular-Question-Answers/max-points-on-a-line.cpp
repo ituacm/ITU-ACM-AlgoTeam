@@ -5,7 +5,7 @@
 // The idea to count the number of points on each line
 // which is described by all point pairs and to take their maximum
 class Solution {
-   public:
+public:
     int maxPoints(vector<vector<int>>& points) {
         int length = points.size();
 

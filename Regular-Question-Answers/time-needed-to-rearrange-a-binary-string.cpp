@@ -28,7 +28,7 @@
 */
 
 class Solution {
-   public:
+public:
     int secondsToRemoveOccurrences(string s) {
         int zeros = 0, seconds = 0;
 

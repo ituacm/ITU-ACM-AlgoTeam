@@ -26,7 +26,7 @@ class Solution {
         return v1[1] < v2[1];
     }
 
-   public:
+public:
     vector<vector<int>> reconstructQueue(vector<vector<int>>& people) {
         sort(people.begin(), people.end(), comparator);
         vector<vector<int>> res;

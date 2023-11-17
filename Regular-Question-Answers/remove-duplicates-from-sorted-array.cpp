@@ -3,7 +3,7 @@
 // Reviewer: Denis Davidoglu
 
 class Solution {
-   public:
+public:
     /* To move different values to the beginning of the array we have to compare elements.
     Lets consider the 1-1-2 array. Compare first element with the next one, they are same.
     Next step should be comparing the first element with the third one.

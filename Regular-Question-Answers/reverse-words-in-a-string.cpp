@@ -17,7 +17,7 @@
  */
 
 class Solution {
-   public:
+public:
     string reverseWords(string &s) {
         if (s.size() == 0) return s;
 

@@ -7,7 +7,7 @@ Then we need to evaluate the largest of these times and get the larger one lexic
 */
 
 class Solution {
-   public:
+public:
     char slowestKey(vector<int>& releaseTimes, string keysPressed) {
         /* We start by initializing the variables. "time" keeps track of the pressing time of the current key,
          "max_time" keeps track of the maximum value and "max_key" stores the key of that value.

@@ -44,7 +44,7 @@
 */
 
 class Solution {
-   public:
+public:
     int findJudge(int n, vector<vector<int>>& trust) {
         // initializing the first vector to hold number of nodes the node trusts.
         vector<int> whoTrusts(n + 1, 0);  // n + 1 is for 1-index array.

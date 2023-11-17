@@ -56,7 +56,7 @@
 */
 
 class Solution {
-   public:
+public:
     double maxProbability(int n, vector<vector<int>>& edges, vector<double>& succProb, int start, int end) {
         // initializing 0-index adjacency list to use the Graph.
         vector<vector<pair<int, double>>> adjacencyList(n, vector<pair<int, double>>(0));

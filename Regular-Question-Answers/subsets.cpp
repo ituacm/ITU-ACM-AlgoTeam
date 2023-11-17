@@ -38,7 +38,7 @@
 */
 
 class Solution {
-   public:
+public:
     vector<vector<int>> subsets(vector<int>& nums) {
         // initializing the 2-D result vector
         vector<vector<int>> result;

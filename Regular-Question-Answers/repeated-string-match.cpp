@@ -6,7 +6,7 @@
 // Space Complexity : O(1)
 
 class Solution {
-   public:
+public:
     int repeatedStringMatch(string a, string b) {
         // We declare our answer attribute.
         int count;

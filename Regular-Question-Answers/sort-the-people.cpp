@@ -8,7 +8,7 @@
  * there is no need to combine the two vectors into one structure.  */
 
 class Solution {
-   public:
+public:
     vector<string> sortPeople(vector<string>& names, vector<int>& heights) {
         map<int, int> unsortedPattern;
         vector<string> result;

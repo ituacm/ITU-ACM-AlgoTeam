@@ -5,7 +5,7 @@
 // Question Link: https://leetcode.com/problems/merge-sorted-array/
 
 class Solution {
-   public:
+public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
         int idx1 = m - 1;     // Pointer for nums1.
         int idx2 = n - 1;     // Pointer for nums2.

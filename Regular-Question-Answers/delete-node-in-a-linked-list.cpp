@@ -11,7 +11,7 @@
  * };
  */
 class Solution {
-   public:
+public:
     void deleteNode(ListNode* node) {
         // Check if the node and the next node are not null pointer
         if (node && node->next) {

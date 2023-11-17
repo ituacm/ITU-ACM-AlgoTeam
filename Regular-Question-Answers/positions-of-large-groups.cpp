@@ -5,7 +5,7 @@
 /* A string problem. The intervals of occurrunces can be calculated by iterating over the string and keeping count.*/
 
 class Solution {
-   public:
+public:
     vector<vector<int>> largeGroupPositions(string s) {
         // Declaring a vector to store the intervals of large group letters.
         vector<vector<int>> ans;

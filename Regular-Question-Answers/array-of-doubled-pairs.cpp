@@ -8,7 +8,7 @@
  */
 
 class Solution {
-   public:
+public:
     vector<pair<int, int>> newArr;
 
     bool canReorderDoubled(vector<int>& arr) {

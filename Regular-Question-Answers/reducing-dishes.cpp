@@ -6,7 +6,7 @@
 // Space Complexity : O(n)
 
 class Solution {
-   public:
+public:
     int maxSatisfaction(vector<int>& satisfaction) {
         int n = satisfaction.size();
         // Sort the vector in descending order.

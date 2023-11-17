@@ -23,7 +23,7 @@
     Hence the solution: the sum of the differences between the minimum element and every other element.
 */
 class Solution {
-   public:
+public:
     int minMoves(vector<int> &nums) {
         /*
             The function "min_element" returns an iterator to an element with the smallest value (might be multiple).

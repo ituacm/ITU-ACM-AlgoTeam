@@ -62,7 +62,7 @@
     Finding only these types of elements is enough to solve the problem!
 */
 class Solution {
-   public:
+public:
     int minNumberOperations(vector<int> &target) {
         int n = target.size();
 

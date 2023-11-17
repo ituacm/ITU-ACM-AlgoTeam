@@ -3,7 +3,7 @@
 // Question Link: https://leetcode.com/problems/minimum-area-rectangle/
 
 class Solution {
-   public:
+public:
     /**
      * the idea is checking all pairs of points on the diagonal and form a
      * rectangle let these two points are P1 = (x1, y1) and P2 = (x2, y2)

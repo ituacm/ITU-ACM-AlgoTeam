@@ -6,7 +6,7 @@
 // Space Complexity : O(n)
 
 class Solution {
-   public:
+public:
     /* Function to return anagram groups
      * Given string vector as an input and function will return the anagrams according their group
      * So, what do we mean by anagram group:

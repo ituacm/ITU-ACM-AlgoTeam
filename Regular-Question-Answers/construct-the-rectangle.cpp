@@ -11,7 +11,7 @@
 */
 
 class Solution {
-   public:
+public:
     vector<int> constructRectangle(int area) {
         // Iterate from the square root of the area down to 1
         for (int width = sqrt(area); width > 1; width--) {

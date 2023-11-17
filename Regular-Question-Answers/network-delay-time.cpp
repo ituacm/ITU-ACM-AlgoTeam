@@ -19,7 +19,7 @@
 // Space Complexity: O(n + e); n: number of nodes, e: number of edges.
 
 class Solution {
-   public:
+public:
     // Custom comparator object to use priority queue as a min heap.
     struct customComparator {
         bool operator()(pair<int, long> const& p1, pair<int, long> const& p2) {
