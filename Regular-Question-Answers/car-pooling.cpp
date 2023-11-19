@@ -13,24 +13,22 @@
 
 class Solution {
 public:
-    bool carPooling(vector<vector<int>>& trips, int capacity) {
+    bool carPooling(vector<vector<int>> &trips, int capacity) {
         // The vector array showing how many passengers has been picked up or dropped off on the each trip
         // Initialized in size 1001 per given limits in the question
         vector<int> passengerCount(1001);
 
         // For each trip, the number of passengers taken and dropped are implemented in the array
-        for (auto &trip : trips)
-        {
-            passengerCount[trip[1]] += trip[0]; // picking up passengers
-            passengerCount[trip[2]] -= trip[0]; // dropping off passengers
+        for (auto &trip : trips) {
+            passengerCount[trip[1]] += trip[0];  // picking up passengers
+            passengerCount[trip[2]] -= trip[0];  // dropping off passengers
         }
 
         // The array will be converted to show remaining passenger on each trip
         // If passenger count surpasses the capacity at any location the trip cannot be done, returning false
         int currentCount = 0;
-        for (auto &location : passengerCount)
-        {
-            currentCount += location; // number of remaining passengers in the given location
+        for (auto &location : passengerCount) {
+            currentCount += location;  // number of remaining passengers in the given location
             location = currentCount;
             if (location > capacity)
                 return false;

@@ -3,7 +3,7 @@
 // Reviewer: Denis Davidoglu
 
 /*
-Here we hold a current_capacity variable to know the amount of water left inside bucket 
+Here we hold a current_capacity variable to know the amount of water left inside bucket
 and the steps variable. Start the loop from -1 because we start at the river. We check
 if our current capacity is bigger than the plant we will water next; if it is bigger,
 then we simply increase our step by one and decrease the water inside the bucket by the
@@ -25,13 +25,13 @@ public:
     int wateringPlants(vector<int>& plants, int capacity) {
         int n = plants.size();
         current_capacity = capacity;
-        for (int i = -1; i < n-1; i++) {
-            if (current_capacity < plants[i+1]) {
-                steps += (i+1)*2 +1;
-                current_capacity = capacity - plants[i+1];
+        for (int i = -1; i < n - 1; i++) {
+            if (current_capacity < plants[i + 1]) {
+                steps += (i + 1) * 2 + 1;
+                current_capacity = capacity - plants[i + 1];
             } else {
                 steps++;
-                current_capacity -= plants[i+1];
+                current_capacity -= plants[i + 1];
             }
         }
         return steps;

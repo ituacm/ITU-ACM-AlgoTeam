@@ -2,14 +2,12 @@
 // Question Link: https://leetcode.com/problems/reverse-string/
 // Reviewer: Ömer
 /* Problem is reversing the letters in a string
-* I used a two-pointer approach because it allows for an in-place reversal without extra space.
-* I initialized 'left' to the start and 'right' to the end, then iteratively swapped them.
-* Time complexity is O(n) and space complexity is O(1).
-*/
+ * I used a two-pointer approach because it allows for an in-place reversal without extra space.
+ * I initialized 'left' to the start and 'right' to the end, then iteratively swapped them.
+ * Time complexity is O(n) and space complexity is O(1).
+ */
 
-#include <vector>
 #include <stack>
-
 #include <vector>
 
 class Solution {

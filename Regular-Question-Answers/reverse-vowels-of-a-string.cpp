@@ -3,7 +3,7 @@
 // Question Link: https://leetcode.com/problems/reverse-vowels-of-a-string/
 
 class Solution {
-   public:
+public:
     /**
      * two pointers method
      * we are setting pointers as l(left) = 0 and r(right) = s.length - 1

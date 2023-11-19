@@ -1,9 +1,9 @@
 // Author: Murat Biberoğlu
 // Question Link: https://leetcode.com/problems/perfect-number/
-// Reviewers: Fatih Baskın, Feyza Sarı, Denis Davidoglu 
+// Reviewers: Fatih Baskın, Feyza Sarı, Denis Davidoglu
 
 class Solution {
-   public:
+public:
     /**
      * We can check all the numbers until given number x and if it divides x then we will add it to sum.
      * But this algorithm runs in O(n). And it is not enough for given constraints. Can we do better?

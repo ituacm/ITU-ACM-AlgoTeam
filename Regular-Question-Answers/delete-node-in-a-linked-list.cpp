@@ -18,10 +18,10 @@ public:
             // Copy the value from the next node to the current node
             ListNode* temp = node->next;
             node->val = temp->val;
-            
+
             // Update the next pointer to skip the next node
             node->next = temp->next;
-            
+
             // Delete the next node to free memory
             delete temp;
         }

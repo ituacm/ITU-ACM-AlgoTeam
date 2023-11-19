@@ -10,7 +10,7 @@
 struct CompareRunningTimes {
     bool operator()(const vector<int>& a, const vector<int>& b) {
         if (a[1] == b[1]) {
-            return a[2] > b[2]; // If running times are the same, compare indexes.
+            return a[2] > b[2];  // If running times are the same, compare indexes.
         }
         return a[1] > b[1];
     }
@@ -35,8 +35,8 @@ public:
         sort(tasks.begin(), tasks.end(), CompareAvailabilityTimes());
 
         long long cpuTime = 1;
-        int index = 0; // Index to keep track of tasks's order. Corresponds to task's order in array "tasks"
-        vector<int> order; // Order of the executed tasks
+        int index = 0;      // Index to keep track of tasks's order. Corresponds to task's order in array "tasks"
+        vector<int> order;  // Order of the executed tasks
 
         // A pq that stores the available tasks in ascending order, depending on their running times.
         priority_queue<vector<int>, vector<vector<int>>, CompareRunningTimes> availableTasks;
@@ -49,7 +49,7 @@ public:
             }
             // Moving tasks that ready to run to availableTasks
             for (; index < tasks.size(); index++) {
-                if (cpuTime < tasks[index][0]) { 
+                if (cpuTime < tasks[index][0]) {
                     // All tasks ready to run have been moved to availableTasks
                     break;
                 }
@@ -58,11 +58,11 @@ public:
 
             if (availableTasks.empty())
                 break;
-            
+
             // Running the task with the lowest running time among availableTasks
-            cpuTime += availableTasks.top()[1]; // Increment cpuTime by the tasks time
-            order.push_back(availableTasks.top()[2]); // Add executed task's order to the "order" array.
-            availableTasks.pop(); // Remove the task from availableTasks
+            cpuTime += availableTasks.top()[1];        // Increment cpuTime by the tasks time
+            order.push_back(availableTasks.top()[2]);  // Add executed task's order to the "order" array.
+            availableTasks.pop();                      // Remove the task from availableTasks
         }
 
         return order;

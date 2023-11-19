@@ -33,9 +33,11 @@ public:
             }
             monotonic_stack.push(i);
         }
-        for (int &i : nums1) {
-            if (arr[i] == 0) i = -1;
-            else i = arr[i];
+        for (int& i : nums1) {
+            if (arr[i] == 0)
+                i = -1;
+            else
+                i = arr[i];
         }
 
         return nums1;

@@ -22,10 +22,10 @@ private:
                 continue;  // Avoid using the same element again.
             }
 
-            used[nums[i]] = true;  // Mark this element as used.
-            swap(nums[index], nums[i]);  // Generate permutation by swapping elements.
+            used[nums[i]] = true;                                 // Mark this element as used.
+            swap(nums[index], nums[i]);                           // Generate permutation by swapping elements.
             generateUniquePermutations(index + 1, nums, result);  // Process other elements recursively. O(N!) complexity
-            swap(nums[index], nums[i]);  // Restore elements to their original positions.
+            swap(nums[index], nums[i]);                           // Restore elements to their original positions.
         }
     }
 };

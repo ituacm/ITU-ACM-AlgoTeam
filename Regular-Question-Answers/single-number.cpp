@@ -2,11 +2,9 @@
 // Question Link: https://leetcode.com/problems/single-number/
 // Reviewer: Denis Davidoglu
 
-class Solution
-{
+class Solution {
 public:
-    int singleNumber(vector<int> &nums)
-    {
+    int singleNumber(vector<int> &nums) {
         // If we sort the numbers, twice repeated numbers will occupy two integer wide space side by side.
         // ex:
         // numbers: 1 1 3 3 4 5 5

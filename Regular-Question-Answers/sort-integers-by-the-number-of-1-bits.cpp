@@ -3,7 +3,7 @@
 // Reviewer: Denis Davidoglu
 
 class Solution {
-   public:
+public:
     vector<int> sortByBits(vector<int> &arr) {
         merge_sort(arr, 0, arr.size() - 1);
         return arr;
@@ -30,7 +30,7 @@ class Solution {
         int index1 = 0;
         int index2 = 0;
         int array_index = l;
-        
+
         // make comparision and merge the array
         while (index1 < len1 && index2 < len2) {
             // create bitsets of numbers

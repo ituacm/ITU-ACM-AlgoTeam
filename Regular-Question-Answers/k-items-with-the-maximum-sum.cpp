@@ -16,8 +16,8 @@ public:
         if (numOnes + numZeros >= k) {
             return numOnes;
         }
-        // If k is more than the number of 1's plus the number of 0's, return 
+        // If k is more than the number of 1's plus the number of 0's, return
         // the number of ones minus (k minus number of 1's minus number of 0's).
-        return numOnes - (k-numOnes-numZeros);
+        return numOnes - (k - numOnes - numZeros);
     }
 };

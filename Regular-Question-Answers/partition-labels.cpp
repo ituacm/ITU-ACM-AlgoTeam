@@ -9,7 +9,7 @@ public:
         Greedy algorithm question.
         1. Find last index of each character and store it (map)
         2. Loop through given string by checking if index is equal to end.
-        
+
         Note: variable 'end' is the index of furthest character in substring.
 
         If 'end' is equal to where the pointer is in while looping, then cut it off.
