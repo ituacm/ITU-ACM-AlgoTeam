@@ -39,7 +39,11 @@ public:
 
             // Update the count of arithmetic subarrays if the length is 3 or more.
             if (subarrayLength >= 3) {
-                ans += (subarrayLength - 1) * (subarrayLength - 2) / 2;
+                // The idea behind the following formula:
+                // There are (n - 2) subarrays for length 3, (n - 1) subarrays for length 4...
+                // (n - 2) + (n - 1) + ... + 3 + 2 + 1 = (n - 2) * (n - 1) / 2
+                // So, there should be this many subarray with length >= 3 within an array of length n
+                ans += (subarrayLength - 2) * (subarrayLength - 1) / 2;
             }
         }
         return ans;
