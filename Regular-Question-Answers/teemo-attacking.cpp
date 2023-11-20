@@ -17,8 +17,8 @@ public:
             // If the current attack happens before the previous poison effect ends, add the difference.
             if (timeSeries[i] - timeSeries[i - 1] < duration)
                 totalPoisonedTime += timeSeries[i] - timeSeries[i - 1];
-            else
-                totalPoisonedTime += duration;  // Otherwise, add the full duration of the poison.
+            else // Otherwise, add the full duration of the poison as the time difference in between the attacks are much longer than given duration.
+                totalPoisonedTime += duration;
         }
 
         // Add the duration for the last attack, which always poisons for the full duration.
