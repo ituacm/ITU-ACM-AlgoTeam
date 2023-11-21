@@ -823,6 +823,7 @@ find-and-replace-in-string,Medium
 find-and-replace-pattern,Medium
 find-array-given-subset-sums,Hard
 find-bottom-left-tree-value,Medium
+find-building-where-alice-and-bob-can-meet,Hard
 find-center-of-star-graph,Easy
 find-champion-i,Easy
 find-champion-ii,Medium
@@ -1363,6 +1364,7 @@ make-sum-divisible-by-p,Medium
 make-the-prefix-sum-non-negative,Medium
 make-the-string-great,Easy
 make-the-xor-of-all-segments-equal-to-zero,Hard
+make-three-strings-equal,Easy
 make-two-arrays-equal-by-reversing-subarrays,Easy
 making-a-large-island,Hard
 making-file-names-unique,Medium
@@ -1602,6 +1604,7 @@ maximum-xor-after-operations,Medium
 maximum-xor-for-each-query,Medium
 maximum-xor-of-two-non-overlapping-subtrees,Hard
 maximum-xor-of-two-numbers-in-an-array,Medium
+maximum-xor-product,Medium
 maximum-xor-with-an-element-from-array,Hard
 mean-of-array-after-removing-some-elements,Easy
 median-employee-salary,Hard
@@ -1982,6 +1985,7 @@ number-of-distinct-substrings-in-a-string,Medium
 number-of-employees-who-met-the-target,Easy
 number-of-enclaves,Medium
 number-of-equal-count-substrings,Medium
+number-of-equal-numbers-blocks,Medium
 number-of-equivalent-domino-pairs,Easy
 number-of-even-and-odd-bits,Easy
 number-of-excellent-pairs,Hard
@@ -2453,6 +2457,7 @@ sentence-screen-fitting,Medium
 sentence-similarity,Easy
 sentence-similarity-ii,Medium
 sentence-similarity-iii,Medium
+separate-black-and-white-balls,Medium
 separate-the-digits-in-an-array,Easy
 sequence-reconstruction,Medium
 sequential-digits,Medium

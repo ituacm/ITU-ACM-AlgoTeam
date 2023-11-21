@@ -1,5 +1,5 @@
-//Author: Ayşe Sarı
-// Problem Link:https://leetcode.com/problems/minimum-common-value/ 
+// Author: Ayşe Sarı
+// Problem Link:https://leetcode.com/problems/minimum-common-value/
 // Two pointers approach
 class Solution {
 public:
