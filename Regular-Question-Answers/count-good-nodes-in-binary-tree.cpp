@@ -26,22 +26,21 @@
 
 // n = number of nodes in the tree.
 // Time Complexity: O(n), we traverse whole tree.
-// Space Complexity: O(h), space complexity here is proportional to the stack calls, stack calls is proportional to the depth of the tree
-// meaning that the maximum level of the leaf node.
+// Space Complexity: O(1).
  
 class Solution {
 public:
-    void util(TreeNode *root, int *count, int largest_value){
+    void util(TreeNode *root, int *count, int largestValue){
         int v = root->val;
-        if(v >= largest_value){
-            largest_value = v;
+        if(v >= largestValue){
+            largestValue = v;
             (*count)++; // be careful here. do not write *count++, incrementing operator has a higher precedence then the dereferencing so use parentheses.
         }
         if(root->right != nullptr){
-            util(root->right, count, largest_value);
+            util(root->right, count, largestValue);
         }
         if(root->left != nullptr){
-            util(root->left, count, largest_value);
+            util(root->left, count, largestValue);
         }
     }
     int goodNodes(TreeNode* root) {
