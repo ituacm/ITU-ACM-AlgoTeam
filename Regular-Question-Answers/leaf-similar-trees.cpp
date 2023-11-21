@@ -29,19 +29,19 @@
 
 class Solution {
 public:
-    void create_leafs_array(TreeNode* root, vector<int> &leafs){  // O(n)
+    void createLeafsArray(TreeNode* root, vector<int> &leafs){  // O(n)
         if(root->left != nullptr){  // go left as far as we can to the left leaf node.
-            create_leafs_array(root->left, leafs);
+            createLeafsArray(root->left, leafs);
         }
         if(root->right != nullptr){  // go right when we cannot go further to the left.
-            create_leafs_array(root->right, leafs);
+            createLeafsArray(root->right, leafs);
         }
         // actually the order does not have to be left to right since we are creating leafs array with using the same create leafs array function
         if(root->left == nullptr && root->right == nullptr){
             leafs.push_back(root->val); // when you reached the leaf, meaning that left and right does not exist, push_back to the array.
         }
     }
-    bool check_arrays(vector<int> &v1, vector<int> &v2){  // check the values. O(n)
+    bool checkArrays(vector<int> &v1, vector<int> &v2){  // check the values. O(n)
         int size1 = v1.size();
         int size2 = v2.size();
         if(size1 != size2){
@@ -59,10 +59,10 @@ public:
         vector<int> leafs1;
         vector<int> leafs2;
 
-        create_leafs_array(root1, leafs1);
-        create_leafs_array(root2, leafs2);
+        createLeafsArray(root1, leafs1);
+        createLeafsArray(root2, leafs2);
 
-        bool ans = check_arrays(leafs1, leafs2);
-        return ans;
+        
+        return checkArrays(leafs1, leafs2);
     }
 };
