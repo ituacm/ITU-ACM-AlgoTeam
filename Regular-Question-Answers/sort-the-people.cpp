@@ -4,7 +4,7 @@
 /* My method uses a map to associate heights with the initial       *
  * order. After the heights are sorted in desceding order, people's *
  * names are selected in the proper order, by consulting the        *
- * unsortedPattern map fed by the sorted heights array. In this way,* 
+ * unsortedPattern map fed by the sorted heights array. In this way,*
  * there is no need to combine the two vectors into one structure.  */
 
 class Solution {

@@ -18,12 +18,12 @@ public:
             // if closers are on left:
             if (heaters[mid] > house) end = mid;
             // if closers are on right:
-            else begin = mid+1;
+            else
+                begin = mid + 1;
         }
 
         return dist;
     }
-
 
     int findRadius(vector<int>& houses, vector<int>& heaters) {
         // sort heaters to apply binary search on this vector

@@ -18,22 +18,20 @@
 
 class Solution {
 public:
-    vector<int> inorderTraversal(TreeNode* root){
-
+    vector<int> inorderTraversal(TreeNode* root) {
         // Storage vector.
         vector<int> result;
 
         // Will use inorder recursive traversal to store values.
         recursiveTraversal(root, result);
-        
+
         // Result.
         return result;
     }
-    
-    void recursiveTraversal(TreeNode* node, vector<int>& result){
 
+    void recursiveTraversal(TreeNode* node, vector<int>& result) {
         // First, if current node is NULL, break the function (return)
-        if(node == NULL){
+        if (node == NULL) {
             return;
         }
 

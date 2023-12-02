@@ -16,17 +16,17 @@ class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
         int sz = nums.size();
-        vector<int> prefix(sz+1, 1);
-        vector<int> postfix(sz+1, 1);
+        vector<int> prefix(sz + 1, 1);
+        vector<int> postfix(sz + 1, 1);
 
         for (int i = 0; i < sz; i++) {
-            prefix[i+1] = nums[i]*prefix[i];
-            postfix[sz-i-1] = postfix[sz-i] * nums[sz-i-1];
+            prefix[i + 1] = nums[i] * prefix[i];
+            postfix[sz - i - 1] = postfix[sz - i] * nums[sz - i - 1];
         }
 
         vector<int> products(sz);
         for (int i = 0; i < sz; i++) {
-            products[i] = prefix[i] * postfix[i+1];
+            products[i] = prefix[i] * postfix[i + 1];
         }
 
         return products;
@@ -61,8 +61,8 @@ public:
         }
         num = 1;
         for (int i = 0; i < sz; i++) {
-            products[sz-i-1] *= num;
-            num *= nums[sz-i-1];
+            products[sz - i - 1] *= num;
+            num *= nums[sz - i - 1];
         }
         return products;
     }

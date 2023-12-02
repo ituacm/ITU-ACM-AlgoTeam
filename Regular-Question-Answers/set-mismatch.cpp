@@ -41,8 +41,8 @@ public:
             The original sum was n * (n+1) / 2.
             This gets changed by d - m. We can subtract this from d to get m.
         */
-        int original_sum = n * (n + 1) / 2;                        // Since n <= 10**4, overflow can't occur.
-        int current_sum = accumulate(nums.begin(), nums.end(), 0); // You may prefer loops!
+        int original_sum = n * (n + 1) / 2;                         // Since n <= 10**4, overflow can't occur.
+        int current_sum = accumulate(nums.begin(), nums.end(), 0);  // You may prefer loops!
         int diff = current_sum - original_sum;
         int missing = duplicate - diff;
 
@@ -59,7 +59,7 @@ public:
         vector<int> occurrences(n+1);
         for (int num: nums)
             occurrences[num]++;
-            
+
         int duplicate, missing;
         for (int i = 1; i <= n; i++) {
             if (!occurrences[i]) missing = i;

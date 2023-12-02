@@ -19,8 +19,8 @@ public:
         // create a prefix-sum array of the sorted array
         vector<int> prefix = satisfaction;
         for (int i = 1; i < n; i++)
-            prefix[i] += prefix[i-1];
-     
+            prefix[i] += prefix[i - 1];
+
         /*
             Let's have a look at the crucial part of the solution array:
             {a0, a1, a2, a3, a4, a5}
@@ -35,7 +35,7 @@ public:
         int currentSum = 0;
         for (int i = 0; i < n; i++) {
             currentSum += prefix[i];
-            maxSum = max(maxSum,currentSum);
+            maxSum = max(maxSum, currentSum);
         }
         return maxSum;
     }

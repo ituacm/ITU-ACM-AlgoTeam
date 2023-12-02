@@ -10,22 +10,22 @@
     The question requires to fit the envelopes within each other. In order for an envelope to fit
     within another envelopes, its dimensions must be strictly smaller than the other. This question
     is similar to the longest increasing subsequence problem. We can sort the envelopes in ascending order
-    with respect to their widths and in descending order with respect to their heights and apply the 
+    with respect to their widths and in descending order with respect to their heights and apply the
     "patience sorting" algorithm on the sorted list to aquire the longest increasing subsequence. The
     reason why we sort the envelopes in reverse orders is because we want to find the longest increasing
-    subsequence of the heights of the envelopes. 
-    
+    subsequence of the heights of the envelopes.
+
     An example:
-    
+
     envelopes = [[5,4],[6,4],[6,7],[2,3]]
-    
+
     Sort the envelopes in ascending order with respect to their widths and in descending order with
     respect to their heights:
-    
+
     sorted_envelopes = [[2,3],[5,4],[6,4],[6,7]]
                            ^     ^     ^     ^
     [3, 4, 4, 7] -> LIS of this array is [3, 4, 7] -> LIS of envelopes: [[2,3], [5,4], [6,7]]
-    
+
     Now that the width are in ascending order, finding the longest increasing subsequence of the heights
     will lead us to the answer of the problem. In order the find the LIS, we use the patience sorting
     algorithm. In each step, we check if there the current height can be placed on the bottom of a stack.
@@ -53,11 +53,12 @@ class Solution {
             else if (target > arr[mid])
                 left = mid + 1;
             // If the target is on the left side of the mid, we update the right index
-            else 
+            else
                 right = mid - 1;
         }
         return left;
     }
+
 public:
     int maxEnvelopes(vector<vector<int>>& envelopes) {
         // Sorting the envelopes in ascending order with respect to their widths and in descending order
@@ -70,13 +71,12 @@ public:
             // indices are equal, otherwise it returns the comparison of the 1st indices
             [](const vector<int>& a, const vector<int>& b) {
                 return a[0] == b[0] ? a[1] > b[1] : a[0] < b[0];
-            }
-        ); // O(nlogn)
+            });  // O(nlogn)
         // Creating a vector to store the bottom values of each stack
         // We only need the bottom values of the stacks since we do the comparison based on bottom values
         vector<int> dp;
         for (int i = 0; i < envelopes.size(); i++) {
-            int index = binarySearch(dp, envelopes[i][1]); // O(logn)
+            int index = binarySearch(dp, envelopes[i][1]);  // O(logn)
             // If current value can't fit on a stack, we create a new stack
             if (index == dp.size())
                 dp.push_back(envelopes[i][1]);

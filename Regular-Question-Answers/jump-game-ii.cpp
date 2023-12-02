@@ -6,7 +6,6 @@
 // Space Complexity: O(N)
 
 class Solution {
-
 public:
     int jump(vector<int>& nums) {
         // jumps[i] stores the current minimum number of jumps to reach index i.
@@ -27,7 +26,7 @@ public:
             for (int j = 1; j <= maxJumps; j++) {
                 // If the current position index exceeds the limits, break out of the loop to avoid segmentation fault.
                 if (i + j >= nums.size()) break;
-                
+
                 // We now know that it is possible to reach the index (i+j) with jumps[i]+1 number of jumps. To ensure
                 // that we always store the minimum value so far, we should compare the number we have with the number that
                 // is already stored for the location i+j, which is jumps[i+j].

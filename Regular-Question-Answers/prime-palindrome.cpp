@@ -3,7 +3,7 @@
 // Reviewers: Fatih Baskın, Feyza Sarı, Denis Davidoglu
 
 class Solution {
-   public:
+public:
     /**
      * Theorem: All palindrome numbers that have even number of digits divisible by 11.
      * https://en.wikipedia.org/wiki/Divisibility_rule#11

@@ -15,19 +15,19 @@
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
-        // If rest of our linked list is empty or have one node, return it from the head. 
-        if (head == NULL || head->next == NULL) 
+        // If rest of our linked list is empty or have one node, return it from the head.
+        if (head == NULL || head->next == NULL)
             return head;
-        
-        // Initialize our temporary head and next of our head.    
+
+        // Initialize our temporary head and next of our head.
         ListNode* tempHead = head;
         ListNode* temp = tempHead->next;
-        
+
         // Swap our nodes.
         tempHead->next = tempHead->next->next;
         temp->next = tempHead;
-        tempHead->next = swapPairs(tempHead->next); 
-        
+        tempHead->next = swapPairs(tempHead->next);
+
         // Return next node from the temporary head recursively.
         return temp;
     }

@@ -9,12 +9,12 @@
 
 class Solution {
 public:
-    vector<pair<int,int>> newArr;
+    vector<pair<int, int>> newArr;
 
     bool canReorderDoubled(vector<int>& arr) {
         // Stage 1
         sort(arr.begin(), arr.end());
-        
+
         /* Here newArr is formed by copying the contents of arr. It is  *
          * of type pair<int,int>, where the first denotes the value     *
          * taken from original array, and the second denotes the number *
@@ -25,7 +25,8 @@ public:
                 newArr.push_back(make_pair(current, count));
                 current = arr[i];
                 count = 1;
-            } else count++;
+            } else
+                count++;
         }
         newArr.push_back(make_pair(current, count));
 
@@ -36,9 +37,11 @@ public:
              * zeros such that they are grouped in pairs, there are no  *
              * problems. Otherwise the result is false.                 */
             if (newArr[i].first == 0)
-                if (newArr[i].second % 2) return false;
-                else continue;
-            
+                if (newArr[i].second % 2)
+                    return false;
+                else
+                    continue;
+
             /* Checking whether the number of occurrences is equal to   *
              * zero. Naturally there should not be any, but later in the*
              * code the occurrences are erased as a result of matching. *
@@ -48,22 +51,22 @@ public:
                 /* In matchingBox vector doubles (or halves) of current *
                  * element are collected. To optimize space, only the   *
                  * pointers to them are kept.*/
-                vector<pair<int,int>*> matchingBox; 
-                pair<int,int>* doublesPointer = &(newArr[i]);
+                vector<pair<int, int>*> matchingBox;
+                pair<int, int>* doublesPointer = &(newArr[i]);
                 while (doublesPointer != NULL) {
                     matchingBox.push_back(doublesPointer);
                     doublesPointer = findDoubleOf(matchingBox.back()->first);
                 }
-                
+
                 // Stage 3
                 /* Within the group collected, adjacent pairs that can  *
                  * be paired are erased. If what is left is not zero,   *
                  * this means it is impossible to pair them, so the     *
                  * answer is false.                                     */
-                for (int j = 0; j < matchingBox.size()-1; j++) {
-                    int minCount = min(matchingBox[j]->second, matchingBox[j+1]->second);
+                for (int j = 0; j < matchingBox.size() - 1; j++) {
+                    int minCount = min(matchingBox[j]->second, matchingBox[j + 1]->second);
                     matchingBox[j]->second -= minCount;
-                    matchingBox[j+1]->second -= minCount;
+                    matchingBox[j + 1]->second -= minCount;
                     if (matchingBox[j]->second != 0) return false;
                 }
                 if (matchingBox.back()->second != 0) return false;
@@ -76,8 +79,8 @@ public:
     }
 
     // The double (or half) is found using a simple binary search.
-    pair<int,int>* findDoubleOf(int n) {
-        int left = 0, right = newArr.size()-1, mid;
+    pair<int, int>* findDoubleOf(int n) {
+        int left = 0, right = newArr.size() - 1, mid;
 
         /* The target is double for positive numbers and half for       *
          * negative numbers. The negative number must be evenly         *
@@ -90,9 +93,9 @@ public:
         }
 
         while (left < right) {
-            mid = (left+right)/2;
-            if (newArr[mid].first > n) right = mid-1;
-            if (newArr[mid].first < n) left = mid+1;
+            mid = (left + right) / 2;
+            if (newArr[mid].first > n) right = mid - 1;
+            if (newArr[mid].first < n) left = mid + 1;
             if (newArr[mid].first == n) return &(newArr[mid]);
         }
         if (newArr[left].first == n) return &(newArr[left]);

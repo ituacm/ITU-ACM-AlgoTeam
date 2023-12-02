@@ -16,12 +16,21 @@
 	<th><b>Editorial</b></th>
 	</tr>
 <tr>
+	<td align=center>90</td>
+	<td>Maximum Depth of Binary Tree</td>
+	<td><a href="https://leetcode.com/problems/maximum-depth-of-binary-tree/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/maximum-depth-of-binary-tree.cpp">Editorial</a></td>
+	<td>Delete Node in a Linked List</td>
+	<td><a href="https://leetcode.com/problems/delete-node-in-a-linked-list/">Link</a></td>
+	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/delete-node-in-a-linked-list.cpp">Editorial</a></td>
+</tr>
+<tr>
 	<td align=center>89</td>
 	<td>K Items With The Maximum Sum</td>
 	<td><a href="https://leetcode.com/problems/k-items-with-the-maximum-sum/">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/k-items-with-the-maximum-sum.cpp">Editorial</a></td>
-	<td>Aximum Points You Can Obtain From Cards</td>
-	<td><a href="https://leetcode.com/problemsmaximum-points-you-can-obtain-from-cards">Link</a></td>
+	<td>Maximum Points You Can Obtain From Cards</td>
+	<td><a href="https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards">Link</a></td>
 	<td><a href="https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/Regular-Question-Answers/maximum-points-you-can-obtain-from-cards.cpp">Editorial</a></td>
 </tr>
 <tr>
