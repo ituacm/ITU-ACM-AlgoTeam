@@ -1,33 +1,11 @@
-## Algorithm Team Bootcamp
-### 2022 - Summer Term
+## ITU ACM AlgoTeam
 
-## Prerequisities
+Everyone is welcomed our Algorithm community. We are a bunch of people who loves improving their algorithm skills and working as a team. If you want to join our team, reach out [ituacm](https://www.instagram.com/ituacmsc/).
 
- - Being a student at ITU.
- - Curiosity about problem solving, data structures and algorithms.
- - Knowledge of C or C++.
+#### Current and Past Projects
 
+- [algoComp'23](https://algocomp.ituacm.com/)
+- [Bootcamp](https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/docs/2022-SummerTerm.md)
+- [Algo101](https://github.com/ituacm/ITU-ACM-22-23-Algo101)
+- [Problem Solving Sprints](https://github.com/ituacm/ITU-ACM-AlgoTeam/blob/main/docs/ProblemSolvingSprints.md)
 
-## Goal
-
-Successfull participants will be qualified for the ITU ACM Algorithm Team at the end of the bootcamp. The team will represent the ITU ACM Student Chapter in the nationwide contests and will organize the algoComp'23.
-
-## Syllabus
-
-You can see the syllabus in [here](https://github.com/ituacm/ITU-ACM-22-Summer-Algorithm-Team-Bootcamp/blob/main/Syllabus.md)
-
-## Mentors
-
-| Name and Surname | Social  |
-|--|--|
-| Ahmet Furkan Kavraz #4 |[*LinkedIn*](https://www.linkedin.com/in/ahmetfurkankavraz/)  |
-| Mehmet Yiğit Balık #4 | [*LinkedIn*](https://www.linkedin.com/in/yigitbalik/) |
-| Mustafa Çağatay Kızıltan #MS | [*LinkedIn*](https://www.linkedin.com/in/mustafacagataykiziltan/) |
-| Fatih Mehmet Köş #4 | [*LinkedIn*](https://www.linkedin.com/in/fatihmehmetkos/) |
-| Selim Yürekli #4 | [*LinkedIn*](https://www.linkedin.com/in/selim-y%C3%BCrekli-6b5286175/) |
-
-<p align="center">
-  <a href="//ituacm.com" target="_blank">
-    <img src="https://ituacm.com/wp-content/uploads/2017/08/itu-logo.png">
-  </a>
-</p>

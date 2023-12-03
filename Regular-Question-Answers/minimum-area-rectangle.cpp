@@ -15,34 +15,27 @@ public:
      * values of all points and values are set of y values that point (x, y)
      * exist in points
      */
-    int minAreaRect(vector<vector<int>> &points)
-    {
+    int minAreaRect(vector<vector<int>> &points) {
         int length = points.size();
 
         unordered_map<int, unordered_set<int>> pointCoordinatesSets;
-        for (int i = 0; i < length; i++)
-        {
+        for (int i = 0; i < length; i++) {
             pointCoordinatesSets[points[i][0]].insert(points[i][1]);
         }
 
         int minArea = INT_MAX;
 
-        for (int i = 0; i < length - 1; i++)
-        {
-
+        for (int i = 0; i < length - 1; i++) {
             int x1 = points[i][0];
             int y1 = points[i][1];
 
-            for (int j = i + 1; j < length; j++)
-            {
-
+            for (int j = i + 1; j < length; j++) {
                 int x2 = points[j][0];
                 int y2 = points[j][1];
 
                 if (x1 != x2 && y1 != y2 &&
                     pointCoordinatesSets[x1].find(y2) != pointCoordinatesSets[x1].end() &&
-                    pointCoordinatesSets[x2].find(y1) != pointCoordinatesSets[x2].end())
-                {
+                    pointCoordinatesSets[x2].find(y1) != pointCoordinatesSets[x2].end()) {
                     minArea = min(minArea, abs((x1 - x2) * (y1 - y2)));
                 }
             }
