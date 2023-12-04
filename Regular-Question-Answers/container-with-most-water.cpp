@@ -11,15 +11,15 @@ Use the 2 pointer method, keep the first and last index,
     and put them in temp_area.
 Compare these indexes with each other and replace
     the index of the smaller one with the index next to it,
-    because we are trying to find the largest area, 
-    and we can find this by keeping the larger length constant 
+    because we are trying to find the largest area,
+    and we can find this by keeping the larger length constant
     and changing the length of the smaller one.
 An example;
     height = [1,8,6,2,5,4,8,3,7] for these heights, queries will be:
     (1,7) - (8,7) - (8,3) - (8,8) - (6,8) - (2,8) - (5,8) - (4,8) - (equal-indexes)
 */
 class Solution {
-   public:
+public:
     int maxArea(vector<int>& height) {
         int idx_left = 0;                   // head index
         int idx_right = height.size() - 1;  // tail index

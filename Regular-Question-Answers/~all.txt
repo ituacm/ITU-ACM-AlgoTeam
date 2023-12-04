@@ -413,11 +413,14 @@ count-array-pairs-divisible-by-k,Hard
 count-artifacts-that-can-be-extracted,Medium
 count-artist-occurrences-on-spotify-ranking-list,Easy
 count-asterisks,Easy
+count-beautiful-substrings-i,Medium
+count-beautiful-substrings-ii,Hard
 count-binary-substrings,Easy
 count-collisions-of-monkeys-on-a-polygon,Medium
 count-collisions-on-a-road,Medium
 count-common-words-with-one-occurrence,Easy
 count-complete-subarrays-in-an-array,Medium
+count-complete-substrings,Medium
 count-complete-tree-nodes,Easy
 count-days-spent-together,Easy
 count-different-palindromic-subsequences,Hard
@@ -511,6 +514,7 @@ count-the-number-of-fair-pairs,Medium
 count-the-number-of-good-subarrays,Medium
 count-the-number-of-good-subsequences,Medium
 count-the-number-of-ideal-arrays,Hard
+count-the-number-of-infection-sequences,Hard
 count-the-number-of-k-big-indices,Hard
 count-the-number-of-k-free-subsets,Medium
 count-the-number-of-square-free-subsets,Medium
@@ -864,6 +868,7 @@ find-leaves-of-binary-tree,Medium
 find-longest-awesome-substring,Hard
 find-lucky-integer-in-an-array,Easy
 find-maximal-uncovered-ranges,Medium
+find-maximum-non-decreasing-array-length,Hard
 find-maximum-number-of-string-pairs,Easy
 find-median-from-data-stream,Hard
 find-median-given-frequency-of-numbers,Hard
@@ -933,6 +938,7 @@ find-the-minimum-possible-sum-of-a-beautiful-array,Medium
 find-the-missing-ids,Medium
 find-the-most-competitive-subsequence,Medium
 find-the-original-array-of-prefix-xor,Medium
+find-the-peaks,Easy
 find-the-pivot-integer,Easy
 find-the-prefix-common-array-of-two-arrays,Medium
 find-the-punishment-number-of-an-integer,Medium
@@ -960,6 +966,7 @@ find-unique-binary-string,Medium
 find-users-with-valid-e-mails,Easy
 find-valid-matrix-given-row-and-column-sums,Medium
 find-winner-on-a-tic-tac-toe-game,Easy
+find-words-containing-character,Easy
 find-words-that-can-be-formed-by-characters,Easy
 find-xor-beauty-of-array,Medium
 find-xor-sum-of-all-pairs-bitwise-and,Hard
@@ -1357,6 +1364,7 @@ make-array-strictly-increasing,Hard
 make-array-zero-by-subtracting-equal-amounts,Easy
 make-costs-of-paths-equal-in-a-binary-tree,Medium
 make-k-subarray-sums-equal,Medium
+make-lexicographically-smallest-array-by-swapping-elements,Medium
 make-number-of-distinct-characters-equal,Medium
 make-object-immutable,Medium
 make-string-a-subsequence-using-cyclic-increments,Medium
@@ -1380,6 +1388,7 @@ matchsticks-to-square,Medium
 matrix-block-sum,Medium
 matrix-cells-in-distance-order,Easy
 matrix-diagonal-sum,Easy
+matrix-similarity-after-cyclic-shifts,Easy
 max-area-of-island,Medium
 max-chunks-to-make-sorted,Medium
 max-chunks-to-make-sorted-ii,Hard
@@ -1401,6 +1410,7 @@ maximal-range-that-each-element-is-maximum-in-it,Medium
 maximal-rectangle,Hard
 maximal-score-after-applying-k-operations,Medium
 maximal-square,Medium
+maximize-area-of-square-hole-in-grid,Medium
 maximize-distance-to-closest-person,Medium
 maximize-greatness-of-an-array,Medium
 maximize-grid-happiness,Hard
@@ -1463,6 +1473,7 @@ maximum-frequency-score-of-a-subarray,Hard
 maximum-frequency-stack,Hard
 maximum-fruits-harvested-after-at-most-k-steps,Hard
 maximum-gap,Medium
+maximum-gcd-sum-of-a-subarray,Hard
 maximum-genetic-difference-query,Hard
 maximum-good-people-based-on-statements,Hard
 maximum-height-by-stacking-cuboids,Hard
@@ -1760,6 +1771,8 @@ minimum-moves-to-spread-stones-over-grid,Medium
 minimum-non-zero-product-of-the-array-elements,Medium
 minimum-number-of-arrows-to-burst-balloons,Medium
 minimum-number-of-changes-to-make-binary-string-beautiful,Medium
+minimum-number-of-coins-for-fruits,Medium
+minimum-number-of-coins-to-be-added,Medium
 minimum-number-of-days-to-disconnect-island,Hard
 minimum-number-of-days-to-eat-n-oranges,Hard
 minimum-number-of-days-to-make-m-bouquets,Medium
@@ -1982,6 +1995,7 @@ number-of-distinct-islands,Medium
 number-of-distinct-islands-ii,Hard
 number-of-distinct-roll-sequences,Hard
 number-of-distinct-substrings-in-a-string,Medium
+number-of-divisible-substrings,Medium
 number-of-employees-who-met-the-target,Easy
 number-of-enclaves,Medium
 number-of-equal-count-substrings,Medium

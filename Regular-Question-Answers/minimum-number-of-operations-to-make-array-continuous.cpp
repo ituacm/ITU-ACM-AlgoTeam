@@ -1,10 +1,10 @@
 /*
  * Author: Ceren Yaşar
  * Question Link: https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous/
- * 
+ *
  * Time Complexity: O(N * logN)
  * Space Complexity: O(N)
- * 
+ *
  * Here is the intuition for this problem:
  * If we want to make the minimum number of operations, we must find the maximum
  * number of numbers that we can keep.
@@ -16,9 +16,9 @@
  * All the elements in between will be larger than X and less than X + N - 1.
  * There is one thing to notice here:
  * Since there are N elements, and we know two of them, we must find the remaining
- * N - 2 elements. We know the range of them. In order to fit N - 2 numbers into the 
+ * N - 2 elements. We know the range of them. In order to fit N - 2 numbers into the
  * range (X, X + N - 1), we must start counting from X until X + N - 1 and increment
- * by 1 at a time. Our resulting array doesn't have to be sorted, but if it was, this would 
+ * by 1 at a time. Our resulting array doesn't have to be sorted, but if it was, this would
  * be how it looked like. We want to transform the given array into this form, and in order to achieve
  * that in minimum number of operations, we must find the maximum length continuous sequence and
  * change the remaining ones.
@@ -38,7 +38,7 @@ public:
         int max_sequence = 0;
 
         // the loop below is used to push unique elements of nums in sorted order
-        for (int i: nums) {
+        for (int i : nums) {
             if (used_numbers[i]) {
                 continue;
             }
@@ -59,7 +59,7 @@ public:
             // find positions in unique_numbers for low and high values
             int low_pos = lower_bound(unique_numbers.begin(), unique_numbers.end(), low) - unique_numbers.begin();
             int high_pos = lower_bound(unique_numbers.begin(), unique_numbers.end(), high) - unique_numbers.begin();
-            
+
             // adjust positions if out of bounds
             if (high_pos >= unique_numbers.size()) {
                 high_pos = unique_numbers.size() - 1;
@@ -67,17 +67,17 @@ public:
             if (low_pos < 0) {
                 low_pos = 0;
             }
-            
+
             // update high_pos to fit the range correctly
-            while (unique_numbers[high_pos] > high) { 
+            while (unique_numbers[high_pos] > high) {
                 high_pos--;
             }
             while (high_pos < unique_numbers.size() - 1 && unique_numbers[high_pos + 1] == high) {
                 high_pos++;
             }
-            
+
             // update max_sequence with the maximum continuous sequence length
-            max_sequence = max(max_sequence, max((i - low_pos + 1),(high_pos - i + 1)));
+            max_sequence = max(max_sequence, max((i - low_pos + 1), (high_pos - i + 1)));
         }
 
         // return the minimum number of operations required to transform the array

@@ -3,6 +3,7 @@ https://leetcode.com/problems/a-number-after-a-double-reversal/
 https://leetcode.com/problems/add-binary/
 https://leetcode.com/problems/add-digits/
 https://leetcode.com/problems/add-two-numbers/
+https://leetcode.com/problems/arithmetic-slices/
 https://leetcode.com/problems/arranging-coins/
 https://leetcode.com/problems/array-of-doubled-pairs/
 https://leetcode.com/problems/available-captures-for-rook/
@@ -22,6 +23,7 @@ https://leetcode.com/problems/check-if-matrix-is-x-matrix/
 https://leetcode.com/problems/climbing-stairs/
 https://leetcode.com/problems/combination-sum-ii/
 https://leetcode.com/problems/construct-the-rectangle/
+https://leetcode.com/problems/container-with-most-water/
 https://leetcode.com/problems/contains-duplicate/
 https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/
 https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
@@ -35,6 +37,7 @@ https://leetcode.com/problems/delete-node-in-a-linked-list/
 https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/
 https://leetcode.com/problems/duplicate-zeros/
 https://leetcode.com/problems/falling-squares/
+https://leetcode.com/problems/fibonacci-number/
 https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
 https://leetcode.com/problems/find-center-of-star-graph/
 https://leetcode.com/problems/find-if-path-exists-in-graph/
@@ -94,6 +97,8 @@ https://leetcode.com/problems/minimum-depth-of-binary-tree/
 https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/
 https://leetcode.com/problems/minimum-moves-to-equal-array-elements/
 https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/
+https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous/
+https://leetcode.com/problems/minimum-path-sum/
 https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/
 https://leetcode.com/problems/minimum-score-by-changing-two-elements/
 https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/
@@ -137,6 +142,7 @@ https://leetcode.com/problems/reducing-dishes/
 https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 https://leetcode.com/problems/remove-element/
 https://leetcode.com/problems/remove-letter-to-equalize-frequency/
+https://leetcode.com/problems/remove-linked-list-elements/
 https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/
 https://leetcode.com/problems/repeated-string-match/
 https://leetcode.com/problems/restore-ip-addresses/
@@ -168,6 +174,7 @@ https://leetcode.com/problems/subsets/
 https://leetcode.com/problems/sum-of-floored-pairs/
 https://leetcode.com/problems/swap-nodes-in-pairs/
 https://leetcode.com/problems/symmetric-tree/
+https://leetcode.com/problems/teemo-attacking/
 https://leetcode.com/problems/time-needed-to-inform-all-employees/
 https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/
 https://leetcode.com/problems/top-k-frequent-elements/
