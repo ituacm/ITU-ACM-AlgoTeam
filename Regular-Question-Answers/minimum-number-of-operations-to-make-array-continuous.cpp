@@ -39,7 +39,9 @@ public:
 
         // the loop below is used to push unique elements of nums in sorted order
         for (int i: nums) {
-            if (used_numbers[i]) continue;
+            if (used_numbers[i]) {
+                continue;
+            }
 
             unique_numbers.push_back(i);
             used_numbers[i] = true;
@@ -59,12 +61,20 @@ public:
             int high_pos = lower_bound(unique_numbers.begin(), unique_numbers.end(), high) - unique_numbers.begin();
             
             // adjust positions if out of bounds
-            if (high_pos >= unique_numbers.size()) high_pos = unique_numbers.size() - 1;
-            if (low_pos < 0) low_pos = 0;
+            if (high_pos >= unique_numbers.size()) {
+                high_pos = unique_numbers.size() - 1;
+            }
+            if (low_pos < 0) {
+                low_pos = 0;
+            }
             
             // update high_pos to fit the range correctly
-            while (unique_numbers[high_pos] > high) high_pos--;
-            while (high_pos < unique_numbers.size() - 1 && unique_numbers[high_pos + 1] == high) high_pos++;
+            while (unique_numbers[high_pos] > high) { 
+                high_pos--;
+            }
+            while (high_pos < unique_numbers.size() - 1 && unique_numbers[high_pos + 1] == high) {
+                high_pos++;
+            }
             
             // update max_sequence with the maximum continuous sequence length
             max_sequence = max(max_sequence, max((i - low_pos + 1),(high_pos - i + 1)));
