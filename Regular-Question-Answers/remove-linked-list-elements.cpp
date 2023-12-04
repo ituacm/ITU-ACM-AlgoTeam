@@ -23,7 +23,7 @@ Two consecutive node will hold and when the one in the front will find the 'val'
     all 'val' values will be deleted.
 */
 class Solution {
-   public:
+public:
     ListNode* removeElements(ListNode* head, int val) {
         // prepare two node, these will follow each other
         ListNode* prev = nullptr;

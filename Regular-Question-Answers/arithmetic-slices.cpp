@@ -3,8 +3,8 @@
 
 /*
     Problem Statement:
-    An arithmetic subarray is a contiguous subsequence of an array where the difference between 
-    consecutive elements is consistent. The subarray must have at least three elements to be 
+    An arithmetic subarray is a contiguous subsequence of an array where the difference between
+    consecutive elements is consistent. The subarray must have at least three elements to be
     considered arithmetic.
 
     The task is to count the total number of such arithmetic subarrays within a given array.
@@ -17,7 +17,7 @@ public:
         if (nums.size() < 3)
             return 0;
 
-        int ans = 0; // Holds the total count of arithmetic subarrays.
+        int ans = 0;  // Holds the total count of arithmetic subarrays.
 
         // Loop through each element to find all possible arithmetic subarrays starting from that element.
         for (int i = 0; i < nums.size(); ++i) {
@@ -26,7 +26,7 @@ public:
             // Ensure there's enough room to calculate a difference.
             if (startIndex + 1 < nums.size())
                 diff = nums[startIndex + 1] - nums[startIndex];
-            
+
             startIndex++;
 
             // Extend the subarray while the difference between consecutive elements is constant.

@@ -28,14 +28,16 @@ extractSlugFromCppFile = lambda cppFile: cppFile[:-len(CPP_EXTENSION)]
 def extractUrlFromFile(filename: str):
     with open(join(CURRENT_PATH, EDITORIAL_DIR, filename)) as f:
         while True:
-            line = f.readline().strip()
+            line = f.readline()
+            # Check end of file condition
+            if len(line) == 0:
+                break
+            line = line.strip()
+
             start_index = line.find(LEETCODE_BASE_URL)
             if start_index != -1:
                 return line[start_index:]
-
-            # end of file
-            if not line:
-                return None
+        return None
 
 def checkPath():
     # check the current path is correct
