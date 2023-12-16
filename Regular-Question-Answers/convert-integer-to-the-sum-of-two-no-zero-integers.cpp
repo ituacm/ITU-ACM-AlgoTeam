@@ -12,11 +12,11 @@ public:
         return false;
     }
     vector<int> getNoZeroIntegers(int n) {
-      /* We try to divide n into sum of two fractions, (n/divisor) + (n - n/divisor) 
-      picking different divisors. At some point we get a pair with no zeros, 
-      which is returned. */
+        /* We try to divide n into sum of two fractions, (n/divisor) + (n - n/divisor)
+        picking different divisors. At some point we get a pair with no zeros,
+        which is returned. */
         int divisor = 2;
-        while (hasZero(n/divisor) || hasZero(n - n/divisor)) divisor++;
-        return {n/divisor, n - n/divisor};
+        while (hasZero(n / divisor) || hasZero(n - n / divisor)) divisor++;
+        return {n / divisor, n - n / divisor};
     }
 };

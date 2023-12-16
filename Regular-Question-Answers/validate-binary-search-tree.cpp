@@ -24,24 +24,20 @@
  * Space Complexity: O(n), n refers to number of nodes
  */
 
-class Solution 
-{
+class Solution {
 public:
     // Storing the result of the traversal in this vector
     vector<int> traversal;
     // Solution fuction
-    bool isValidBST(TreeNode* root) 
-    {
+    bool isValidBST(TreeNode* root) {
         // Calling the recursive traversal function
         inorder(root);
         // Then checking whether sorted
         // Since left node is smaller than the right node, by doing inorder traversal
         // we can expect this vector to be strictly increasing.
-        for (int i = 1; i < traversal.size(); i++)
-        {
+        for (int i = 1; i < traversal.size(); i++) {
             // If current value is smaller than the previous value, return false
-            if (traversal[i] <= traversal[i - 1])
-            {
+            if (traversal[i] <= traversal[i - 1]) {
                 return false;
             }
         }
@@ -49,10 +45,9 @@ public:
         return true;
     }
     // Traversal Function
-    void inorder(TreeNode* root)
-    {
+    void inorder(TreeNode* root) {
         // If current node is NULL, return current function (break recursion from here)
-        if(root == NULL) return;
+        if (root == NULL) return;
         // First check left node
         inorder(root->left);
         // Store current value

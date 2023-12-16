@@ -3,7 +3,7 @@
 // Reviewer: Denis Davidoglu
 
 class Solution {
-   public:
+public:
     int answer = 0;  // holds maximum difference
     int maxAncestorDiff(TreeNode *root) {
         solver(root, root->val, root->val);
