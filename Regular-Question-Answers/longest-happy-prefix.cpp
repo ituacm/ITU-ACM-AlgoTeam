@@ -1,5 +1,10 @@
-// author: Hüseyin Burak Gürdal
-// problem link: https://leetcode.com/problems/longest-happy-prefix/description/
+/*
+Author: Hüseyin Burak Gürdal
+Question Link: https://leetcode.com/problems/longest-happy-prefix/description/
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+*/
 
 // Note: this problem can also be solved using string hashing (also known as rabinkarp algorithm or rolling hash) but prefix function is easier to implement
 
