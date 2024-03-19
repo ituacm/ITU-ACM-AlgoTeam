@@ -9,14 +9,14 @@
 // O(n*log n), therefore just using Segment Tree is not sufficient.
 // To overcome this problem we are going to compress numbers in a smaller range without losing order of numbers.
 class Solution {
-   public:
+public:
     vector<int> fallingSquares(vector<vector<int>>& positions) {
         compress(positions);
 
         vector<int> ans;
         for (int i = 0; i < positions.size(); i++) {
-            int start = compressed[positions[i][0]];                        // Include start
-            int end = compressed[positions[i][0] + positions[i][1]] - 1;    // Exclude end
+            int start = compressed[positions[i][0]];                      // Include start
+            int end = compressed[positions[i][0] + positions[i][1]] - 1;  // Exclude end
             int h = positions[i][1];
 
             int initialHeight = getMax(0, 0, counter - 1, start, end);  // Height of the square
@@ -30,7 +30,7 @@ class Solution {
         return ans;
     }
 
-   private:
+private:
     unordered_map<int, int> compressed;
     vector<int> tree;
     vector<int> lazy;

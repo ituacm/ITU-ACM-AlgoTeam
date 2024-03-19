@@ -5,7 +5,7 @@
 // The idea to count the number of points on each line
 // which is described by all point pairs and to take their maximum
 class Solution {
-   public:
+public:
     int maxPoints(vector<vector<int>>& points) {
         int length = points.size();
 
@@ -15,9 +15,9 @@ class Solution {
         int result = 2;
         for (int i = 0; i < length - 1; i++) {
             for (int j = i + 1; j < length; j++) {
-                int pointsOnLine = 2;   // line that passes through point i and j
+                int pointsOnLine = 2;  // line that passes through point i and j
                 for (int k = 0; k < length; k++) {
-                    if (k == i || k == j) continue; // do not count more than once
+                    if (k == i || k == j) continue;  // do not count more than once
                     if (onTheSameLine(points, i, j, k)) pointsOnLine++;
                 }
                 result = max(result, pointsOnLine);

@@ -34,7 +34,7 @@ public:
             Another option is to cast with (ll): (ll) n_rows * (n_rows + 1) / 2.
             Anyway, I prefer 1ll :)
         */
-        while (1ll * n_rows * (n_rows + 1) / 2 <= n) 
+        while (1ll * n_rows * (n_rows + 1) / 2 <= n)
             n_rows++;
 
         /*
@@ -87,7 +87,7 @@ public:
                 It's just to prevent infinite loop when r = l + 1, and always l = n_rows gets executed.
                 You may also use (l + r) / 2 + 1.
             */
-            int n_rows = ((long long)l + r + 1) / 2; // cast to long long to avoid overflow!
+            int n_rows = ((long long)l + r + 1) / 2;  // cast to long long to avoid overflow!
             if (1ll * n_rows * (n_rows + 1) / 2 <= n)
                 l = n_rows;
             else
@@ -110,7 +110,7 @@ public:
 class Solution {
 public:
     int arrangeCoins(int n) {
-        int n_rows = sqrt(2ll * n); // 2*n might overflow, use 2ll * n or (long long) 2 * n!
+        int n_rows = sqrt(2ll * n);  // 2*n might overflow, use 2ll * n or (long long) 2 * n!
 
         // While n_rows does not satisfy the inequality, decrement.
         while (1ll * n_rows * (n_rows + 1) / 2 > n)

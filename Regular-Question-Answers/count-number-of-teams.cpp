@@ -1,10 +1,9 @@
 // Author: Murat Biberoğlu
 // Reviewer: Ahmet Furkan Kavraz
-// Question Link: https://leetcode.com/problems/minimum-depth-of-binary-tree/
-
+// Question Link: https://leetcode.com/problems/count-number-of-teams/
 
 class Solution {
-   public:
+public:
     // The idea is checking all the pair of indexes (i, j)
     // such that 0 <= i < j < n - 1
     //
@@ -20,7 +19,6 @@ class Solution {
     // complexity to O(n^2). If we don't use that and calculate these values
     // every time, algorithm's time complexity will be approximately O(n^3)
     int numTeams(vector<int>& rating) {
-
         int n = rating.size();
         int result = 0;
 
@@ -30,10 +28,8 @@ class Solution {
 
         // for each index in range [0, n-1)
         for (int i = 0; i < n - 1; i++) {
-
             // check indexes in range [i+1, n)
             for (int j = i + 1; j < n; j++) {
-
                 // if next element is greater
                 if (rating[j] > rating[i])
                     greaterElementCountAfterThis[i]++;  // increment greater for i
@@ -41,15 +37,12 @@ class Solution {
                 // if next element is smaller
                 else
                     smallerElementCountAfterThis[i]++;  // increment smaller for i
-
             }
-
         }
 
         // checking all the pairs of indexes (i, j) such that 0 <= i < j < n - 1
         for (int i = 0; i < n - 2; i++) {
             for (int j = i + 1; j < n - 1; j++) {
-
                 // if second rating is greater than first one
                 if (rating[j] > rating[i])
                     // third rating must be greater than second rating too

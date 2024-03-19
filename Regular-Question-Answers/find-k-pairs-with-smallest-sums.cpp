@@ -34,7 +34,7 @@ public:
         }
 
         vector<vector<int>> result(pq.size());
-        
+
         // our max heap holds the maximum sum value on top, but we need to store them in non-decreasing order
         // so we start assigning from the last element of our result array
         for (int i = result.size() - 1; i >= 0; i--) {

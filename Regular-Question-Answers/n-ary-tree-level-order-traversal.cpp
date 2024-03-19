@@ -7,7 +7,7 @@
 // E: number of edges
 
 class Solution {
-   public:
+public:
     // we are going to us breadth first search algorithm (bfs) to solve this
     // question, because we need to get nodes consecutive that have the same level.
     vector<vector<int>> levelOrder(Node* root) {

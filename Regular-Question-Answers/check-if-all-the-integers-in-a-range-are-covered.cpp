@@ -9,7 +9,7 @@
     at least one range. Initially, every integer is uncovered, that is, is_covered[i] = false.
 
     Then, for every range [start, end], we can mark points within the range as covered.
-    To optimize a bit, we can start marking from max(start, left) and end at min(right, end), 
+    To optimize a bit, we can start marking from max(start, left) and end at min(right, end),
     because we don't care about any integer outside [left, right].
     For every range, this takes at most "right - left + 1" number of operations, hence the time complexity.
 

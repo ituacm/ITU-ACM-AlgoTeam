@@ -2,7 +2,6 @@
 // Question Link: https://leetcode.com/problems/most-beautiful-item-for-each-query/
 // Reviewer: Denis Davidoglu
 
-
 class Solution {
 public:
     vector<int> maximumBeauty(vector<vector<int>>& items, vector<int>& queries) {
@@ -14,18 +13,18 @@ public:
         vector<pair<int, int>> queryWithIndexes(queries.size());
         for (int i = 0; i < queries.size(); i++)
             queryWithIndexes[i] = {queries[i], i};
-        
+
         // Sorting queries according to their prices, from lowest to highest.
         sort(queryWithIndexes.begin(), queryWithIndexes.end());
 
         int itemIndex = 0;
-        vector<int> maximumBeauties(queries.size()); // Output vector
+        vector<int> maximumBeauties(queries.size());  // Output vector
 
         // The most beautiful item with a price not higher than the current query will
         // always be on the top of this priority queue.
         priority_queue<int> mostBeautiful;
 
-        for (auto& query: queryWithIndexes) {
+        for (auto& query : queryWithIndexes) {
             // Pushing next item into the pq if its price is valid.
             while (itemIndex < items.size() && query.first >= items[itemIndex][0]) {
                 mostBeautiful.push(items[itemIndex++][1]);

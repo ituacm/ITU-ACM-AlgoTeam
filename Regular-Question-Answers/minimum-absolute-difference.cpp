@@ -12,10 +12,10 @@
 class Solution {
 public:
     vector<vector<int>> minimumAbsDifference(vector<int>& arr) {
-        int minDiff = INT_MAX;  // Minimum Difference
-        vector<vector<int>> minDiffPairs;   // Pairs with the minimum difference.
+        int minDiff = INT_MAX;             // Minimum Difference
+        vector<vector<int>> minDiffPairs;  // Pairs with the minimum difference.
 
-        sort(arr.begin(), arr.end());   // Sorting the array.
+        sort(arr.begin(), arr.end());  // Sorting the array.
 
         for (int i = 1; i < arr.size(); i++)
             // Updating minDiff if we encounter a smaller difference.
@@ -25,7 +25,7 @@ public:
         // Adding pairs with the minimum absolute difference to the list.
         for (int i = 1; i < arr.size(); i++)
             if (arr[i] - arr[i - 1] == minDiff)
-                minDiffPairs.push_back({arr[i- 1], arr[i]});
+                minDiffPairs.push_back({arr[i - 1], arr[i]});
 
         return minDiffPairs;
     }

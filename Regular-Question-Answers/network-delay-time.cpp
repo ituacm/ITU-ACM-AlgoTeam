@@ -22,13 +22,13 @@ class Solution {
 public:
     // Custom comparator object to use priority queue as a min heap.
     struct customComparator {
-        bool operator()(pair<int, long> const &p1, pair<int, long> const &p2) {
+        bool operator()(pair<int, long> const& p1, pair<int, long> const& p2) {
             return p1.second > p2.second;
         }
     };
     int networkDelayTime(vector<vector<int>>& times, int n, int k) {
         vector<long> dist(n + 1, LONG_MAX);
-        vector<vector<pair<int,int>>> aList(n + 1);
+        vector<vector<pair<int, int>>> aList(n + 1);
         priority_queue<pair<int, long>, vector<pair<int, long>>, customComparator> closestNode;
         vector<bool> visited(n + 1, false);
         long currentDistance;
@@ -36,7 +36,7 @@ public:
         // A node's distance to itself is 0.
         dist[k] = 0;
         // Fill the adjacency list.
-        for (auto& v: times)
+        for (auto& v : times)
             aList[v[0]].push_back({v[1], v[2]});
 
         // Push the starting node to the priority queue and initialize Dijkstra.
@@ -49,7 +49,7 @@ public:
 
             visited[currentNode] = true;
 
-            for (auto& v: aList[currentNode]) {
+            for (auto& v : aList[currentNode]) {
                 if (v.first == currentNode) continue;
 
                 if (dist[v.first] > dist[currentNode] + v.second) {
