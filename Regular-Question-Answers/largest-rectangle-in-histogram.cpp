@@ -1,6 +1,6 @@
 // Author: Kemal Tahir Bıcılıoğlu
 // Question Link: https://leetcode.com/problems/largest-rectangle-in-histogram/description/
-// Reviewer: 
+// Reviewer: Ömer Faruk Erdem
 
 // time complexity: O(n)
 // space complexity: O(n)
@@ -13,6 +13,7 @@
     To implement it we should observe that, a trangle with height x from index j up to current index i
     can be created if all the next heights from j to i are greater than or equal to x. 
     Because of that observation, we are going to keep the h stack as monotonic increasing stack.
+    If the height is increasing, height and the indexed pushed to the stacks, if not, we will check area.
     Lets see how the stack elements will be updated step by step.
 
     heights = [2,1,5,6,2,3]
@@ -120,7 +121,7 @@ public:
             }
         }
         int i = size;
-        while(!h.empty()){ // when our stacks are not empty, there will be rectangles that are need to be checked.
+        while(!h.empty()){ // After traversing the array and doing area calculations, if the stacks are still not empty then we need to check for the rectangles among the remaining heights.
             int top_value = h.top();
             int top_index = p.top();
             int area = top_value * (i - top_index);
